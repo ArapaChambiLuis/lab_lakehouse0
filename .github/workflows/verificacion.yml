@@ -23,11 +23,12 @@ jobs:
         with:
           python-version: "3.11"
 
-      # Amazon Corretto 17: el mismo Java que usa AWS Glue 5.0
+      # Java 17, como AWS Glue 5.0. Version fija: la 17.0.21 (Temurin y Corretto)
+      # se cae con SIGSEGV en SymbolTable::do_lookup al correr Spark + Iceberg.
       - uses: actions/setup-java@v4
         with:
-          distribution: corretto
-          java-version: "17"
+          distribution: temurin
+          java-version: "17.0.13+11"
 
       - name: Instalar herramientas de verificacion
         run: pip install cfn-lint shellcheck-py pyyaml pyspark==3.5.4
