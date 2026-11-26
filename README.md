@@ -45,6 +45,10 @@ Etapas de `--hasta`: `infra` → `bronze` → `silver` → `gold` → `lab4`. Pu
 
 Cada lab tiene su guía paso a paso en [`labs/`](labs/README.md). Si intentas un lab sin haber hecho el anterior, `lab.sh` te avisa y te dice cómo ponerte al día.
 
+## 🖱️ Sin terminal: manual por consola
+
+¿Quieres entender qué hace cada pieza, o no puedes usar la terminal? El [manual paso a paso por la consola de AWS](labs/manual-consola/README.md) construye el mismo Lakehouse a mano: bucket, table bucket, rol IAM, jobs de Glue, workgroup de Athena, los labs 1 a 4 y la limpieza, con los mismos nombres y tags del estándar.
+
 ## 🧹 Limpieza (no te lo saltes)
 
 ```bash

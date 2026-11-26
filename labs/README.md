@@ -11,6 +11,8 @@ Cada lab tiene su guía en esta carpeta y se ejecuta con `./lab.sh <n>` desde la
 | 4 · Auditoría | [lab4-auditoria](lab4-auditoria/README.md) | `./lab.sh 4` | 15 min |
 | 5 · Gobierno | [lab5-gobierno](lab5-gobierno/README.md) | demo en vivo | 10 min |
 
+**¿Prefieres hacerlo sin terminal?** El [manual por consola](manual-consola/README.md) construye el mismo Lakehouse clic por clic en la consola de AWS, con la limpieza manual incluida.
+
 **¿Te atrasaste?** Ponte al día con `./deploy.sh --hasta <etapa>` y sigue con el lab que va el grupo:
 
 | Si el grupo va en... | Ejecuta |
