@@ -187,6 +187,7 @@ for nombre, df in (("agg_siniestralidad_producto_anual", sp), ("agg_siniestros_p
     check(df.count() > 0, f"gold.{nombre} tiene filas")
     pii = {"dni", "nombre", "email"} & set(df.columns)
     check(not pii, f"gold.{nombre} sin datos personales", f"columnas PII: {pii}")
+n_gold = sp.count()  # se guarda ahora: al recrear Gold, este DataFrame apunta a la tabla borrada
 mal_ratio = sp.filter("abs(ratio_siniestralidad - siniestros_pagados / primas_cobradas) > 0.0001").count()
 check(mal_ratio == 0, "ratio_siniestralidad = siniestros pagados / primas cobradas")
 peor = filas(sp.filter("anio = 2025").orderBy("ratio_siniestralidad", ascending=False).limit(1))[0]
@@ -221,7 +222,7 @@ if ICEBERG:
     correr_job("bronze_to_silver.py")
     check("flag_fraude" not in tabla("silver.siniestros").columns, "Lab 2 de nuevo: Silver vuelve al esquema original")
     correr_job("silver_to_gold.py")
-    check(tabla("gold.agg_siniestralidad_producto_anual").count() == sp.count(), "Lab 3 de nuevo: mismo Gold")
+    check(tabla("gold.agg_siniestralidad_producto_anual").count() == n_gold, "Lab 3 de nuevo: mismo Gold")
     correr_job("silver_auditoria.py")
     correr_job("silver_auditoria.py")
     check(spark.sql("SELECT count(*) FROM lh.silver.siniestros WHERE flag_fraude").first()[0] == 1,
