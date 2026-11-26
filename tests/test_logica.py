@@ -70,7 +70,14 @@ if ICEBERG:
          .config("spark.sql.catalog.lh", "org.apache.iceberg.spark.SparkCatalog")
          .config("spark.sql.catalog.lh.type", "hadoop")
          .config("spark.sql.catalog.lh.warehouse", "file://" + os.path.join(TMP, "warehouse"))
-         .config("spark.driver.memory", "2g"))
+         .config("spark.driver.memory", "2g")
+         # Solo en la prueba: sin compresion, para no cargar las librerias nativas
+         # (lz4-java, zstd-jni, snappy) que corrompen la memoria de la JVM en los
+         # runners de GitHub. No cambia la logica de los jobs que se prueba.
+         .config("spark.shuffle.compress", "false")
+         .config("spark.shuffle.spill.compress", "false")
+         .config("spark.broadcast.compress", "false")
+         .config("spark.sql.iceberg.compression-codec", "uncompressed"))
 spark = b.getOrCreate()
 spark.sparkContext.setLogLevel("ERROR")
 
