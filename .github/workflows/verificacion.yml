@@ -56,5 +56,6 @@ jobs:
             [ -f "$f" ] || continue
             grep -nE "^# Problematic|^Current thread|^Stack:" -A2 "$f"
             sed -n '/^Native frames/,/^$/p;/^Java frames/,/^$/p' "$f" | head -80
-            sed -n '/^Other Threads/,+5p;/^Dynamic libraries/,+60p' "$f" | grep -iE "so|jni|Other" | head -60
+            sed -n '/^Dynamic libraries/,/^$/p' "$f" | grep -F ".so" | grep -v "$JAVA_HOME" | head -40
+            sed -n '/^VM Arguments/,/^$/p;/^CPU:/,+3p' "$f" | head -30
           done
