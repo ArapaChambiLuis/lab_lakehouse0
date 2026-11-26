@@ -1,0 +1,236 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: >-
+  Workshop "Construye un Lakehouse escalable en AWS" - Aseguradora Andina S.A. (datos ficticios).
+  Bronze en S3, Silver y Gold como tablas Iceberg en Amazon S3 Tables, Glue 5.0 y Athena.
+  Nomenclatura: recursos {proyecto}-{entorno}-{componente}, objetos de datos {proyecto}_{entorno}_{capa}.
+  Los tags Proyecto, Entorno, Owner y CentroCosto se aplican a nivel de stack (deploy.sh).
+
+Parameters:
+  Proyecto:
+    Type: String
+    Default: lkh
+    AllowedPattern: "[a-z0-9]{2,10}"
+    Description: Codigo corto del proyecto (minusculas y numeros, sin guiones).
+  Entorno:
+    Type: String
+    Default: lab
+    AllowedPattern: "[a-z0-9]{2,5}"
+    Description: Entorno (lab, dev, qa, prd).
+  EmailAlerta:
+    Type: String
+    Default: ""
+    Description: (Opcional) Email para la alerta de presupuesto de 5 USD. Vacio = sin alerta.
+
+Conditions:
+  ConAlerta: !Not [!Equals [!Ref EmailAlerta, ""]]
+
+Resources:
+  # ---------------- BRONZE + artefactos ----------------
+  RawBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub "${Proyecto}-${Entorno}-raw-${AWS::AccountId}-${AWS::Region}"
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256
+      LifecycleConfiguration:
+        Rules:
+          - Id: limpiar-resultados-athena
+            Status: Enabled
+            Prefix: athena-results/
+            ExpirationInDays: 7
+          # Una subida multiparte a medias no es un objeto: no se ve con "aws s3 ls"
+          # y bloquea el borrado del bucket al eliminar el stack.
+          - Id: abortar-multipart-incompletos
+            Status: Enabled
+            AbortIncompleteMultipartUpload:
+              DaysAfterInitiation: 1
+      Tags:
+        - Key: Clasificacion
+          Value: confidencial      # Bronze trae PII cruda (DNI, nombre, email)
+        - Key: Capa
+          Value: bronze
+
+  # ---------------- SILVER / GOLD: S3 Tables ----------------
+  TableBucket:
+    Type: AWS::S3Tables::TableBucket
+    Properties:
+      TableBucketName: !Sub "${Proyecto}-${Entorno}-tables"
+      Tags:
+        - Key: Clasificacion
+          Value: confidencial      # contiene silver.clientes con PII
+        - Key: Capa
+          Value: silver-gold
+
+  NamespaceSilver:
+    Type: AWS::S3Tables::Namespace
+    Properties:
+      TableBucketARN: !GetAtt TableBucket.TableBucketARN
+      Namespace: silver
+
+  NamespaceGold:
+    Type: AWS::S3Tables::Namespace
+    Properties:
+      TableBucketARN: !GetAtt TableBucket.TableBucketARN
+      Namespace: gold
+
+  # ---------------- IAM para Glue ----------------
+  GlueRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: !Sub "${Proyecto}-${Entorno}-role-glue-${AWS::Region}"
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal: { Service: glue.amazonaws.com }
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSGlueServiceRole
+      Policies:
+        - PolicyName: !Sub "${Proyecto}-${Entorno}-policy-lakehouse"
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Sid: LeerBronzeYScripts
+                Effect: Allow
+                Action: [s3:GetObject, s3:PutObject, s3:ListBucket, s3:DeleteObject]
+                Resource:
+                  - !GetAtt RawBucket.Arn
+                  - !Sub "${RawBucket.Arn}/*"
+              - Sid: EscribirS3Tables
+                Effect: Allow
+                Action: s3tables:*
+                Resource:
+                  - !GetAtt TableBucket.TableBucketARN
+                  - !Sub "${TableBucket.TableBucketARN}/*"
+
+  # ---------------- Jobs de Glue 5.0: {proyecto}-{entorno}-job-{origen}-to-{destino} ----------------
+  JobBronzeToSilver:
+    Type: AWS::Glue::Job
+    Properties:
+      Name: !Sub "${Proyecto}-${Entorno}-job-bronze-to-silver"
+      Description: Lab 2 - limpia Bronze (CSV) y escribe tablas Iceberg en silver
+      Role: !GetAtt GlueRole.Arn
+      GlueVersion: "5.0"
+      WorkerType: G.1X
+      NumberOfWorkers: 2
+      Timeout: 20
+      MaxRetries: 0
+      Command:
+        Name: glueetl
+        PythonVersion: "3"
+        ScriptLocation: !Sub "s3://${RawBucket}/scripts/bronze_to_silver.py"
+      DefaultArguments:
+        "--datalake-formats": iceberg
+        "--RAW_BUCKET": !Ref RawBucket
+        "--TABLE_BUCKET_ARN": !GetAtt TableBucket.TableBucketARN
+        "--AWS_REGION_NAME": !Ref AWS::Region
+      Tags:
+        Capa: silver
+
+  JobSilverToGold:
+    Type: AWS::Glue::Job
+    Properties:
+      Name: !Sub "${Proyecto}-${Entorno}-job-silver-to-gold"
+      Description: Lab 3 - construye las tablas agregadas de gold
+      Role: !GetAtt GlueRole.Arn
+      GlueVersion: "5.0"
+      WorkerType: G.1X
+      NumberOfWorkers: 2
+      Timeout: 20
+      MaxRetries: 0
+      Command:
+        Name: glueetl
+        PythonVersion: "3"
+        ScriptLocation: !Sub "s3://${RawBucket}/scripts/silver_to_gold.py"
+      DefaultArguments:
+        "--datalake-formats": iceberg
+        "--TABLE_BUCKET_ARN": !GetAtt TableBucket.TableBucketARN
+        "--AWS_REGION_NAME": !Ref AWS::Region
+      Tags:
+        Capa: gold
+
+  JobSilverAuditoria:
+    Type: AWS::Glue::Job
+    Properties:
+      Name: !Sub "${Proyecto}-${Entorno}-job-silver-auditoria"
+      Description: Lab 4 - evolucion de esquema, correccion y time travel en silver
+      Role: !GetAtt GlueRole.Arn
+      GlueVersion: "5.0"
+      WorkerType: G.1X
+      NumberOfWorkers: 2
+      Timeout: 20
+      MaxRetries: 0
+      Command:
+        Name: glueetl
+        PythonVersion: "3"
+        ScriptLocation: !Sub "s3://${RawBucket}/scripts/silver_auditoria.py"
+      DefaultArguments:
+        "--datalake-formats": iceberg
+        "--TABLE_BUCKET_ARN": !GetAtt TableBucket.TableBucketARN
+        "--AWS_REGION_NAME": !Ref AWS::Region
+      Tags:
+        Capa: silver
+
+  # ---------------- Athena ----------------
+  AthenaWorkGroup:
+    Type: AWS::Athena::WorkGroup
+    Properties:
+      Name: !Sub "${Proyecto}-${Entorno}-wg-analistas"
+      Description: Workgroup de analistas con tope de 1 GB escaneado por consulta
+      RecursiveDeleteOption: true
+      WorkGroupConfiguration:
+        EnforceWorkGroupConfiguration: true
+        PublishCloudWatchMetricsEnabled: false
+        BytesScannedCutoffPerQuery: 1073741824   # 1 GB maximo por consulta: proteccion de costos
+        ResultConfiguration:
+          OutputLocation: !Sub "s3://${RawBucket}/athena-results/"
+
+  # ---------------- Alerta de costos (opcional) ----------------
+  Presupuesto:
+    Type: AWS::Budgets::Budget
+    Condition: ConAlerta
+    Properties:
+      Budget:
+        BudgetName: !Sub "${Proyecto}-${Entorno}-budget-5usd"
+        BudgetType: COST
+        TimeUnit: MONTHLY
+        BudgetLimit: { Amount: 5, Unit: USD }
+      NotificationsWithSubscribers:
+        - Notification:
+            NotificationType: ACTUAL
+            ComparisonOperator: GREATER_THAN
+            Threshold: 50
+            ThresholdType: PERCENTAGE
+          Subscribers:
+            - SubscriptionType: EMAIL
+              Address: !Ref EmailAlerta
+
+Outputs:
+  RawBucket:
+    Value: !Ref RawBucket
+  TableBucketName:
+    Value: !Sub "${Proyecto}-${Entorno}-tables"
+  TableBucketArn:
+    Value: !GetAtt TableBucket.TableBucketARN
+  JobSilver:
+    Value: !Ref JobBronzeToSilver
+  JobGold:
+    Value: !Ref JobSilverToGold
+  JobLab4:
+    Value: !Ref JobSilverAuditoria
+  WorkGroup:
+    Value: !Ref AthenaWorkGroup
+  BaseBronze:
+    Description: Base de Glue/Athena para Bronze (la crea el Lab 1)
+    Value: !Sub "${Proyecto}_${Entorno}_bronze"
+  AthenaCatalogSilverGold:
+    Description: Catalogo a elegir en Athena para Silver y Gold
+    Value: !Sub "s3tablescatalog/${Proyecto}-${Entorno}-tables"

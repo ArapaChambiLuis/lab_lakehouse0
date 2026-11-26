@@ -1,0 +1,2041 @@
+id_cliente,dni,nombre,email,departamento,fecha_nacimiento
+CLI-01080,37427894,Elena Gutierrez,elena.gutierrez1080@correo-ficticio.pe,JUNIN,1961-03-17
+CLI-00636,70385803,Paola Cruz,paola.cruz636@correo-ficticio.pe,LAMBAYEQUE,1983-02-13
+CLI-00818,36941934,Maria Silva,maria.silva818@correo-ficticio.pe,CUSCO,1961-03-06
+CLI-00838,40456737,Sofia Salazar,sofia.salazar838@correo-ficticio.pe,LA LIBERTAD,2002-07-04
+CLI-01206,32316504,Gabriela Condori,gabriela.condori1206@correo-ficticio.pe,ICA,1990-12-29
+CLI-00464,54965104,Ana Paredes,ana.paredes464@correo-ficticio.pe,CUSCO,1999-09-25
+CLI-01675,70567065,Paola Salazar,paola.salazar1675@correo-ficticio.pe,AREQUIPA,1960-12-28
+CLI-01643,52364463,Paola Flores,paola.flores1643@correo-ficticio.pe,LIMA,1983-06-14
+CLI-00425,32592860,Ana Chavez,ana.chavez425@correo-ficticio.pe,JUNIN,1995-06-19
+CLI-01074,23257206,Sofia Chavez,sofia.chavez1074@correo-ficticio.pe,LIMA,1968-12-25
+CLI-00146,45387288,Gabriela Salazar,gabriela.salazar146@correo-ficticio.pe,PUNO,1995-08-21
+CLI-01847,54945231,Carmen Gutierrez,carmen.gutierrez1847@correo-ficticio.pe,la libertad,1967-04-28
+CLI-01418,55220684,Diego Arapa,diego.arapa1418@correo-ficticio.pe,JUNIN,1956-07-15
+CLI-00186,22443785,Elena Condori,elena.condori186@correo-ficticio.pe,PIURA,1972-12-23
+CLI-01657,15366263,Paola Condori,paola.condori1657@correo-ficticio.pe,PUNO,1968-11-19
+CLI-01828,15887934,Paola Salazar,paola.salazar1828@correo-ficticio.pe,LA LIBERTAD,1992-07-30
+CLI-00060,62239125,Carlos Mamani,carlos.mamani60@correo-ficticio.pe,LA LIBERTAD,2003-03-06
+CLI-01081,39178252,Lucia Ramos,lucia.ramos1081@correo-ficticio.pe,LA LIBERTAD,2000-07-19
+CLI-00050,66086873,Gabriela Paredes,gabriela.paredes50@correo-ficticio.pe,JUNIN,2003-04-05
+CLI-01853,33381520,Paola Quispe,paola.quispe1853@correo-ficticio.pe,PIURA,1971-05-04
+CLI-00211,26061271,Sofia Rojas,sofia.rojas211@correo-ficticio.pe,LA LIBERTAD,1954-12-13
+CLI-00862,57580252,Jorge Mendoza,jorge.mendoza862@correo-ficticio.pe,AREQUIPA,1999-02-23
+CLI-00921,38827975,Sofia Mendoza,sofia.mendoza921@correo-ficticio.pe,LAMBAYEQUE,1974-08-27
+CLI-01526,12491356,Sofia Cruz,SOFIA.CRUZ1526@CORREO-FICTICIO.PE,LAMBAYEQUE,2004-08-07
+CLI-00068,21079602,Hector Mendoza,HECTOR.MENDOZA68@CORREO-FICTICIO.PE,AREQUIPA,1977-12-29
+CLI-01722,69436071,Sofia Rojas,sofia.rojas1722@correo-ficticio.pe,LA LIBERTAD,1962-10-15
+CLI-01631,26083974,Gabriela Huaman,gabriela.huaman1631@correo-ficticio.pe,lambayeque,1991-06-21
+CLI-00468,38013482,Jorge Garcia,JORGE.GARCIA468@CORREO-FICTICIO.PE,AREQUIPA,1960-02-25
+CLI-00492,51756584,Hector Rios,hector.rios492@correo-ficticio.pe,CUSCO,1997-05-18
+CLI-01268,18072797,Lucia Flores,lucia.flores1268@correo-ficticio.pe,LORETO,1992-12-30
+CLI-01400,75308220,Sofia Ramos,sofia.ramos1400@correo-ficticio.pe,JUNIN,1997-09-10
+CLI-00995,73667752,Diego Mamani,diego.mamani995@correo-ficticio.pe,ICA,1972-12-01
+CLI-01507,50685487,Raul Silva,raul.silva1507@correo-ficticio.pe,PUNO,1988-07-13
+CLI-00147,36224842,Carmen Flores,carmen.flores147@correo-ficticio.pe,LAMBAYEQUE,1961-03-21
+CLI-00220,60112542,Lucia Flores,lucia.flores220@correo-ficticio.pe,piura,1997-02-14
+CLI-00174,17337456,Carmen Arapa,carmen.arapa174@correo-ficticio.pe,JUNIN,1984-06-11
+CLI-00318,27222526,Gabriela Huaman,gabriela.huaman318@correo-ficticio.pe,JUNIN,1951-12-26
+CLI-00902,74970594,Carmen Mamani,carmen.mamani902@correo-ficticio.pe,LORETO,1959-09-12
+CLI-00544,68416357,Luis Vargas,luis.vargas544@correo-ficticio.pe,JUNIN,2002-02-13
+CLI-01747,62245151,Maria Gutierrez,maria.gutierrez1747@correo-ficticio.pe,JUNIN,1974-07-12
+CLI-01640,28576794,Carmen Huaman,carmen.huaman1640@correo-ficticio.pe,CUSCO,2005-02-06
+CLI-01619,53724050,Carmen Garcia,carmen.garcia1619@correo-ficticio.pe,LA LIBERTAD,1977-08-28
+CLI-00703,64106035,Elena Rojas,elena.rojas703@correo-ficticio.pe,AREQUIPA,1996-02-23
+CLI-00792,12614166,Ana Rojas,ana.rojas792@correo-ficticio.pe,JUNIN,2002-06-11
+CLI-00428,49486194,Rosa Condori,rosa.condori428@correo-ficticio.pe,CUSCO,1977-01-07
+CLI-00969,38324750,Carlos Salazar,carlos.salazar969@correo-ficticio.pe,LA LIBERTAD,1973-09-24
+CLI-01310,31224946,Sofia Rojas,SOFIA.ROJAS1310@CORREO-FICTICIO.PE,LAMBAYEQUE,1968-08-21
+CLI-01481,14528842,Maria Ramos,maria.ramos1481@correo-ficticio.pe,  Arequipa ,1954-12-22
+CLI-01852,58647093,Diego Rojas,diego.rojas1852@correo-ficticio.pe,CUSCO,1977-05-06
+CLI-00911,41613361,Diego Vargas,diego.vargas911@correo-ficticio.pe,LAMBAYEQUE,1989-01-21
+CLI-00250,59111668,Lucia Ramos,LUCIA.RAMOS250@CORREO-FICTICIO.PE,JUNIN,1953-03-04
+CLI-00997,67712661,Luis Vargas,luis.vargas997@correo-ficticio.pe,PIURA,1987-01-06
+CLI-01317,30236236,Elena Castillo,elena.castillo1317@correo-ficticio.pe,AREQUIPA,1970-08-31
+CLI-01382,20655599,Valeria Mamani,valeria.mamani1382@correo-ficticio.pe,LAMBAYEQUE,1999-09-12
+CLI-01937,69761795,Raul Silva,raul.silva1937@correo-ficticio.pe,ICA,1953-02-02
+CLI-01768,42955632,Lucia Rios,lucia.rios1768@correo-ficticio.pe,ICA,1997-03-17
+CLI-00090,79865998,Rosa Vargas,rosa.vargas90@correo-ficticio.pe,AREQUIPA,1969-04-10
+CLI-01579,59549676,Sofia Salazar,sofia.salazar1579@correo-ficticio.pe,AREQUIPA,1965-06-04
+CLI-01354,55658646,Carlos Chavez,carlos.chavez1354@correo-ficticio.pe,ICA,1970-05-22
+CLI-00227,30099906,Victor Rojas,victor.rojas227@correo-ficticio.pe,PUNO,1980-06-06
+CLI-00107,29326305,Jorge Garcia,jorge.garcia107@correo-ficticio.pe,JUNIN,2004-08-05
+CLI-01720,36869865,Hector Arapa,hector.arapa1720@correo-ficticio.pe,LA LIBERTAD,1990-01-30
+CLI-01873,16723328,Paola Mamani,paola.mamani1873@correo-ficticio.pe,AREQUIPA,1990-04-13
+CLI-01624,20037180,Rosa Rios,rosa.rios1624@correo-ficticio.pe,LA LIBERTAD,1951-07-19
+CLI-00021,39920845,Jorge Arapa,jorge.arapa21@correo-ficticio.pe,CUSCO,1995-04-13
+CLI-01195,54471386,Elena Arapa,elena.arapa1195@correo-ficticio.pe,LORETO,1959-02-27
+CLI-00757,13703389,Valeria Condori,valeria.condori757@correo-ficticio.pe,PIURA,1982-03-09
+CLI-00112,62591575,Luis Garcia,LUIS.GARCIA112@CORREO-FICTICIO.PE,ICA,1951-08-21
+CLI-01883,75742188,Diego Garcia,diego.garcia1883@correo-ficticio.pe,  Loreto ,1984-09-29
+CLI-01149,38769133,Elena Vargas,elena.vargas1149@correo-ficticio.pe,PIURA,1990-07-28
+CLI-00664,69520867,Paola Ramos,paola.ramos664@correo-ficticio.pe,ICA,1978-02-03
+CLI-00706,14712066,Ana Vargas,ana.vargas706@correo-ficticio.pe,LA LIBERTAD,1979-08-15
+CLI-01094,49890545,Diego Silva,diego.silva1094@correo-ficticio.pe,PUNO,1981-12-02
+CLI-00426,28331233,Gabriela Ramos,gabriela.ramos426@correo-ficticio.pe,LAMBAYEQUE,1966-11-17
+CLI-01183,78409533,Pedro Garcia,pedro.garcia1183@correo-ficticio.pe,CUSCO,1971-08-18
+CLI-01105,41917294,Maria Silva,maria.silva1105@correo-ficticio.pe,JUNIN,2000-07-12
+CLI-01916,76581838,Gabriela Huaman,gabriela.huaman1916@correo-ficticio.pe,LIMA,1991-02-14
+CLI-01364,76395329,Elena Rios,elena.rios1364@correo-ficticio.pe,ICA,1979-12-29
+CLI-00745,52916056,Ana Mendoza,ana.mendoza745@correo-ficticio.pe,LA LIBERTAD,1970-03-07
+CLI-01066,26318414,Victor Rios,VICTOR.RIOS1066@CORREO-FICTICIO.PE,ICA,1982-06-27
+CLI-01444,12419494,Jorge Quispe,jorge.quispe1444@correo-ficticio.pe,PIURA,1980-11-24
+CLI-01991,73147324,Hector Huaman,hector.huaman1991@correo-ficticio.pe,JUNIN,1994-12-10
+CLI-00576,65961985,Victor Rios,victor.rios576@correo-ficticio.pe,AREQUIPA,1967-10-04
+CLI-00836,51247676,Carlos Silva,carlos.silva836@correo-ficticio.pe,PIURA,1953-03-22
+CLI-01536,10310760,Jose Garcia,jose.garcia1536@correo-ficticio.pe,LIMA,1969-04-26
+CLI-01733,49364913,Miguel Paredes,miguel.paredes1733@correo-ficticio.pe,CUSCO,1953-01-20
+CLI-00233,22938245,Lucia Huaman,lucia.huaman233@correo-ficticio.pe,LAMBAYEQUE,1996-06-28
+CLI-00563,43526136,Jorge Salazar,jorge.salazar563@correo-ficticio.pe,LAMBAYEQUE,1990-09-04
+CLI-00234,72255145,Jorge Huaman,jorge.huaman234@correo-ficticio.pe,ICA,1962-05-24
+CLI-00353,25347922,Luis Rios,luis.rios353@correo-ficticio.pe,CUSCO,1989-07-31
+CLI-01375,43837779,Carlos Gutierrez,carlos.gutierrez1375@correo-ficticio.pe,ICA,1962-08-26
+CLI-00128,40641302,Gabriela Mendoza,gabriela.mendoza128@correo-ficticio.pe,PUNO,1952-10-27
+CLI-00454,66857681,Maria Gutierrez,maria.gutierrez454@correo-ficticio.pe,PIURA,1984-02-18
+CLI-01804,24234985,Valeria Rojas,valeria.rojas1804@correo-ficticio.pe,LAMBAYEQUE,1951-08-17
+CLI-00940,70601244,Diego Torres,diego.torres940@correo-ficticio.pe,CUSCO,1977-11-22
+CLI-01427,53977745,Carmen Ramos,carmen.ramos1427@correo-ficticio.pe,CUSCO,1956-02-20
+CLI-00789,48447027,Carmen Vargas,carmen.vargas789@correo-ficticio.pe,LA LIBERTAD,1964-06-28
+CLI-00356,35531003,Jose Mendoza,jose.mendoza356@correo-ficticio.pe,CUSCO,1998-06-15
+CLI-01814,38600512,Ana Cruz,ana.cruz1814@correo-ficticio.pe,LA LIBERTAD,1956-08-16
+CLI-01791,21401174,Paola Arapa,paola.arapa1791@correo-ficticio.pe,ICA,1990-09-01
+CLI-01479,35952910,Lucia Rios,LUCIA.RIOS1479@CORREO-FICTICIO.PE,AREQUIPA,1982-07-24
+CLI-00629,19681662,Maria Mendoza,maria.mendoza629@correo-ficticio.pe,PUNO,1992-04-11
+CLI-01413,79277761,Jorge Paredes,jorge.paredes1413@correo-ficticio.pe,ICA,1983-10-25
+CLI-01196,24292498,Sofia Silva,sofia.silva1196@correo-ficticio.pe,CUSCO,1970-07-05
+CLI-00672,52050891,Diego Ramos,diego.ramos672@correo-ficticio.pe,PIURA,1999-08-21
+CLI-00176,71221053,Ana Mendoza,ana.mendoza176@correo-ficticio.pe,LORETO,2005-05-23
+CLI-01758,18521513,Paola Gutierrez,paola.gutierrez1758@correo-ficticio.pe,PIURA,1956-09-30
+CLI-01589,39539794,Elena Silva,elena.silva1589@correo-ficticio.pe,LIMA,1983-05-04
+CLI-00999,56287771,Carmen Arapa,carmen.arapa999@correo-ficticio.pe,LORETO,1981-03-25
+CLI-01489,68132175,Victor Gutierrez,VICTOR.GUTIERREZ1489@CORREO-FICTICIO.PE,PUNO,1981-08-06
+CLI-00396,11946380,Miguel Castillo,miguel.castillo396@correo-ficticio.pe,JUNIN,2001-01-21
+CLI-00326,47373371,Pedro Rios,PEDRO.RIOS326@CORREO-FICTICIO.PE,PIURA,1956-06-01
+CLI-00489,58438051,Carlos Chavez,carlos.chavez489@correo-ficticio.pe,LA LIBERTAD,1972-04-06
+CLI-00066,50466011,Diego Vargas,diego.vargas66@correo-ficticio.pe,JUNIN,1994-09-30
+CLI-00247,49677645,Jorge Paredes,jorge.paredes247@correo-ficticio.pe,JUNIN,1953-01-19
+CLI-01777,73345211,Hector Mendoza,hector.mendoza1777@correo-ficticio.pe,LAMBAYEQUE,1965-01-20
+CLI-01111,56466605,Paola Cruz,paola.cruz1111@correo-ficticio.pe,PUNO,1955-04-29
+CLI-00740,17386463,Luis Mendoza,LUIS.MENDOZA740@CORREO-FICTICIO.PE,AREQUIPA,1981-01-30
+CLI-01506,45280170,Carmen Condori,carmen.condori1506@correo-ficticio.pe,LORETO,1991-04-15
+CLI-01989,52080233,Diego Salazar,diego.salazar1989@correo-ficticio.pe,LAMBAYEQUE,1972-12-17
+CLI-00276,45049910,Valeria Gutierrez,valeria.gutierrez276@correo-ficticio.pe,PUNO,1954-08-05
+CLI-00831,21192056,Lucia Mendoza,lucia.mendoza831@correo-ficticio.pe,PUNO,2003-04-16
+CLI-01345,78924162,Gabriela Quispe,gabriela.quispe1345@correo-ficticio.pe,LIMA,1969-01-02
+CLI-00391,14190566,Victor Vargas,victor.vargas391@correo-ficticio.pe,LORETO,1992-03-27
+CLI-00573,75304787,Lucia Mendoza,lucia.mendoza573@correo-ficticio.pe,cusco,1992-05-16
+CLI-01967,51350862,Sofia Gutierrez,sofia.gutierrez1967@correo-ficticio.pe,LAMBAYEQUE,1961-03-28
+CLI-01807,28067322,Rosa Chavez,rosa.chavez1807@correo-ficticio.pe,CUSCO,1993-10-05
+CLI-00139,64722138,Carmen Mamani,carmen.mamani139@correo-ficticio.pe,LIMA,1976-07-05
+CLI-00824,69862428,Paola Mendoza,paola.mendoza824@correo-ficticio.pe,LIMA,1995-04-17
+CLI-00065,43306810,Gabriela Mamani,gabriela.mamani65@correo-ficticio.pe,JUNIN,1956-07-24
+CLI-00536,33457421,Luis Mamani,luis.mamani536@correo-ficticio.pe,CUSCO,1974-04-04
+CLI-01107,75564351,Gabriela Ramos,gabriela.ramos1107@correo-ficticio.pe,PUNO,1991-09-07
+CLI-00207,21927722,Jose Arapa,jose.arapa207@correo-ficticio.pe,LA LIBERTAD,1991-04-08
+CLI-01159,43271939,Jose Cruz,jose.cruz1159@correo-ficticio.pe,PUNO,1987-07-31
+CLI-01574,37095769,Hector Silva,hector.silva1574@correo-ficticio.pe,LA LIBERTAD,2004-05-19
+CLI-00858,11687759,Gabriela Silva,gabriela.silva858@correo-ficticio.pe,LA LIBERTAD,1994-08-10
+CLI-00809,23720670,Rosa Gutierrez,rosa.gutierrez809@correo-ficticio.pe,LA LIBERTAD,1964-04-16
+CLI-01622,57254150,Raul Rojas,raul.rojas1622@correo-ficticio.pe,LA LIBERTAD,1994-12-06
+CLI-00395,14805271,Elena Mendoza,elena.mendoza395@correo-ficticio.pe,LORETO,1994-06-14
+CLI-00495,13642589,Jorge Vargas,JORGE.VARGAS495@CORREO-FICTICIO.PE,JUNIN,1973-06-17
+CLI-00532,43905312,Paola Vargas,paola.vargas532@correo-ficticio.pe,JUNIN,1966-07-04
+CLI-01725,33483636,Jose Castillo,jose.castillo1725@correo-ficticio.pe,LAMBAYEQUE,1987-12-30
+CLI-00063,13961138,Rosa Gutierrez,rosa.gutierrez63@correo-ficticio.pe,ICA,1952-07-20
+CLI-00515,65158608,Miguel Gutierrez,miguel.gutierrez515@correo-ficticio.pe,CUSCO,1955-09-22
+CLI-00490,64315640,Diego Arapa,diego.arapa490@correo-ficticio.pe,PUNO,1998-10-24
+CLI-00967,20953820,Sofia Mamani,sofia.mamani967@correo-ficticio.pe,JUNIN,1964-09-28
+CLI-01980,66019862,Maria Salazar,MARIA.SALAZAR1980@CORREO-FICTICIO.PE,CUSCO,1976-12-27
+CLI-00851,73339094,Jose Cruz,jose.cruz851@correo-ficticio.pe,AREQUIPA,1983-09-15
+CLI-01564,28877620,Gabriela Chavez,gabriela.chavez1564@correo-ficticio.pe,LA LIBERTAD,1989-07-26
+CLI-01907,75762232,Ana Ramos,ana.ramos1907@correo-ficticio.pe,PIURA,1961-07-06
+CLI-01463,60786086,Ana Arapa,ana.arapa1463@correo-ficticio.pe,ICA,2004-10-17
+CLI-00781,77107254,Diego Mamani,diego.mamani781@correo-ficticio.pe,LIMA,1989-04-30
+CLI-00938,37081028,Hector Condori,HECTOR.CONDORI938@CORREO-FICTICIO.PE,LAMBAYEQUE,1979-07-06
+CLI-00335,59705482,Rosa Vargas,rosa.vargas335@correo-ficticio.pe,ICA,1993-10-12
+CLI-00994,46636445,Luis Torres,luis.torres994@correo-ficticio.pe,PIURA,1962-01-23
+CLI-01079,48521726,Carmen Rios,carmen.rios1079@correo-ficticio.pe,lambayeque,1977-01-26
+CLI-01957,72315343,Jose Castillo,jose.castillo1957@correo-ficticio.pe,lima,1969-09-13
+CLI-00780,74179171,Lucia Castillo,lucia.castillo780@correo-ficticio.pe,CUSCO,1967-09-06
+CLI-01701,24700060,Jose Condori,jose.condori1701@correo-ficticio.pe,  Ica ,1986-02-20
+CLI-01420,26380310,Carlos Mendoza,carlos.mendoza1420@correo-ficticio.pe,LIMA,1975-04-29
+CLI-00545,55954332,Ana Chavez,ana.chavez545@correo-ficticio.pe,ICA,1974-05-25
+CLI-01513,67579443,Elena Condori,elena.condori1513@correo-ficticio.pe,LIMA,1973-05-01
+CLI-00759,73863691,Maria Flores,maria.flores759@correo-ficticio.pe,LIMA,1958-05-11
+CLI-00038,52084090,Maria Gutierrez,maria.gutierrez38@correo-ficticio.pe,AREQUIPA,1978-03-23
+CLI-01942,62944908,Pedro Arapa,pedro.arapa1942@correo-ficticio.pe,ICA,1997-06-17
+CLI-00142,65088539,Miguel Cruz,miguel.cruz142@correo-ficticio.pe,JUNIN,1959-02-14
+CLI-00388,72038378,Raul Silva,raul.silva388@correo-ficticio.pe,PUNO,1985-03-07
+CLI-00384,66344237,Raul Ramos,raul.ramos384@correo-ficticio.pe,JUNIN,1966-10-15
+CLI-00382,23856169,Pedro Torres,pedro.torres382@correo-ficticio.pe,ICA,1991-11-26
+CLI-00794,76588539,Paola Rojas,paola.rojas794@correo-ficticio.pe,CUSCO,1955-09-09
+CLI-01740,26158739,Miguel Gutierrez,miguel.gutierrez1740@correo-ficticio.pe,JUNIN,1964-05-08
+CLI-01857,29936466,Hector Quispe,hector.quispe1857@correo-ficticio.pe,LAMBAYEQUE,1954-08-06
+CLI-00163,51276226,Valeria Silva,valeria.silva163@correo-ficticio.pe,LAMBAYEQUE,1970-04-25
+CLI-01995,39058354,Victor Gutierrez,victor.gutierrez1995@correo-ficticio.pe,LIMA,1992-01-05
+CLI-00290,65137085,Valeria Castillo,VALERIA.CASTILLO290@CORREO-FICTICIO.PE,LORETO,1982-05-16
+CLI-01999,34262094,Raul Mamani,raul.mamani1999@correo-ficticio.pe,  Piura ,1978-10-08
+CLI-00945,57294859,Carmen Mendoza,carmen.mendoza945@correo-ficticio.pe,LIMA,1969-03-26
+CLI-01712,67749673,Lucia Paredes,lucia.paredes1712@correo-ficticio.pe,PIURA,1969-12-10
+CLI-01025,19466276,Elena Torres,elena.torres1025@correo-ficticio.pe,LA LIBERTAD,1956-06-16
+CLI-00033,46753198,Raul Garcia,raul.garcia33@correo-ficticio.pe,PIURA,1958-05-10
+CLI-01260,24916201,Sofia Castillo,sofia.castillo1260@correo-ficticio.pe,AREQUIPA,1991-12-26
+CLI-01138,31577773,Lucia Chavez,lucia.chavez1138@correo-ficticio.pe,LORETO,1985-03-04
+CLI-00933,71878990,Jorge Mendoza,jorge.mendoza933@correo-ficticio.pe,PUNO,1985-11-05
+CLI-00447,18243345,Diego Mamani,DIEGO.MAMANI447@CORREO-FICTICIO.PE,arequipa,1989-09-04
+CLI-00970,54531977,Luis Huaman,LUIS.HUAMAN970@CORREO-FICTICIO.PE,PUNO,1985-09-01
+CLI-00607,38821684,Miguel Huaman,miguel.huaman607@correo-ficticio.pe,LIMA,1994-11-27
+CLI-01269,17319476,Victor Silva,VICTOR.SILVA1269@CORREO-FICTICIO.PE,LA LIBERTAD,1976-01-24
+CLI-00896,46426698,Ana Rojas,ANA.ROJAS896@CORREO-FICTICIO.PE,PUNO,1991-04-05
+CLI-01797,26237818,Elena Condori,elena.condori1797@correo-ficticio.pe,JUNIN,1996-12-13
+CLI-01547,25417883,Elena Chavez,elena.chavez1547@correo-ficticio.pe,loreto,1960-11-25
+CLI-00246,62694279,Gabriela Salazar,gabriela.salazar246@correo-ficticio.pe,JUNIN,1969-11-13
+CLI-01098,27257247,Maria Flores,maria.flores1098@correo-ficticio.pe,PIURA,1963-09-21
+CLI-01265,74850545,Hector Huaman,hector.huaman1265@correo-ficticio.pe,LAMBAYEQUE,1994-06-21
+CLI-00347,22525293,Jose Mendoza,jose.mendoza347@correo-ficticio.pe,ICA,1951-08-02
+CLI-00137,71496342,Jose Torres,jose.torres137@correo-ficticio.pe,PIURA,1964-04-11
+CLI-00030,28484701,Pedro Gutierrez,pedro.gutierrez30@correo-ficticio.pe,CUSCO,1988-02-29
+CLI-01962,42817542,Jose Salazar,jose.salazar1962@correo-ficticio.pe,AREQUIPA,1993-02-24
+CLI-01754,63013951,Carmen Quispe,carmen.quispe1754@correo-ficticio.pe,PUNO,1954-03-16
+CLI-01821,72592369,Rosa Castillo,ROSA.CASTILLO1821@CORREO-FICTICIO.PE,LIMA,2002-09-21
+CLI-00722,79518951,Rosa Garcia,rosa.garcia722@correo-ficticio.pe,LA LIBERTAD,1995-08-05
+CLI-01609,58083922,Carmen Paredes,CARMEN.PAREDES1609@CORREO-FICTICIO.PE,LORETO,1992-04-04
+CLI-00670,13644517,Elena Ramos,elena.ramos670@correo-ficticio.pe,CUSCO,1996-01-28
+CLI-01994,45785866,Pedro Paredes,pedro.paredes1994@correo-ficticio.pe,AREQUIPA,1992-10-11
+CLI-00784,11978721,Paola Rojas,PAOLA.ROJAS784@CORREO-FICTICIO.PE,AREQUIPA,1962-08-15
+CLI-00936,62608733,Gabriela Torres,gabriela.torres936@correo-ficticio.pe,ICA,1950-07-31
+CLI-01834,79063205,Raul Rojas,raul.rojas1834@correo-ficticio.pe,ICA,1982-07-02
+CLI-01424,34337385,Maria Cruz,maria.cruz1424@correo-ficticio.pe,PIURA,1955-11-27
+CLI-01984,10122748,Sofia Huaman,sofia.huaman1984@correo-ficticio.pe,LORETO,1972-04-21
+CLI-00680,73244059,Raul Paredes,raul.paredes680@correo-ficticio.pe,ICA,1963-09-09
+CLI-00717,48074887,Maria Garcia,maria.garcia717@correo-ficticio.pe,LIMA,1962-01-17
+CLI-01806,31880963,Valeria Vargas,valeria.vargas1806@correo-ficticio.pe,LA LIBERTAD,1959-04-24
+CLI-01404,24481801,Diego Vargas,diego.vargas1404@correo-ficticio.pe,LA LIBERTAD,1981-08-18
+CLI-01278,64234243,Carlos Rojas,carlos.rojas1278@correo-ficticio.pe,ICA,1990-08-12
+CLI-01460,22045173,Raul Mamani,raul.mamani1460@correo-ficticio.pe,CUSCO,1950-08-01
+CLI-01289,50356724,Raul Ramos,raul.ramos1289@correo-ficticio.pe,ica,1980-02-25
+CLI-01995,39058354,Victor Gutierrez,victor.gutierrez1995@correo-ficticio.pe,LIMA,1992-01-05
+CLI-00673,46637226,Ana Salazar,ana.salazar673@correo-ficticio.pe,PUNO,1974-08-07
+CLI-01304,65083806,Miguel Torres,miguel.torres1304@correo-ficticio.pe,JUNIN,1968-05-10
+CLI-01054,63218815,Paola Quispe,PAOLA.QUISPE1054@CORREO-FICTICIO.PE,LA LIBERTAD,1961-08-04
+CLI-00258,37481909,Victor Salazar,victor.salazar258@correo-ficticio.pe,ICA,1985-06-30
+CLI-01155,46989121,Victor Flores,victor.flores1155@correo-ficticio.pe,PIURA,1999-06-06
+CLI-00955,69415334,Gabriela Silva,gabriela.silva955@correo-ficticio.pe,LIMA,1972-06-29
+CLI-01036,57575029,Hector Castillo,hector.castillo1036@correo-ficticio.pe,LAMBAYEQUE,1956-04-10
+CLI-01199,17473802,Valeria Condori,valeria.condori1199@correo-ficticio.pe,LORETO,2005-11-18
+CLI-00891,65175542,Valeria Quispe,valeria.quispe891@correo-ficticio.pe,LAMBAYEQUE,1952-01-10
+CLI-00774,61560391,Elena Torres,elena.torres774@correo-ficticio.pe,PIURA,1981-06-20
+CLI-00899,59835254,Rosa Rios,rosa.rios899@correo-ficticio.pe,LORETO,1997-02-21
+CLI-01836,16162810,Sofia Silva,sofia.silva1836@correo-ficticio.pe,LAMBAYEQUE,1988-12-01
+CLI-00445,71760847,Carmen Flores,carmen.flores445@correo-ficticio.pe,AREQUIPA,1976-11-02
+CLI-01715,16910952,Elena Silva,elena.silva1715@correo-ficticio.pe,LAMBAYEQUE,1977-03-01
+CLI-01349,11879267,Victor Cruz,VICTOR.CRUZ1349@CORREO-FICTICIO.PE,LA LIBERTAD,1985-01-08
+CLI-01287,27119099,Carmen Flores,carmen.flores1287@correo-ficticio.pe,ICA,1952-05-17
+CLI-00132,42642841,Hector Gutierrez,hector.gutierrez132@correo-ficticio.pe,PUNO,1963-05-14
+CLI-00524,26591165,Lucia Condori,lucia.condori524@correo-ficticio.pe,AREQUIPA,1953-07-24
+CLI-01986,72887109,Carlos Silva,carlos.silva1986@correo-ficticio.pe,PUNO,1983-12-04
+CLI-00598,32645870,Rosa Mamani,rosa.mamani598@correo-ficticio.pe,lima,1963-10-27
+CLI-01505,76774417,Diego Arapa,diego.arapa1505@correo-ficticio.pe,PIURA,1987-03-04
+CLI-00821,67855163,Gabriela Ramos,gabriela.ramos821@correo-ficticio.pe,LIMA,1971-06-13
+CLI-00256,38742313,Victor Mamani,victor.mamani256@correo-ficticio.pe,LAMBAYEQUE,1955-11-27
+CLI-00340,48918281,Victor Garcia,victor.garcia340@correo-ficticio.pe,JUNIN,1975-05-05
+CLI-01205,31735664,Gabriela Rios,gabriela.rios1205@correo-ficticio.pe,LORETO,1962-08-25
+CLI-01527,14412910,Paola Silva,PAOLA.SILVA1527@CORREO-FICTICIO.PE,LORETO,1972-04-08
+CLI-00580,29226473,Diego Mamani,diego.mamani580@correo-ficticio.pe,LIMA,1961-06-26
+CLI-01620,33677415,Paola Paredes,paola.paredes1620@correo-ficticio.pe,ICA,1966-05-04
+CLI-00503,11116411,Hector Mamani,hector.mamani503@correo-ficticio.pe,LIMA,1997-11-03
+CLI-00465,55651413,Luis Gutierrez,luis.gutierrez465@correo-ficticio.pe,LAMBAYEQUE,2005-10-22
+CLI-01607,36389886,Maria Garcia,maria.garcia1607@correo-ficticio.pe,ICA,1968-06-10
+CLI-01757,22785779,Miguel Garcia,miguel.garcia1757@correo-ficticio.pe,LAMBAYEQUE,1960-08-10
+CLI-01794,16722247,Carmen Huaman,carmen.huaman1794@correo-ficticio.pe,PUNO,1967-04-03
+CLI-01397,12926975,Pedro Chavez,pedro.chavez1397@correo-ficticio.pe,CUSCO,1984-01-14
+CLI-00328,55735563,Jose Cruz,JOSE.CRUZ328@CORREO-FICTICIO.PE,ica,1994-02-09
+CLI-01252,37364336,Miguel Torres,miguel.torres1252@correo-ficticio.pe,ICA,1974-08-08
+CLI-00749,73998114,Elena Paredes,elena.paredes749@correo-ficticio.pe,LIMA,1970-10-06
+CLI-01136,36588376,Lucia Mendoza,lucia.mendoza1136@correo-ficticio.pe,LAMBAYEQUE,1961-05-04
+CLI-00578,64383965,Victor Arapa,victor.arapa578@correo-ficticio.pe,AREQUIPA,1978-02-22
+CLI-00840,59301758,Victor Ramos,VICTOR.RAMOS840@CORREO-FICTICIO.PE,AREQUIPA,1993-09-29
+CLI-01429,64910800,Sofia Torres,sofia.torres1429@correo-ficticio.pe,PUNO,1951-07-23
+CLI-01028,12497499,Lucia Castillo,lucia.castillo1028@correo-ficticio.pe,lambayeque,1985-06-14
+CLI-01327,66776271,Rosa Chavez,rosa.chavez1327@correo-ficticio.pe,LIMA,1959-04-20
+CLI-00194,27575479,Carmen Castillo,carmen.castillo194@correo-ficticio.pe,LIMA,1976-02-12
+CLI-00200,72507834,Luis Rios,luis.rios200@correo-ficticio.pe,LIMA,1953-07-18
+CLI-01020,13408875,Jose Chavez,jose.chavez1020@correo-ficticio.pe,LA LIBERTAD,1960-04-10
+CLI-01562,65527688,Carmen Quispe,carmen.quispe1562@correo-ficticio.pe,ICA,1966-01-25
+CLI-01201,54199903,Carlos Ramos,carlos.ramos1201@correo-ficticio.pe,PUNO,1979-05-19
+CLI-00526,66580341,Maria Condori,maria.condori526@correo-ficticio.pe,ICA,1973-12-22
+CLI-01165,32328581,Jose Quispe,jose.quispe1165@correo-ficticio.pe,PUNO,1953-05-26
+CLI-00949,55234799,Rosa Flores,rosa.flores949@correo-ficticio.pe,AREQUIPA,1976-01-03
+CLI-01716,56256650,Rosa Mamani,rosa.mamani1716@correo-ficticio.pe,ICA,1994-03-13
+CLI-00210,62020989,Jose Rojas,jose.rojas210@correo-ficticio.pe,ICA,1978-03-18
+CLI-00708,38910053,Miguel Condori,MIGUEL.CONDORI708@CORREO-FICTICIO.PE,piura,1967-06-26
+CLI-01603,40842057,Diego Flores,diego.flores1603@correo-ficticio.pe,LIMA,1968-11-04
+CLI-00872,47705663,Victor Rios,victor.rios872@correo-ficticio.pe,LIMA,1954-05-31
+CLI-01346,76363824,Carlos Cruz,carlos.cruz1346@correo-ficticio.pe,LAMBAYEQUE,1971-12-01
+CLI-00034,64761163,Raul Huaman,raul.huaman34@correo-ficticio.pe,CUSCO,1981-07-29
+CLI-00203,26274994,Raul Quispe,RAUL.QUISPE203@CORREO-FICTICIO.PE,ICA,1965-06-29
+CLI-01076,20122089,Hector Gutierrez,hector.gutierrez1076@correo-ficticio.pe,AREQUIPA,1999-01-22
+CLI-00376,68498150,Ana Torres,ana.torres376@correo-ficticio.pe,PIURA,1979-12-25
+CLI-00979,15111057,Hector Flores,hector.flores979@correo-ficticio.pe,LORETO,1955-07-08
+CLI-01184,75588960,Sofia Silva,sofia.silva1184@correo-ficticio.pe,AREQUIPA,1955-03-21
+CLI-01219,74963110,Ana Torres,ANA.TORRES1219@CORREO-FICTICIO.PE,AREQUIPA,1969-03-27
+CLI-01326,28120658,Victor Castillo,victor.castillo1326@correo-ficticio.pe,AREQUIPA,1973-08-02
+CLI-00305,28485245,Elena Rios,elena.rios305@correo-ficticio.pe,CUSCO,1978-12-28
+CLI-00973,57869961,Hector Torres,hector.torres973@correo-ficticio.pe,PUNO,1962-06-14
+CLI-00992,68110368,Raul Arapa,raul.arapa992@correo-ficticio.pe,LIMA,1992-12-07
+CLI-01083,61102642,Victor Mamani,victor.mamani1083@correo-ficticio.pe,ica,1960-08-30
+CLI-01801,35403395,Rosa Quispe,rosa.quispe1801@correo-ficticio.pe,PUNO,1983-07-23
+CLI-01556,37790301,Carmen Mendoza,carmen.mendoza1556@correo-ficticio.pe,ICA,1972-11-29
+CLI-01017,13405562,Hector Chavez,hector.chavez1017@correo-ficticio.pe,LA LIBERTAD,1987-08-12
+CLI-01642,24821962,Rosa Chavez,rosa.chavez1642@correo-ficticio.pe,LAMBAYEQUE,1963-10-26
+CLI-00704,78008408,Hector Huaman,hector.huaman704@correo-ficticio.pe,AREQUIPA,1997-06-06
+CLI-01811,14982405,Valeria Condori,valeria.condori1811@correo-ficticio.pe,AREQUIPA,1954-07-01
+CLI-00863,55934508,Valeria Mendoza,valeria.mendoza863@correo-ficticio.pe,PUNO,1965-06-22
+CLI-01493,66735698,Luis Huaman,luis.huaman1493@correo-ficticio.pe,LAMBAYEQUE,1968-06-06
+CLI-01653,28407494,Gabriela Castillo,gabriela.castillo1653@correo-ficticio.pe,LAMBAYEQUE,1950-03-28
+CLI-00291,54171411,Gabriela Castillo,gabriela.castillo291@correo-ficticio.pe,lima,1974-01-30
+CLI-00689,78331072,Rosa Ramos,rosa.ramos689@correo-ficticio.pe,LAMBAYEQUE,1970-08-08
+CLI-00538,53458216,Carmen Mamani,carmen.mamani538@correo-ficticio.pe,cusco,1977-01-18
+CLI-00244,64064458,Jorge Garcia,jorge.garcia244@correo-ficticio.pe,CUSCO,1997-06-04
+CLI-01038,14750824,Valeria Torres,valeria.torres1038@correo-ficticio.pe,PUNO,1962-05-03
+CLI-01964,51934936,Valeria Salazar,valeria.salazar1964@correo-ficticio.pe,LORETO,2000-03-30
+CLI-00315,18120415,Maria Gutierrez,maria.gutierrez315@correo-ficticio.pe,JUNIN,1997-09-06
+CLI-01233,65101035,Paola Rios,paola.rios1233@correo-ficticio.pe,LAMBAYEQUE,1988-01-12
+CLI-00727,31262261,Ana Rojas,ana.rojas727@correo-ficticio.pe,PIURA,1996-06-13
+CLI-01504,44905922,Raul Mendoza,raul.mendoza1504@correo-ficticio.pe,PIURA,1973-10-26
+CLI-00092,46330439,Victor Chavez,victor.chavez92@correo-ficticio.pe,PUNO,1979-03-24
+CLI-00561,24462065,Maria Chavez,maria.chavez561@correo-ficticio.pe,CUSCO,1963-12-12
+CLI-01321,63135241,Rosa Condori,ROSA.CONDORI1321@CORREO-FICTICIO.PE,la libertad,2002-02-03
+CLI-01277,29935858,Rosa Ramos,rosa.ramos1277@correo-ficticio.pe,LORETO,1978-05-04
+CLI-01509,72235237,Sofia Condori,SOFIA.CONDORI1509@CORREO-FICTICIO.PE,LORETO,1981-04-24
+CLI-01952,30104567,Lucia Garcia,lucia.garcia1952@correo-ficticio.pe,PIURA,1965-11-25
+CLI-01022,49501317,Pedro Mamani,pedro.mamani1022@correo-ficticio.pe,JUNIN,1954-01-20
+CLI-00737,26303326,Maria Rios,maria.rios737@correo-ficticio.pe,LAMBAYEQUE,2000-11-23
+CLI-00202,66730253,Maria Ramos,maria.ramos202@correo-ficticio.pe,PIURA,1969-02-22
+CLI-00735,40347854,Lucia Garcia,LUCIA.GARCIA735@CORREO-FICTICIO.PE,LORETO,2003-10-05
+CLI-00627,75831676,Elena Mendoza,elena.mendoza627@correo-ficticio.pe,LIMA,2004-01-01
+CLI-00685,41650029,Pedro Chavez,pedro.chavez685@correo-ficticio.pe,  Piura ,1983-12-29
+CLI-00874,51670116,Luis Paredes,luis.paredes874@correo-ficticio.pe,LAMBAYEQUE,1961-06-30
+CLI-01611,51484155,Elena Paredes,elena.paredes1611@correo-ficticio.pe,PUNO,1998-12-21
+CLI-00331,35637028,Pedro Gutierrez,pedro.gutierrez331@correo-ficticio.pe,AREQUIPA,1975-03-03
+CLI-00360,39221159,Jose Garcia,jose.garcia360@correo-ficticio.pe,PUNO,1963-01-16
+CLI-00239,58965598,Luis Silva,LUIS.SILVA239@CORREO-FICTICIO.PE,LIMA,1960-10-09
+CLI-01183,78409533,Pedro Garcia,pedro.garcia1183@correo-ficticio.pe,CUSCO,1971-08-18
+CLI-00835,71755168,Jorge Chavez,jorge.chavez835@correo-ficticio.pe,LAMBAYEQUE,1983-04-12
+CLI-01940,74869260,Gabriela Salazar,gabriela.salazar1940@correo-ficticio.pe,LAMBAYEQUE,1983-09-13
+CLI-01399,32272915,Lucia Salazar,lucia.salazar1399@correo-ficticio.pe,CUSCO,1992-02-13
+CLI-00528,48236546,Pedro Quispe,PEDRO.QUISPE528@CORREO-FICTICIO.PE,JUNIN,1997-07-20
+CLI-01904,33676214,Gabriela Garcia,gabriela.garcia1904@correo-ficticio.pe,PUNO,2005-07-07
+CLI-01709,11814198,Diego Condori,diego.condori1709@correo-ficticio.pe,LIMA,1967-10-25
+CLI-00032,65799328,Raul Paredes,raul.paredes32@correo-ficticio.pe,CUSCO,1993-03-31
+CLI-01461,44585558,Hector Quispe,hector.quispe1461@correo-ficticio.pe,PIURA,1990-03-03
+CLI-01578,33648123,Miguel Torres,miguel.torres1578@correo-ficticio.pe,LA LIBERTAD,1978-08-17
+CLI-01815,38840203,Carmen Mendoza,CARMEN.MENDOZA1815@CORREO-FICTICIO.PE,LA LIBERTAD,2000-05-30
+CLI-00421,27691817,Lucia Mamani,lucia.mamani421@correo-ficticio.pe,LIMA,1954-04-17
+CLI-00889,21389848,Maria Mendoza,maria.mendoza889@correo-ficticio.pe,CUSCO,1955-05-03
+CLI-00688,12895039,Miguel Flores,miguel.flores688@correo-ficticio.pe,LA LIBERTAD,2002-04-20
+CLI-01248,19579531,Lucia Chavez,lucia.chavez1248@correo-ficticio.pe,PIURA,1963-10-13
+CLI-00448,15810624,Jose Ramos,jose.ramos448@correo-ficticio.pe,LIMA,1951-02-01
+CLI-01385,70085079,Hector Ramos,hector.ramos1385@correo-ficticio.pe,LA LIBERTAD,1980-10-27
+CLI-00554,53403215,Maria Cruz,maria.cruz554@correo-ficticio.pe,AREQUIPA,1980-04-19
+CLI-01348,46720535,Ana Vargas,ana.vargas1348@correo-ficticio.pe,LAMBAYEQUE,1974-04-22
+CLI-00860,30746753,Jose Chavez,jose.chavez860@correo-ficticio.pe,AREQUIPA,1989-02-20
+CLI-00151,66543041,Lucia Quispe,lucia.quispe151@correo-ficticio.pe,LAMBAYEQUE,1982-09-04
+CLI-01443,33436949,Pedro Silva,PEDRO.SILVA1443@CORREO-FICTICIO.PE,CUSCO,1951-07-22
+CLI-00507,44781007,Sofia Arapa,sofia.arapa507@correo-ficticio.pe,LAMBAYEQUE,1983-07-08
+CLI-00089,52672583,Jose Paredes,jose.paredes89@correo-ficticio.pe,JUNIN,2000-06-04
+CLI-01389,23545492,Rosa Vargas,rosa.vargas1389@correo-ficticio.pe,PIURA,2002-04-29
+CLI-00156,22980601,Carmen Quispe,carmen.quispe156@correo-ficticio.pe,JUNIN,1991-05-09
+CLI-00702,59779770,Diego Condori,diego.condori702@correo-ficticio.pe,junin,1968-09-26
+CLI-00102,66797925,Gabriela Rios,gabriela.rios102@correo-ficticio.pe,JUNIN,1977-09-11
+CLI-01478,67338618,Hector Mamani,hector.mamani1478@correo-ficticio.pe,LAMBAYEQUE,1954-04-19
+CLI-01469,35948988,Maria Gutierrez,maria.gutierrez1469@correo-ficticio.pe,JUNIN,1985-10-29
+CLI-01792,17558377,Pedro Mamani,PEDRO.MAMANI1792@CORREO-FICTICIO.PE,AREQUIPA,1972-05-28
+CLI-01405,17243508,Raul Condori,raul.condori1405@correo-ficticio.pe,JUNIN,1974-11-22
+CLI-00221,70247790,Victor Paredes,victor.paredes221@correo-ficticio.pe,AREQUIPA,1985-11-13
+CLI-00254,25814284,Luis Mendoza,LUIS.MENDOZA254@CORREO-FICTICIO.PE,ICA,2003-12-08
+CLI-00844,11969879,Valeria Silva,valeria.silva844@correo-ficticio.pe,ICA,1963-01-03
+CLI-01037,35465054,Victor Flores,victor.flores1037@correo-ficticio.pe,LA LIBERTAD,1984-03-20
+CLI-00864,19900728,Lucia Rojas,lucia.rojas864@correo-ficticio.pe,PUNO,1973-12-30
+CLI-00124,14652402,Raul Gutierrez,raul.gutierrez124@correo-ficticio.pe,PIURA,1993-03-12
+CLI-00857,28225648,Pedro Mendoza,pedro.mendoza857@correo-ficticio.pe,ICA,1959-08-27
+CLI-00403,77813951,Raul Arapa,raul.arapa403@correo-ficticio.pe,LA LIBERTAD,1973-08-25
+CLI-01658,56674835,Hector Vargas,HECTOR.VARGAS1658@CORREO-FICTICIO.PE,puno,1974-11-09
+CLI-01518,65228001,Lucia Rojas,lucia.rojas1518@correo-ficticio.pe,PIURA,1955-08-19
+CLI-00417,63831572,Pedro Rojas,pedro.rojas417@correo-ficticio.pe,ICA,1978-01-04
+CLI-01673,49881878,Lucia Garcia,lucia.garcia1673@correo-ficticio.pe,PUNO,1961-12-10
+CLI-01898,28686640,Lucia Silva,LUCIA.SILVA1898@CORREO-FICTICIO.PE,JUNIN,1962-08-22
+CLI-01157,52641119,Gabriela Vargas,gabriela.vargas1157@correo-ficticio.pe,PUNO,1985-02-25
+CLI-00764,52877122,Carmen Mendoza,CARMEN.MENDOZA764@CORREO-FICTICIO.PE,arequipa,1957-03-09
+CLI-01889,74130863,Paola Garcia,PAOLA.GARCIA1889@CORREO-FICTICIO.PE,cusco,1962-07-26
+CLI-00548,51942127,Maria Rios,maria.rios548@correo-ficticio.pe,  La Libertad ,1969-02-25
+CLI-00669,29266468,Carlos Rojas,carlos.rojas669@correo-ficticio.pe,LIMA,1989-02-22
+CLI-00905,42311879,Miguel Castillo,miguel.castillo905@correo-ficticio.pe,JUNIN,1958-05-12
+CLI-01961,39611605,Valeria Flores,valeria.flores1961@correo-ficticio.pe,LORETO,1951-10-08
+CLI-01813,31246315,Sofia Rios,SOFIA.RIOS1813@CORREO-FICTICIO.PE,LORETO,1969-09-10
+CLI-00502,47824782,Maria Paredes,MARIA.PAREDES502@CORREO-FICTICIO.PE,JUNIN,1997-09-06
+CLI-01613,46891734,Sofia Paredes,sofia.paredes1613@correo-ficticio.pe,LAMBAYEQUE,1986-03-09
+CLI-01818,48662202,Valeria Condori,valeria.condori1818@correo-ficticio.pe,LA LIBERTAD,1967-01-14
+CLI-01549,36947381,Ana Paredes,ana.paredes1549@correo-ficticio.pe,PIURA,1962-07-13
+CLI-00047,67011675,Carmen Quispe,carmen.quispe47@correo-ficticio.pe,JUNIN,1983-11-03
+CLI-00264,62892909,Luis Castillo,luis.castillo264@correo-ficticio.pe,puno,1987-01-22
+CLI-01877,57107464,Raul Huaman,raul.huaman1877@correo-ficticio.pe,LIMA,1956-02-03
+CLI-01089,76038238,Carmen Rojas,carmen.rojas1089@correo-ficticio.pe,CUSCO,1982-07-10
+CLI-00868,42544856,Gabriela Mendoza,gabriela.mendoza868@correo-ficticio.pe,LA LIBERTAD,1987-07-25
+CLI-00755,52727690,Paola Arapa,paola.arapa755@correo-ficticio.pe,AREQUIPA,1961-11-26
+CLI-00451,48044258,Hector Condori,hector.condori451@correo-ficticio.pe,LIMA,1962-09-12
+CLI-01411,49846945,Lucia Flores,lucia.flores1411@correo-ficticio.pe,PUNO,1953-07-04
+CLI-00914,40905814,Carlos Condori,carlos.condori914@correo-ficticio.pe,LAMBAYEQUE,1997-10-20
+CLI-01176,15184101,Paola Flores,paola.flores1176@correo-ficticio.pe,JUNIN,1991-07-19
+CLI-00518,45666257,Victor Ramos,victor.ramos518@correo-ficticio.pe,loreto,1965-07-31
+CLI-00942,28819482,Paola Ramos,paola.ramos942@correo-ficticio.pe,JUNIN,1950-05-16
+CLI-01646,47590158,Jose Condori,jose.condori1646@correo-ficticio.pe,JUNIN,1988-01-11
+CLI-00344,55546940,Rosa Salazar,rosa.salazar344@correo-ficticio.pe,JUNIN,2004-12-02
+CLI-00650,73746363,Raul Arapa,raul.arapa650@correo-ficticio.pe,CUSCO,1978-08-24
+CLI-01180,62119175,Gabriela Salazar,gabriela.salazar1180@correo-ficticio.pe,PUNO,1958-06-01
+CLI-00470,21957782,Sofia Huaman,sofia.huaman470@correo-ficticio.pe,LIMA,1988-03-30
+CLI-00591,59710959,Miguel Mendoza,miguel.mendoza591@correo-ficticio.pe,LAMBAYEQUE,1991-07-03
+CLI-00330,61695060,Luis Garcia,luis.garcia330@correo-ficticio.pe,LORETO,2004-11-03
+CLI-00071,61221192,Elena Rios,elena.rios71@correo-ficticio.pe,PUNO,1961-06-12
+CLI-00695,14702668,Paola Rojas,paola.rojas695@correo-ficticio.pe,LORETO,1952-03-20
+CLI-01987,26262285,Carlos Gutierrez,carlos.gutierrez1987@correo-ficticio.pe,LIMA,1996-01-11
+CLI-01682,28740703,Jose Vargas,jose.vargas1682@correo-ficticio.pe,JUNIN,1961-12-09
+CLI-01455,31523242,Jorge Arapa,jorge.arapa1455@correo-ficticio.pe,AREQUIPA,1994-07-16
+CLI-01939,35542011,Ana Vargas,ana.vargas1939@correo-ficticio.pe,LIMA,1996-06-30
+CLI-01472,57668796,Gabriela Ramos,gabriela.ramos1472@correo-ficticio.pe,LORETO,1977-03-02
+CLI-00001,77446522,Maria Huaman,maria.huaman1@correo-ficticio.pe,AREQUIPA,2003-12-03
+CLI-00542,16628239,Victor Mendoza,victor.mendoza542@correo-ficticio.pe,CUSCO,1963-02-21
+CLI-01679,33267300,Valeria Huaman,valeria.huaman1679@correo-ficticio.pe,JUNIN,1970-12-07
+CLI-01024,50337770,Ana Rojas,ANA.ROJAS1024@CORREO-FICTICIO.PE,PIURA,1967-02-04
+CLI-00475,75982749,Rosa Chavez,rosa.chavez475@correo-ficticio.pe,LORETO,1956-10-01
+CLI-01938,60900253,Pedro Quispe,pedro.quispe1938@correo-ficticio.pe,ICA,1986-01-09
+CLI-00700,43845872,Victor Rojas,victor.rojas700@correo-ficticio.pe,ICA,2005-09-21
+CLI-01139,19969649,Miguel Huaman,MIGUEL.HUAMAN1139@CORREO-FICTICIO.PE,LA LIBERTAD,1984-08-30
+CLI-01006,39212616,Sofia Arapa,sofia.arapa1006@correo-ficticio.pe,PUNO,1970-02-26
+CLI-01544,50286946,Carmen Mendoza,carmen.mendoza1544@correo-ficticio.pe,JUNIN,1990-03-08
+CLI-01981,13798284,Raul Ramos,raul.ramos1981@correo-ficticio.pe,LORETO,2000-09-13
+CLI-01353,78712687,Victor Condori,victor.condori1353@correo-ficticio.pe,AREQUIPA,1968-11-11
+CLI-00893,65520309,Pedro Quispe,pedro.quispe893@correo-ficticio.pe,  Ica ,2004-12-25
+CLI-00094,18197733,Jorge Mamani,jorge.mamani94@correo-ficticio.pe,LIMA,1976-11-08
+CLI-00062,74426133,Pedro Quispe,pedro.quispe62@correo-ficticio.pe,JUNIN,1998-03-18
+CLI-01434,26325196,Hector Arapa,hector.arapa1434@correo-ficticio.pe,PIURA,1952-05-28
+CLI-00881,66344439,Rosa Cruz,rosa.cruz881@correo-ficticio.pe,PIURA,1959-01-27
+CLI-00812,40801944,Maria Quispe,maria.quispe812@correo-ficticio.pe,LORETO,1978-05-14
+CLI-00966,38866641,Hector Rojas,HECTOR.ROJAS966@CORREO-FICTICIO.PE,AREQUIPA,1963-03-28
+CLI-01049,56339991,Carlos Torres,carlos.torres1049@correo-ficticio.pe,PUNO,2000-01-16
+CLI-01583,54387905,Sofia Vargas,SOFIA.VARGAS1583@CORREO-FICTICIO.PE,ICA,1983-12-23
+CLI-00668,77345403,Elena Salazar,elena.salazar668@correo-ficticio.pe,cusco,1951-03-08
+CLI-00656,51550977,Ana Chavez,ana.chavez656@correo-ficticio.pe,LORETO,1988-08-13
+CLI-00251,64547972,Valeria Arapa,valeria.arapa251@correo-ficticio.pe,LIMA,1979-02-20
+CLI-01473,28242709,Valeria Huaman,valeria.huaman1473@correo-ficticio.pe,LA LIBERTAD,1998-11-28
+CLI-01361,46873785,Rosa Torres,rosa.torres1361@correo-ficticio.pe,PIURA,1972-09-22
+CLI-00803,76097577,Carmen Chavez,carmen.chavez803@correo-ficticio.pe,AREQUIPA,1974-08-22
+CLI-00469,60783503,Sofia Cruz,sofia.cruz469@correo-ficticio.pe,LIMA,1962-12-21
+CLI-01912,52786362,Jose Huaman,jose.huaman1912@correo-ficticio.pe,PUNO,1995-05-16
+CLI-01844,44191566,Luis Mamani,luis.mamani1844@correo-ficticio.pe,LORETO,1964-02-23
+CLI-01164,54207365,Diego Rojas,DIEGO.ROJAS1164@CORREO-FICTICIO.PE,LORETO,1981-05-26
+CLI-00530,20788977,Sofia Chavez,sofia.chavez530@correo-ficticio.pe,CUSCO,1993-04-02
+CLI-00571,37214599,Miguel Chavez,miguel.chavez571@correo-ficticio.pe,LORETO,1969-12-03
+CLI-01485,37415437,Pedro Mendoza,pedro.mendoza1485@correo-ficticio.pe,LORETO,1973-06-06
+CLI-00805,35435211,Victor Salazar,victor.salazar805@correo-ficticio.pe,ICA,1985-08-14
+CLI-00236,30327749,Sofia Salazar,sofia.salazar236@correo-ficticio.pe,CUSCO,2004-11-18
+CLI-00892,54398641,Carmen Quispe,carmen.quispe892@correo-ficticio.pe,LAMBAYEQUE,1976-09-01
+CLI-00293,41957458,Maria Chavez,MARIA.CHAVEZ293@CORREO-FICTICIO.PE,JUNIN,1973-02-17
+CLI-00242,58919080,Diego Condori,diego.condori242@correo-ficticio.pe,LAMBAYEQUE,1967-06-17
+CLI-01614,37677444,Sofia Rojas,sofia.rojas1614@correo-ficticio.pe,LORETO,1967-11-18
+CLI-01985,15564427,Rosa Ramos,rosa.ramos1985@correo-ficticio.pe,ICA,1958-04-10
+CLI-00277,47114323,Diego Mamani,diego.mamani277@correo-ficticio.pe,  Piura ,1991-11-24
+CLI-01500,12425869,Paola Flores,paola.flores1500@correo-ficticio.pe,  Puno ,1950-01-15
+CLI-00952,49206954,Gabriela Silva,GABRIELA.SILVA952@CORREO-FICTICIO.PE,ICA,1966-05-24
+CLI-00570,41144929,Gabriela Rios,gabriela.rios570@correo-ficticio.pe,LA LIBERTAD,1972-11-05
+CLI-01465,17536713,Pedro Garcia,pedro.garcia1465@correo-ficticio.pe,JUNIN,1958-03-10
+CLI-01512,22401051,Jorge Flores,jorge.flores1512@correo-ficticio.pe,CUSCO,1962-02-08
+CLI-01459,64511356,Sofia Gutierrez,sofia.gutierrez1459@correo-ficticio.pe,LAMBAYEQUE,1973-09-15
+CLI-00167,65486797,Raul Castillo,raul.castillo167@correo-ficticio.pe,LA LIBERTAD,2002-12-25
+CLI-00473,27881786,Pedro Castillo,pedro.castillo473@correo-ficticio.pe,JUNIN,1982-07-23
+CLI-00924,55393398,Miguel Garcia,miguel.garcia924@correo-ficticio.pe,AREQUIPA,2003-11-22
+CLI-01501,47337359,Raul Paredes,raul.paredes1501@correo-ficticio.pe,PIURA,1995-12-23
+CLI-01474,69902519,Maria Paredes,maria.paredes1474@correo-ficticio.pe,ICA,1962-12-25
+CLI-00231,24253873,Hector Silva,hector.silva231@correo-ficticio.pe,PUNO,1986-02-13
+CLI-01448,31137165,Sofia Condori,sofia.condori1448@correo-ficticio.pe,LAMBAYEQUE,1977-12-21
+CLI-01470,47320494,Pedro Ramos,pedro.ramos1470@correo-ficticio.pe,CUSCO,1994-09-18
+CLI-01072,11922848,Ana Quispe,ana.quispe1072@correo-ficticio.pe,LA LIBERTAD,1992-04-20
+CLI-00746,56477846,Pedro Mamani,pedro.mamani746@correo-ficticio.pe,AREQUIPA,1973-03-26
+CLI-01880,30610105,Jorge Quispe,jorge.quispe1880@correo-ficticio.pe,JUNIN,1978-05-19
+CLI-00638,27932993,Sofia Cruz,SOFIA.CRUZ638@CORREO-FICTICIO.PE,PUNO,1994-09-27
+CLI-00798,60108865,Valeria Mamani,valeria.mamani798@correo-ficticio.pe,PIURA,2004-10-18
+CLI-01840,24899106,Ana Torres,ana.torres1840@correo-ficticio.pe,JUNIN,1960-12-01
+CLI-01144,33978262,Ana Castillo,ana.castillo1144@correo-ficticio.pe,AREQUIPA,1951-12-29
+CLI-00218,75705310,Luis Quispe,LUIS.QUISPE218@CORREO-FICTICIO.PE,LIMA,1959-09-17
+CLI-01082,43965775,Carmen Arapa,carmen.arapa1082@correo-ficticio.pe,JUNIN,1999-10-21
+CLI-01091,32260736,Raul Ramos,raul.ramos1091@correo-ficticio.pe,LIMA,1957-09-05
+CLI-00859,66570770,Pedro Mendoza,pedro.mendoza859@correo-ficticio.pe,CUSCO,1970-08-11
+CLI-01736,32114993,Sofia Torres,sofia.torres1736@correo-ficticio.pe,LORETO,1978-05-28
+CLI-00861,29564462,Elena Paredes,elena.paredes861@correo-ficticio.pe,PIURA,1990-02-17
+CLI-01021,38666968,Luis Mamani,luis.mamani1021@correo-ficticio.pe,AREQUIPA,1950-01-20
+CLI-00832,41381095,Sofia Condori,sofia.condori832@correo-ficticio.pe,JUNIN,1986-03-18
+CLI-01809,17251587,Luis Huaman,luis.huaman1809@correo-ficticio.pe,CUSCO,1955-05-18
+CLI-00989,27029467,Rosa Silva,rosa.silva989@correo-ficticio.pe,AREQUIPA,1979-06-08
+CLI-00910,19282225,Elena Castillo,elena.castillo910@correo-ficticio.pe,AREQUIPA,1982-06-18
+CLI-01127,70382628,Carmen Paredes,carmen.paredes1127@correo-ficticio.pe,PUNO,1971-02-07
+CLI-00125,22225844,Ana Castillo,ana.castillo125@correo-ficticio.pe,AREQUIPA,1950-08-28
+CLI-00826,21790948,Hector Garcia,HECTOR.GARCIA826@CORREO-FICTICIO.PE,JUNIN,1981-02-19
+CLI-01663,77206209,Raul Flores,raul.flores1663@correo-ficticio.pe,LA LIBERTAD,1998-10-20
+CLI-00866,51280708,Raul Silva,raul.silva866@correo-ficticio.pe,LIMA,1996-10-13
+CLI-01468,42701225,Victor Rios,victor.rios1468@correo-ficticio.pe,ICA,1986-12-20
+CLI-01808,54264362,Diego Paredes,diego.paredes1808@correo-ficticio.pe,LIMA,1958-09-12
+CLI-00525,57759855,Valeria Flores,valeria.flores525@correo-ficticio.pe,LA LIBERTAD,1993-07-08
+CLI-01949,71915917,Maria Cruz,maria.cruz1949@correo-ficticio.pe,CUSCO,1962-10-29
+CLI-01499,55870258,Sofia Gutierrez,sofia.gutierrez1499@correo-ficticio.pe,AREQUIPA,1986-12-04
+CLI-00210,62020989,Jose Rojas,jose.rojas210@correo-ficticio.pe,ICA,1978-03-18
+CLI-00684,21975149,Carmen Torres,carmen.torres684@correo-ficticio.pe,ica,1999-06-22
+CLI-01019,61192970,Maria Garcia,maria.garcia1019@correo-ficticio.pe,LA LIBERTAD,1989-09-14
+CLI-01918,23972161,Rosa Castillo,rosa.castillo1918@correo-ficticio.pe,AREQUIPA,1983-12-10
+CLI-00257,27727371,Lucia Mendoza,lucia.mendoza257@correo-ficticio.pe,CUSCO,1969-05-22
+CLI-01738,57309981,Elena Mamani,elena.mamani1738@correo-ficticio.pe,LORETO,1997-03-06
+CLI-00663,43944973,Paola Mamani,paola.mamani663@correo-ficticio.pe,LAMBAYEQUE,1988-11-30
+CLI-01599,74647095,Pedro Gutierrez,pedro.gutierrez1599@correo-ficticio.pe,PIURA,1971-06-17
+CLI-01359,69818763,Elena Vargas,elena.vargas1359@correo-ficticio.pe,PUNO,1998-02-27
+CLI-00991,70977209,Lucia Castillo,lucia.castillo991@correo-ficticio.pe,LAMBAYEQUE,1981-04-22
+CLI-00262,69671446,Carmen Vargas,carmen.vargas262@correo-ficticio.pe,LIMA,1991-11-25
+CLI-00308,48470872,Luis Rios,luis.rios308@correo-ficticio.pe,LAMBAYEQUE,1998-07-07
+CLI-00054,47012142,Elena Ramos,elena.ramos54@correo-ficticio.pe,PIURA,1991-03-16
+CLI-01946,21710641,Victor Torres,victor.torres1946@correo-ficticio.pe,AREQUIPA,1967-05-20
+CLI-01638,17740999,Carmen Garcia,carmen.garcia1638@correo-ficticio.pe,LAMBAYEQUE,1981-07-05
+CLI-01876,49159145,Paola Ramos,paola.ramos1876@correo-ficticio.pe,LAMBAYEQUE,1965-02-13
+CLI-01740,26158739,Miguel Gutierrez,miguel.gutierrez1740@correo-ficticio.pe,JUNIN,1964-05-08
+CLI-01552,41622194,Maria Flores,maria.flores1552@correo-ficticio.pe,PIURA,1994-12-31
+CLI-00865,30934921,Rosa Vargas,rosa.vargas865@correo-ficticio.pe,ICA,1970-02-04
+CLI-00783,49061057,Sofia Torres,SOFIA.TORRES783@CORREO-FICTICIO.PE,ICA,1986-05-23
+CLI-01520,10750796,Miguel Vargas,miguel.vargas1520@correo-ficticio.pe,AREQUIPA,1999-01-17
+CLI-00012,77363825,Carmen Arapa,carmen.arapa12@correo-ficticio.pe,LAMBAYEQUE,1976-05-30
+CLI-01316,24137023,Sofia Mendoza,sofia.mendoza1316@correo-ficticio.pe,AREQUIPA,1959-09-07
+CLI-01088,75958061,Paola Huaman,paola.huaman1088@correo-ficticio.pe,LA LIBERTAD,1972-06-08
+CLI-00804,28688039,Hector Mendoza,hector.mendoza804@correo-ficticio.pe,LORETO,1961-12-10
+CLI-00419,34568093,Rosa Rojas,rosa.rojas419@correo-ficticio.pe,LIMA,1984-05-29
+CLI-01645,45112087,Paola Condori,paola.condori1645@correo-ficticio.pe,CUSCO,1959-10-19
+CLI-00593,40089528,Ana Mamani,ana.mamani593@correo-ficticio.pe,JUNIN,1998-12-09
+CLI-01935,30073436,Miguel Salazar,miguel.salazar1935@correo-ficticio.pe,PUNO,1960-11-12
+CLI-00341,53791439,Carmen Rojas,carmen.rojas341@correo-ficticio.pe,LAMBAYEQUE,1992-04-16
+CLI-00843,60191767,Elena Mendoza,ELENA.MENDOZA843@CORREO-FICTICIO.PE,LAMBAYEQUE,1981-10-11
+CLI-01246,40760056,Carlos Flores,carlos.flores1246@correo-ficticio.pe,LAMBAYEQUE,1956-10-08
+CLI-00019,43264201,Valeria Chavez,valeria.chavez19@correo-ficticio.pe,LIMA,1974-02-03
+CLI-01228,56103586,Gabriela Ramos,gabriela.ramos1228@correo-ficticio.pe,LORETO,1980-03-12
+CLI-00918,26239054,Pedro Flores,pedro.flores918@correo-ficticio.pe,CUSCO,1975-11-17
+CLI-00630,71834424,Rosa Paredes,rosa.paredes630@correo-ficticio.pe,LORETO,1970-02-03
+CLI-01457,53353101,Gabriela Huaman,gabriela.huaman1457@correo-ficticio.pe,JUNIN,1968-04-27
+CLI-01454,43488302,Lucia Castillo,lucia.castillo1454@correo-ficticio.pe,LIMA,1969-01-24
+CLI-00815,40603089,Victor Paredes,victor.paredes815@correo-ficticio.pe,PUNO,1953-04-19
+CLI-00820,69260557,Raul Quispe,raul.quispe820@correo-ficticio.pe,cusco,1987-03-08
+CLI-00840,59301758,Victor Ramos,VICTOR.RAMOS840@CORREO-FICTICIO.PE,AREQUIPA,1993-09-29
+CLI-01996,76206742,Diego Castillo,diego.castillo1996@correo-ficticio.pe,ICA,1979-06-14
+CLI-01771,43644685,Rosa Cruz,rosa.cruz1771@correo-ficticio.pe,LORETO,1961-03-19
+CLI-00338,37564869,Rosa Castillo,rosa.castillo338@correo-ficticio.pe,LA LIBERTAD,1967-08-30
+CLI-01308,24102301,Rosa Mamani,rosa.mamani1308@correo-ficticio.pe,LIMA,1982-06-15
+CLI-00312,20072959,Carmen Vargas,carmen.vargas312@correo-ficticio.pe,AREQUIPA,1970-09-06
+CLI-01982,47246182,Paola Cruz,paola.cruz1982@correo-ficticio.pe,ICA,1988-10-06
+CLI-01652,44154786,Diego Salazar,diego.salazar1652@correo-ficticio.pe,PUNO,1972-10-16
+CLI-01222,22220246,Carlos Condori,carlos.condori1222@correo-ficticio.pe,ICA,2001-06-26
+CLI-00217,17344705,Luis Rojas,luis.rojas217@correo-ficticio.pe,LIMA,1961-10-04
+CLI-01706,54294538,Sofia Vargas,sofia.vargas1706@correo-ficticio.pe,CUSCO,1989-10-01
+CLI-01585,55843143,Carmen Rojas,carmen.rojas1585@correo-ficticio.pe,PIURA,1984-08-11
+CLI-01924,49338994,Raul Rios,raul.rios1924@correo-ficticio.pe,PUNO,1967-03-26
+CLI-01926,65562514,Maria Cruz,maria.cruz1926@correo-ficticio.pe,CUSCO,1975-01-16
+CLI-00876,45075496,Gabriela Rios,gabriela.rios876@correo-ficticio.pe,JUNIN,1955-11-05
+CLI-01267,54145218,Victor Torres,VICTOR.TORRES1267@CORREO-FICTICIO.PE,PUNO,1991-05-25
+CLI-01256,22279556,Diego Rojas,diego.rojas1256@correo-ficticio.pe,LIMA,1968-08-19
+CLI-00278,67043950,Raul Vargas,raul.vargas278@correo-ficticio.pe,LAMBAYEQUE,1964-11-09
+CLI-00479,54657514,Pedro Silva,pedro.silva479@correo-ficticio.pe,ICA,1967-08-05
+CLI-01799,25193419,Raul Flores,raul.flores1799@correo-ficticio.pe,LAMBAYEQUE,1971-05-30
+CLI-01108,68704407,Victor Rios,VICTOR.RIOS1108@CORREO-FICTICIO.PE,LAMBAYEQUE,1986-12-20
+CLI-00582,21684349,Hector Mendoza,HECTOR.MENDOZA582@CORREO-FICTICIO.PE,ICA,1971-12-23
+CLI-00817,43254931,Victor Castillo,victor.castillo817@correo-ficticio.pe,CUSCO,1979-02-26
+CLI-00611,59316559,Pedro Cruz,pedro.cruz611@correo-ficticio.pe,PUNO,2001-11-18
+CLI-00815,40603089,Victor Paredes,victor.paredes815@correo-ficticio.pe,PUNO,1953-04-19
+CLI-01121,59203424,Hector Flores,hector.flores1121@correo-ficticio.pe,PIURA,1984-01-19
+CLI-01951,20755402,Elena Huaman,elena.huaman1951@correo-ficticio.pe,AREQUIPA,1989-02-10
+CLI-00253,57085028,Jorge Torres,JORGE.TORRES253@CORREO-FICTICIO.PE,AREQUIPA,1964-03-16
+CLI-01008,48331563,Maria Chavez,maria.chavez1008@correo-ficticio.pe,CUSCO,1966-01-09
+CLI-00618,76709288,Carmen Flores,carmen.flores618@correo-ficticio.pe,AREQUIPA,1993-08-19
+CLI-01636,54918672,Elena Huaman,elena.huaman1636@correo-ficticio.pe,JUNIN,1968-03-30
+CLI-00197,39377581,Jose Arapa,JOSE.ARAPA197@CORREO-FICTICIO.PE,LORETO,1993-11-01
+CLI-01214,43641331,Lucia Flores,lucia.flores1214@correo-ficticio.pe,ICA,1962-12-25
+CLI-01745,23549878,Valeria Garcia,valeria.garcia1745@correo-ficticio.pe,piura,1988-06-25
+CLI-01546,57440593,Victor Huaman,victor.huaman1546@correo-ficticio.pe,LIMA,2005-04-28
+CLI-00622,44749361,Jorge Rios,jorge.rios622@correo-ficticio.pe,ICA,1991-06-28
+CLI-00435,19829658,Sofia Garcia,sofia.garcia435@correo-ficticio.pe,AREQUIPA,1960-05-11
+CLI-00015,14512393,Sofia Arapa,sofia.arapa15@correo-ficticio.pe,JUNIN,1958-10-29
+CLI-00136,34110837,Carmen Silva,carmen.silva136@correo-ficticio.pe,ica,1952-07-24
+CLI-01867,31540202,Jorge Quispe,JORGE.QUISPE1867@CORREO-FICTICIO.PE,LA LIBERTAD,1999-03-12
+CLI-00808,67673387,Raul Chavez,RAUL.CHAVEZ808@CORREO-FICTICIO.PE,PIURA,2002-04-14
+CLI-00773,11925784,Maria Castillo,maria.castillo773@correo-ficticio.pe,PIURA,1961-05-02
+CLI-00058,12463223,Jorge Garcia,jorge.garcia58@correo-ficticio.pe,LORETO,1954-01-02
+CLI-00052,17550517,Victor Huaman,victor.huaman52@correo-ficticio.pe,LIMA,1971-10-14
+CLI-01013,30926709,Paola Gutierrez,paola.gutierrez1013@correo-ficticio.pe,ICA,1964-05-08
+CLI-01125,67499445,Ana Huaman,ana.huaman1125@correo-ficticio.pe,PUNO,1962-12-01
+CLI-00612,29928905,Paola Quispe,paola.quispe612@correo-ficticio.pe,CUSCO,1957-09-26
+CLI-01699,67557189,Pedro Flores,pedro.flores1699@correo-ficticio.pe,LIMA,1985-04-20
+CLI-00106,73964741,Diego Quispe,diego.quispe106@correo-ficticio.pe,LA LIBERTAD,1993-10-18
+CLI-01438,43028118,Lucia Huaman,lucia.huaman1438@correo-ficticio.pe,LIMA,1953-08-30
+CLI-01012,15485669,Elena Flores,elena.flores1012@correo-ficticio.pe,LA LIBERTAD,2001-08-01
+CLI-00975,27952974,Paola Cruz,paola.cruz975@correo-ficticio.pe,AREQUIPA,1985-09-13
+CLI-01392,29515019,Miguel Ramos,miguel.ramos1392@correo-ficticio.pe,LIMA,1965-09-15
+CLI-00560,54513947,Paola Quispe,PAOLA.QUISPE560@CORREO-FICTICIO.PE,LAMBAYEQUE,1950-01-04
+CLI-00568,47370152,Diego Ramos,diego.ramos568@correo-ficticio.pe,LA LIBERTAD,1960-11-28
+CLI-00761,50604110,Maria Chavez,maria.chavez761@correo-ficticio.pe,CUSCO,1992-03-30
+CLI-01597,22999843,Lucia Condori,lucia.condori1597@correo-ficticio.pe,LIMA,1970-02-07
+CLI-00299,18894013,Valeria Torres,valeria.torres299@correo-ficticio.pe,ICA,1955-04-21
+CLI-00104,31215328,Carlos Mendoza,carlos.mendoza104@correo-ficticio.pe,PIURA,1966-12-25
+CLI-01153,50220839,Raul Salazar,raul.salazar1153@correo-ficticio.pe,JUNIN,1969-02-20
+CLI-00931,10753250,Carlos Torres,carlos.torres931@correo-ficticio.pe,AREQUIPA,1973-10-31
+CLI-01192,44643694,Rosa Arapa,rosa.arapa1192@correo-ficticio.pe,arequipa,1991-10-22
+CLI-01126,60931978,Paola Paredes,paola.paredes1126@correo-ficticio.pe,PUNO,1986-11-21
+CLI-01979,66884828,Elena Cruz,elena.cruz1979@correo-ficticio.pe,ICA,2002-07-12
+CLI-01061,75984610,Rosa Paredes,ROSA.PAREDES1061@CORREO-FICTICIO.PE,CUSCO,1960-04-04
+CLI-01440,60418190,Lucia Huaman,lucia.huaman1440@correo-ficticio.pe,piura,1956-01-04
+CLI-01367,57291061,Jose Rojas,jose.rojas1367@correo-ficticio.pe,puno,1993-07-13
+CLI-00081,54289631,Maria Mamani,maria.mamani81@correo-ficticio.pe,PUNO,1965-04-28
+CLI-00799,73746027,Elena Silva,elena.silva799@correo-ficticio.pe,PIURA,1999-10-23
+CLI-00223,42927294,Rosa Quispe,rosa.quispe223@correo-ficticio.pe,lima,1977-05-26
+CLI-01060,73901359,Maria Huaman,maria.huaman1060@correo-ficticio.pe,PIURA,2002-08-18
+CLI-01306,39146158,Carlos Vargas,carlos.vargas1306@correo-ficticio.pe,PIURA,1970-08-13
+CLI-00624,53221662,Jorge Arapa,jorge.arapa624@correo-ficticio.pe,PUNO,2004-11-19
+CLI-01888,49361179,Rosa Huaman,rosa.huaman1888@correo-ficticio.pe,LA LIBERTAD,2002-01-03
+CLI-01064,39779425,Ana Garcia,ana.garcia1064@correo-ficticio.pe,JUNIN,1969-08-08
+CLI-01634,46374912,Raul Chavez,raul.chavez1634@correo-ficticio.pe,CUSCO,2002-03-07
+CLI-01301,32059617,Rosa Rios,rosa.rios1301@correo-ficticio.pe,ICA,1972-08-25
+CLI-00301,40906116,Lucia Paredes,lucia.paredes301@correo-ficticio.pe,LAMBAYEQUE,1989-11-22
+CLI-00649,70456355,Ana Gutierrez,ana.gutierrez649@correo-ficticio.pe,LIMA,1951-06-11
+CLI-01147,78935414,Diego Rojas,diego.rojas1147@correo-ficticio.pe,PIURA,1954-11-10
+CLI-01216,37704097,Paola Huaman,paola.huaman1216@correo-ficticio.pe,piura,1968-12-27
+CLI-01394,25107177,Rosa Chavez,rosa.chavez1394@correo-ficticio.pe,PUNO,1962-02-03
+CLI-01559,20628056,Miguel Quispe,miguel.quispe1559@correo-ficticio.pe,LA LIBERTAD,1992-05-23
+CLI-01170,51386651,Maria Salazar,MARIA.SALAZAR1170@CORREO-FICTICIO.PE,ICA,1987-06-09
+CLI-00369,56626382,Victor Gutierrez,victor.gutierrez369@correo-ficticio.pe,LORETO,1996-08-03
+CLI-01293,73987563,Rosa Condori,rosa.condori1293@correo-ficticio.pe,LIMA,2000-02-23
+CLI-01806,31880963,Valeria Vargas,valeria.vargas1806@correo-ficticio.pe,LA LIBERTAD,1959-04-24
+CLI-00114,53252188,Paola Ramos,paola.ramos114@correo-ficticio.pe,PUNO,1985-11-21
+CLI-00414,37553165,Ana Silva,ANA.SILVA414@CORREO-FICTICIO.PE,JUNIN,1994-10-18
+CLI-01908,79070227,Sofia Mamani,sofia.mamani1908@correo-ficticio.pe,CUSCO,1979-06-05
+CLI-01335,15896901,Valeria Cruz,valeria.cruz1335@correo-ficticio.pe,PUNO,1974-08-18
+CLI-00956,17346520,Diego Mendoza,diego.mendoza956@correo-ficticio.pe,LAMBAYEQUE,1992-12-08
+CLI-00057,33162324,Sofia Flores,SOFIA.FLORES57@CORREO-FICTICIO.PE,JUNIN,1973-10-11
+CLI-00839,14891858,Ana Paredes,ana.paredes839@correo-ficticio.pe,PUNO,1960-06-20
+CLI-01273,14563726,Miguel Silva,miguel.silva1273@correo-ficticio.pe,ICA,1966-07-12
+CLI-01207,30201130,Jose Mendoza,jose.mendoza1207@correo-ficticio.pe,CUSCO,1982-10-02
+CLI-00845,46783245,Jose Gutierrez,jose.gutierrez845@correo-ficticio.pe,JUNIN,1965-04-20
+CLI-00811,18587550,Paola Flores,paola.flores811@correo-ficticio.pe,loreto,1971-02-11
+CLI-00003,42203407,Hector Cruz,HECTOR.CRUZ3@CORREO-FICTICIO.PE,AREQUIPA,1958-10-18
+CLI-00373,70809621,Miguel Cruz,miguel.cruz373@correo-ficticio.pe,PIURA,1995-03-29
+CLI-01787,72918927,Carmen Flores,CARMEN.FLORES1787@CORREO-FICTICIO.PE,LA LIBERTAD,1993-04-22
+CLI-01944,74793495,Valeria Cruz,valeria.cruz1944@correo-ficticio.pe,ICA,1963-11-14
+CLI-00282,14749638,Gabriela Condori,gabriela.condori282@correo-ficticio.pe,PIURA,1961-06-01
+CLI-00919,29002679,Sofia Torres,sofia.torres919@correo-ficticio.pe,JUNIN,1997-03-08
+CLI-00522,46882578,Jose Huaman,JOSE.HUAMAN522@CORREO-FICTICIO.PE,AREQUIPA,2004-11-10
+CLI-00225,67830118,Raul Rojas,raul.rojas225@correo-ficticio.pe,JUNIN,1965-12-30
+CLI-01217,76581987,Miguel Cruz,miguel.cruz1217@correo-ficticio.pe,lima,1962-05-14
+CLI-01302,16425785,Lucia Chavez,lucia.chavez1302@correo-ficticio.pe,PUNO,1994-07-02
+CLI-01099,45995921,Sofia Torres,sofia.torres1099@correo-ficticio.pe,LAMBAYEQUE,1968-06-25
+CLI-00446,70940483,Hector Paredes,HECTOR.PAREDES446@CORREO-FICTICIO.PE,PIURA,1979-07-24
+CLI-00660,54288738,Raul Vargas,raul.vargas660@correo-ficticio.pe,LIMA,1988-07-06
+CLI-01875,57601210,Rosa Mendoza,rosa.mendoza1875@correo-ficticio.pe,AREQUIPA,1988-06-22
+CLI-00245,18170667,Elena Salazar,elena.salazar245@correo-ficticio.pe,LIMA,1969-02-18
+CLI-00357,16092097,Carlos Cruz,carlos.cruz357@correo-ficticio.pe,PIURA,1958-03-08
+CLI-01115,58576915,Maria Rios,maria.rios1115@correo-ficticio.pe,LORETO,1966-03-23
+CLI-00268,42757085,Carmen Flores,carmen.flores268@correo-ficticio.pe,LIMA,1998-05-23
+CLI-00920,63483592,Jose Chavez,jose.chavez920@correo-ficticio.pe,AREQUIPA,1968-10-20
+CLI-00264,62892909,Luis Castillo,luis.castillo264@correo-ficticio.pe,puno,1987-01-22
+CLI-00577,55159839,Sofia Chavez,sofia.chavez577@correo-ficticio.pe,CUSCO,1953-03-28
+CLI-00474,37854735,Diego Flores,diego.flores474@correo-ficticio.pe,LA LIBERTAD,1953-04-25
+CLI-01656,44700559,Raul Chavez,raul.chavez1656@correo-ficticio.pe,LORETO,1956-11-28
+CLI-01954,51962912,Jorge Castillo,JORGE.CASTILLO1954@CORREO-FICTICIO.PE,ICA,1965-02-04
+CLI-00235,71094430,Miguel Garcia,miguel.garcia235@correo-ficticio.pe,CUSCO,1970-02-11
+CLI-00795,38181188,Luis Mendoza,luis.mendoza795@correo-ficticio.pe,LIMA,1970-07-16
+CLI-01760,13612444,Luis Condori,luis.condori1760@correo-ficticio.pe,AREQUIPA,1969-02-07
+CLI-00267,63858734,Valeria Silva,valeria.silva267@correo-ficticio.pe,LA LIBERTAD,2003-08-21
+CLI-00800,25089208,Diego Salazar,diego.salazar800@correo-ficticio.pe,PUNO,1983-03-16
+CLI-01388,66891967,Gabriela Arapa,gabriela.arapa1388@correo-ficticio.pe,LAMBAYEQUE,1977-05-20
+CLI-01778,21912416,Miguel Mamani,miguel.mamani1778@correo-ficticio.pe,PUNO,1971-10-18
+CLI-00937,57147275,Diego Flores,diego.flores937@correo-ficticio.pe,PIURA,1976-05-21
+CLI-00834,37624535,Pedro Gutierrez,pedro.gutierrez834@correo-ficticio.pe,AREQUIPA,1986-10-20
+CLI-00429,47291571,Rosa Garcia,rosa.garcia429@correo-ficticio.pe,PIURA,1992-05-24
+CLI-01133,12755787,Rosa Rios,rosa.rios1133@correo-ficticio.pe,LIMA,2003-09-28
+CLI-00643,25155105,Gabriela Rojas,gabriela.rojas643@correo-ficticio.pe,AREQUIPA,1991-10-16
+CLI-00575,36971356,Paola Quispe,paola.quispe575@correo-ficticio.pe,LA LIBERTAD,1956-07-14
+CLI-00298,33054329,Carlos Flores,carlos.flores298@correo-ficticio.pe,LORETO,1953-07-02
+CLI-00392,48848855,Hector Cruz,hector.cruz392@correo-ficticio.pe,CUSCO,1982-02-17
+CLI-00336,40382713,Paola Garcia,paola.garcia336@correo-ficticio.pe,PUNO,1951-03-24
+CLI-00679,27626431,Valeria Mendoza,valeria.mendoza679@correo-ficticio.pe,LIMA,1992-05-15
+CLI-01553,76463761,Elena Rojas,ELENA.ROJAS1553@CORREO-FICTICIO.PE,AREQUIPA,1951-09-16
+CLI-01789,78575018,Hector Condori,hector.condori1789@correo-ficticio.pe,LORETO,1990-11-01
+CLI-00493,21200247,Maria Gutierrez,maria.gutierrez493@correo-ficticio.pe,LAMBAYEQUE,1956-09-23
+CLI-01230,76596419,Miguel Huaman,miguel.huaman1230@correo-ficticio.pe,AREQUIPA,1990-01-25
+CLI-00791,45668914,Carmen Mamani,carmen.mamani791@correo-ficticio.pe,LAMBAYEQUE,1969-10-12
+CLI-00978,28041942,Rosa Chavez,ROSA.CHAVEZ978@CORREO-FICTICIO.PE,AREQUIPA,1972-09-09
+CLI-01773,29249326,Hector Vargas,hector.vargas1773@correo-ficticio.pe,  Arequipa ,1955-12-17
+CLI-01264,20665403,Valeria Chavez,valeria.chavez1264@correo-ficticio.pe,loreto,2004-09-04
+CLI-00958,57140991,Jose Condori,jose.condori958@correo-ficticio.pe,LAMBAYEQUE,1989-10-07
+CLI-00848,32769970,Rosa Torres,ROSA.TORRES848@CORREO-FICTICIO.PE,LA LIBERTAD,1982-03-17
+CLI-01421,62089704,Carlos Paredes,carlos.paredes1421@correo-ficticio.pe,LIMA,1969-08-06
+CLI-01567,61611476,Maria Cruz,maria.cruz1567@correo-ficticio.pe,ICA,1981-10-12
+CLI-00351,14472323,Miguel Silva,miguel.silva351@correo-ficticio.pe,ICA,1971-03-01
+CLI-00547,41763493,Pedro Arapa,pedro.arapa547@correo-ficticio.pe,LIMA,1977-10-27
+CLI-01770,64598863,Ana Huaman,ANA.HUAMAN1770@CORREO-FICTICIO.PE,AREQUIPA,1950-11-06
+CLI-01003,10459316,Carmen Silva,carmen.silva1003@correo-ficticio.pe,AREQUIPA,2002-07-03
+CLI-00487,65362669,Diego Garcia,diego.garcia487@correo-ficticio.pe,CUSCO,2001-05-11
+CLI-01325,62404169,Miguel Condori,MIGUEL.CONDORI1325@CORREO-FICTICIO.PE,PIURA,1951-05-02
+CLI-01035,75813223,Victor Castillo,victor.castillo1035@correo-ficticio.pe,LA LIBERTAD,1961-07-14
+CLI-00743,53231715,Miguel Flores,miguel.flores743@correo-ficticio.pe,PUNO,1969-05-21
+CLI-00631,66350656,Jorge Mamani,jorge.mamani631@correo-ficticio.pe,JUNIN,1998-06-15
+CLI-01752,44040046,Lucia Condori,lucia.condori1752@correo-ficticio.pe,LAMBAYEQUE,2003-04-13
+CLI-01545,48325698,Elena Mamani,elena.mamani1545@correo-ficticio.pe,CUSCO,1958-10-18
+CLI-00879,37353728,Valeria Condori,valeria.condori879@correo-ficticio.pe,AREQUIPA,1959-12-16
+CLI-00782,67520004,Lucia Gutierrez,lucia.gutierrez782@correo-ficticio.pe,LAMBAYEQUE,1974-05-22
+CLI-01330,41271545,Miguel Mamani,miguel.mamani1330@correo-ficticio.pe,JUNIN,2004-02-11
+CLI-01629,26512842,Maria Gutierrez,maria.gutierrez1629@correo-ficticio.pe,PUNO,1969-09-03
+CLI-00562,19508019,Elena Flores,elena.flores562@correo-ficticio.pe,PUNO,1971-05-07
+CLI-01208,75381900,Carlos Castillo,carlos.castillo1208@correo-ficticio.pe,PUNO,1950-03-04
+CLI-01305,69219432,Victor Salazar,victor.salazar1305@correo-ficticio.pe,ICA,1972-05-19
+CLI-01670,26845988,Elena Huaman,elena.huaman1670@correo-ficticio.pe,JUNIN,1950-05-13
+CLI-01661,58293110,Carmen Silva,carmen.silva1661@correo-ficticio.pe,CUSCO,1999-07-13
+CLI-00658,13607833,Paola Huaman,paola.huaman658@correo-ficticio.pe,JUNIN,1961-01-05
+CLI-00073,45994093,Miguel Mamani,miguel.mamani73@correo-ficticio.pe,CUSCO,1961-01-21
+CLI-01279,65107308,Pedro Rojas,pedro.rojas1279@correo-ficticio.pe,PIURA,2004-04-06
+CLI-00478,55273198,Victor Mendoza,victor.mendoza478@correo-ficticio.pe,CUSCO,1979-11-07
+CLI-01872,62876589,Sofia Ramos,sofia.ramos1872@correo-ficticio.pe,LORETO,1953-01-16
+CLI-00339,22506714,Jose Condori,jose.condori339@correo-ficticio.pe,ICA,1968-07-19
+CLI-01575,66433008,Carmen Vargas,CARMEN.VARGAS1575@CORREO-FICTICIO.PE,PUNO,2000-11-21
+CLI-01854,49344460,Rosa Quispe,rosa.quispe1854@correo-ficticio.pe,PUNO,1974-11-18
+CLI-01484,45717898,Raul Ramos,raul.ramos1484@correo-ficticio.pe,JUNIN,2004-09-30
+CLI-00751,28816857,Luis Mendoza,luis.mendoza751@correo-ficticio.pe,LIMA,1969-07-08
+CLI-00752,50095685,Paola Garcia,paola.garcia752@correo-ficticio.pe,  La Libertad ,1969-07-15
+CLI-00667,22128120,Pedro Huaman,pedro.huaman667@correo-ficticio.pe,LIMA,1981-08-06
+CLI-00957,22545158,Paola Arapa,paola.arapa957@correo-ficticio.pe,LA LIBERTAD,1976-08-16
+CLI-01406,71802934,Paola Paredes,paola.paredes1406@correo-ficticio.pe,ICA,1954-12-16
+CLI-00519,29639385,Paola Rojas,paola.rojas519@correo-ficticio.pe,LA LIBERTAD,1965-04-20
+CLI-00590,62004589,Jorge Mendoza,jorge.mendoza590@correo-ficticio.pe,LORETO,1982-11-10
+CLI-00436,45639116,Diego Arapa,diego.arapa436@correo-ficticio.pe,JUNIN,1972-11-25
+CLI-00527,56383340,Hector Arapa,HECTOR.ARAPA527@CORREO-FICTICIO.PE,PIURA,1965-09-11
+CLI-00998,49981121,Victor Vargas,victor.vargas998@correo-ficticio.pe,LIMA,1966-04-13
+CLI-01494,57100836,Raul Arapa,raul.arapa1494@correo-ficticio.pe,LAMBAYEQUE,1985-07-27
+CLI-01298,50686761,Ana Cruz,ANA.CRUZ1298@CORREO-FICTICIO.PE,PIURA,1973-04-02
+CLI-01146,39650697,Sofia Ramos,sofia.ramos1146@correo-ficticio.pe,LIMA,1978-06-12
+CLI-00747,13356131,Jorge Rojas,jorge.rojas747@correo-ficticio.pe,CUSCO,1991-08-22
+CLI-00430,23932910,Paola Mamani,PAOLA.MAMANI430@CORREO-FICTICIO.PE,ICA,1971-11-16
+CLI-01826,54144940,Rosa Huaman,rosa.huaman1826@correo-ficticio.pe,LA LIBERTAD,1950-01-10
+CLI-00694,70936200,Jose Chavez,jose.chavez694@correo-ficticio.pe,ICA,1971-11-02
+CLI-01086,56915227,Maria Torres,maria.torres1086@correo-ficticio.pe,PIURA,1981-12-15
+CLI-00477,44576085,Miguel Torres,miguel.torres477@correo-ficticio.pe,ICA,1993-11-12
+CLI-01185,27726740,Hector Arapa,hector.arapa1185@correo-ficticio.pe,LIMA,2001-02-23
+CLI-01048,22125364,Sofia Cruz,sofia.cruz1048@correo-ficticio.pe,PIURA,2005-06-06
+CLI-01965,32332134,Paola Mendoza,paola.mendoza1965@correo-ficticio.pe,LORETO,1983-12-19
+CLI-00583,43767469,Jorge Huaman,jorge.huaman583@correo-ficticio.pe,ICA,1978-02-18
+CLI-01633,39442255,Victor Condori,VICTOR.CONDORI1633@CORREO-FICTICIO.PE,LA LIBERTAD,1961-12-24
+CLI-00742,53361594,Luis Mamani,luis.mamani742@correo-ficticio.pe,CUSCO,1978-06-11
+CLI-01800,43085306,Carlos Huaman,carlos.huaman1800@correo-ficticio.pe,LIMA,1962-09-04
+CLI-01235,14522821,Diego Chavez,diego.chavez1235@correo-ficticio.pe,AREQUIPA,1967-10-03
+CLI-00284,39532143,Raul Rojas,raul.rojas284@correo-ficticio.pe,AREQUIPA,2000-09-21
+CLI-01231,65543420,Jorge Arapa,jorge.arapa1231@correo-ficticio.pe,LIMA,1996-09-30
+CLI-00309,38059497,Maria Castillo,maria.castillo309@correo-ficticio.pe,PUNO,1957-04-26
+CLI-00036,49553980,Pedro Condori,pedro.condori36@correo-ficticio.pe,ICA,1973-08-29
+CLI-01372,10937464,Jose Paredes,jose.paredes1372@correo-ficticio.pe,LAMBAYEQUE,2003-05-04
+CLI-00683,11002103,Lucia Salazar,lucia.salazar683@correo-ficticio.pe,PIURA,1981-04-20
+CLI-00025,13433596,Elena Quispe,elena.quispe25@correo-ficticio.pe,JUNIN,1990-05-21
+CLI-00585,43727335,Pedro Torres,pedro.torres585@correo-ficticio.pe,LAMBAYEQUE,1999-12-04
+CLI-00951,18904313,Carmen Vargas,carmen.vargas951@correo-ficticio.pe,puno,1961-06-08
+CLI-00776,53659145,Elena Torres,elena.torres776@correo-ficticio.pe,AREQUIPA,1973-10-30
+CLI-00286,30056572,Valeria Mendoza,valeria.mendoza286@correo-ficticio.pe,LIMA,1965-05-08
+CLI-01075,68799593,Gabriela Gutierrez,gabriela.gutierrez1075@correo-ficticio.pe,JUNIN,1950-07-03
+CLI-01635,11315216,Miguel Castillo,miguel.castillo1635@correo-ficticio.pe,CUSCO,2003-03-19
+CLI-01858,44113020,Carmen Salazar,carmen.salazar1858@correo-ficticio.pe,PUNO,1995-12-31
+CLI-00939,26610172,Paola Rojas,paola.rojas939@correo-ficticio.pe,JUNIN,2001-11-25
+CLI-00732,34767431,Carmen Flores,carmen.flores732@correo-ficticio.pe,JUNIN,1995-08-31
+CLI-01988,67633611,Pedro Silva,pedro.silva1988@correo-ficticio.pe,ICA,1960-10-03
+CLI-01016,56645865,Carmen Castillo,carmen.castillo1016@correo-ficticio.pe,LORETO,1989-03-31
+CLI-01458,59248320,Paola Chavez,paola.chavez1458@correo-ficticio.pe,ICA,1976-10-16
+CLI-00602,72271346,Hector Mamani,HECTOR.MAMANI602@CORREO-FICTICIO.PE,LIMA,1953-10-31
+CLI-01303,29809060,Lucia Rios,lucia.rios1303@correo-ficticio.pe,LORETO,1959-09-08
+CLI-00342,58782078,Carlos Mamani,carlos.mamani342@correo-ficticio.pe,cusco,1976-09-28
+CLI-00608,48486327,Carlos Chavez,CARLOS.CHAVEZ608@CORREO-FICTICIO.PE,LIMA,1955-10-22
+CLI-00416,33105888,Gabriela Paredes,GABRIELA.PAREDES416@CORREO-FICTICIO.PE,LA LIBERTAD,1972-04-16
+CLI-01975,75794024,Jorge Flores,jorge.flores1975@correo-ficticio.pe,CUSCO,1995-03-06
+CLI-01014,58594147,Jose Salazar,jose.salazar1014@correo-ficticio.pe,PUNO,1950-09-21
+CLI-00721,44158783,Ana Condori,ana.condori721@correo-ficticio.pe,CUSCO,1991-09-28
+CLI-01285,71969163,Pedro Mendoza,pedro.mendoza1285@correo-ficticio.pe,JUNIN,1994-02-11
+CLI-01244,57246979,Jorge Cruz,jorge.cruz1244@correo-ficticio.pe,AREQUIPA,1957-01-18
+CLI-00852,43587378,Diego Torres,diego.torres852@correo-ficticio.pe,LAMBAYEQUE,1970-09-20
+CLI-01793,73207987,Miguel Rios,miguel.rios1793@correo-ficticio.pe,LORETO,1974-02-15
+CLI-01997,43772417,Jorge Arapa,jorge.arapa1997@correo-ficticio.pe,LAMBAYEQUE,1966-08-01
+CLI-00433,65124061,Carlos Garcia,carlos.garcia433@correo-ficticio.pe,CUSCO,1979-05-08
+CLI-01249,15263968,Elena Quispe,ELENA.QUISPE1249@CORREO-FICTICIO.PE,LIMA,1958-04-20
+CLI-00121,63810144,Maria Rios,maria.rios121@correo-ficticio.pe,PIURA,1973-07-26
+CLI-00303,71941349,Jorge Vargas,jorge.vargas303@correo-ficticio.pe,ica,2002-03-27
+CLI-01370,25144221,Ana Silva,ana.silva1370@correo-ficticio.pe,LA LIBERTAD,1970-08-26
+CLI-00134,66187470,Carlos Paredes,carlos.paredes134@correo-ficticio.pe,JUNIN,1981-12-08
+CLI-00345,73404768,Ana Torres,ana.torres345@correo-ficticio.pe,LIMA,1982-05-17
+CLI-00224,10462465,Luis Chavez,luis.chavez224@correo-ficticio.pe,LA LIBERTAD,1967-08-30
+CLI-00399,70330689,Paola Flores,paola.flores399@correo-ficticio.pe,AREQUIPA,1993-02-18
+CLI-01390,11179449,Maria Garcia,maria.garcia1390@correo-ficticio.pe,LA LIBERTAD,1970-09-09
+CLI-00284,39532143,Raul Rojas,raul.rojas284@correo-ficticio.pe,AREQUIPA,2000-09-21
+CLI-00948,20633858,Sofia Arapa,sofia.arapa948@correo-ficticio.pe,LIMA,2000-03-25
+CLI-00885,18160857,Rosa Condori,rosa.condori885@correo-ficticio.pe,LIMA,1956-04-23
+CLI-00045,12720605,Jose Condori,jose.condori45@correo-ficticio.pe,JUNIN,1955-01-14
+CLI-00623,42702971,Ana Arapa,ana.arapa623@correo-ficticio.pe,LAMBAYEQUE,1998-10-25
+CLI-01378,13290188,Victor Rojas,VICTOR.ROJAS1378@CORREO-FICTICIO.PE,ICA,1996-04-01
+CLI-01236,57486178,Carmen Chavez,carmen.chavez1236@correo-ficticio.pe,LA LIBERTAD,1993-10-15
+CLI-00736,67988532,Hector Gutierrez,HECTOR.GUTIERREZ736@CORREO-FICTICIO.PE,  Arequipa ,1968-06-12
+CLI-00300,54449566,Carmen Condori,carmen.condori300@correo-ficticio.pe,AREQUIPA,1966-01-19
+CLI-00753,46758814,Miguel Huaman,MIGUEL.HUAMAN753@CORREO-FICTICIO.PE,LA LIBERTAD,1963-10-20
+CLI-01286,45913782,Pedro Arapa,pedro.arapa1286@correo-ficticio.pe,PIURA,1980-04-24
+CLI-01413,79277761,Jorge Paredes,jorge.paredes1413@correo-ficticio.pe,ICA,1983-10-25
+CLI-01258,33956892,Diego Chavez,diego.chavez1258@correo-ficticio.pe,  Loreto ,1983-04-29
+CLI-01586,55385169,Jose Torres,jose.torres1586@correo-ficticio.pe,LAMBAYEQUE,1977-07-14
+CLI-00402,34492497,Carmen Condori,carmen.condori402@correo-ficticio.pe,PUNO,1952-06-08
+CLI-01377,34840844,Jose Condori,JOSE.CONDORI1377@CORREO-FICTICIO.PE,LORETO,1976-03-20
+CLI-01063,73880770,Hector Arapa,hector.arapa1063@correo-ficticio.pe,LIMA,1956-07-09
+CLI-00130,32090777,Rosa Ramos,rosa.ramos130@correo-ficticio.pe,ICA,1985-11-14
+CLI-00383,45187115,Victor Castillo,victor.castillo383@correo-ficticio.pe,PIURA,1957-07-20
+CLI-01004,49439818,Pedro Salazar,pedro.salazar1004@correo-ficticio.pe,LORETO,1953-07-08
+CLI-00810,15840151,Elena Torres,elena.torres810@correo-ficticio.pe,LIMA,1968-09-14
+CLI-01142,76558434,Valeria Rios,VALERIA.RIOS1142@CORREO-FICTICIO.PE,PIURA,1989-02-11
+CLI-00661,27641646,Paola Torres,PAOLA.TORRES661@CORREO-FICTICIO.PE,PUNO,1955-09-21
+CLI-00563,43526136,Jorge Salazar,jorge.salazar563@correo-ficticio.pe,LAMBAYEQUE,1990-09-04
+CLI-00358,69481985,Pedro Arapa,pedro.arapa358@correo-ficticio.pe,PIURA,1962-11-05
+CLI-01915,18740930,Jose Torres,jose.torres1915@correo-ficticio.pe,LIMA,1975-11-11
+CLI-01164,54207365,Diego Rojas,DIEGO.ROJAS1164@CORREO-FICTICIO.PE,LORETO,1981-05-26
+CLI-01223,39915158,Elena Chavez,elena.chavez1223@correo-ficticio.pe,LA LIBERTAD,1965-10-16
+CLI-01947,68690930,Maria Quispe,maria.quispe1947@correo-ficticio.pe,PUNO,1968-07-28
+CLI-00801,61699373,Luis Vargas,luis.vargas801@correo-ficticio.pe,AREQUIPA,1983-08-28
+CLI-00946,70945471,Hector Huaman,hector.huaman946@correo-ficticio.pe,ica,1961-09-07
+CLI-00813,67003353,Elena Salazar,elena.salazar813@correo-ficticio.pe,ICA,1974-11-22
+CLI-00252,24537657,Miguel Chavez,miguel.chavez252@correo-ficticio.pe,LIMA,1952-03-31
+CLI-01173,11153669,Paola Cruz,paola.cruz1173@correo-ficticio.pe,LAMBAYEQUE,1961-04-30
+CLI-00463,46492367,Hector Salazar,hector.salazar463@correo-ficticio.pe,arequipa,1974-06-10
+CLI-00193,26582061,Pedro Castillo,pedro.castillo193@correo-ficticio.pe,  Lambayeque ,1978-05-15
+CLI-01820,49309148,Pedro Condori,pedro.condori1820@correo-ficticio.pe,LORETO,1990-08-19
+CLI-00491,66985619,Ana Flores,ana.flores491@correo-ficticio.pe,PUNO,1981-07-28
+CLI-00767,57916130,Pedro Rios,pedro.rios767@correo-ficticio.pe,LORETO,1967-03-02
+CLI-00261,19454289,Sofia Vargas,sofia.vargas261@correo-ficticio.pe,CUSCO,1993-12-24
+CLI-01911,78235006,Sofia Garcia,sofia.garcia1911@correo-ficticio.pe,LORETO,1983-03-13
+CLI-00592,69321134,Pedro Chavez,pedro.chavez592@correo-ficticio.pe,LORETO,1988-02-15
+CLI-01612,43115686,Carmen Vargas,carmen.vargas1612@correo-ficticio.pe,LORETO,1950-01-22
+CLI-01531,71914279,Paola Salazar,paola.salazar1531@correo-ficticio.pe,LORETO,1985-04-12
+CLI-01241,37381999,Paola Quispe,paola.quispe1241@correo-ficticio.pe,LA LIBERTAD,1988-04-24
+CLI-00600,17311569,Victor Mendoza,victor.mendoza600@correo-ficticio.pe,CUSCO,1951-03-25
+CLI-01255,27714724,Gabriela Quispe,gabriela.quispe1255@correo-ficticio.pe,LAMBAYEQUE,1992-07-26
+CLI-00878,71344337,Pedro Mamani,pedro.mamani878@correo-ficticio.pe,ICA,1976-07-28
+CLI-00154,21352042,Elena Quispe,elena.quispe154@correo-ficticio.pe,AREQUIPA,1961-01-17
+CLI-01045,13513148,Victor Rojas,victor.rojas1045@correo-ficticio.pe,LA LIBERTAD,1970-06-02
+CLI-01590,68273489,Carlos Torres,carlos.torres1590@correo-ficticio.pe,LA LIBERTAD,1967-09-19
+CLI-00595,60940765,Sofia Vargas,sofia.vargas595@correo-ficticio.pe,CUSCO,1999-07-29
+CLI-01033,50053125,Rosa Huaman,rosa.huaman1033@correo-ficticio.pe,AREQUIPA,1966-04-08
+CLI-01046,74189054,Victor Rios,victor.rios1046@correo-ficticio.pe,PIURA,1985-05-10
+CLI-00537,53528860,Jose Rios,jose.rios537@correo-ficticio.pe,JUNIN,1973-07-24
+CLI-01516,11481804,Raul Garcia,RAUL.GARCIA1516@CORREO-FICTICIO.PE,PIURA,1991-04-14
+CLI-00977,69863532,Ana Rojas,ANA.ROJAS977@CORREO-FICTICIO.PE,PUNO,1950-01-15
+CLI-00641,69899138,Diego Arapa,diego.arapa641@correo-ficticio.pe,LAMBAYEQUE,1952-05-08
+CLI-01445,75645447,Maria Rios,maria.rios1445@correo-ficticio.pe,AREQUIPA,1984-01-24
+CLI-00169,43124086,Maria Silva,MARIA.SILVA169@CORREO-FICTICIO.PE,PIURA,1980-04-16
+CLI-01618,65860351,Valeria Mendoza,valeria.mendoza1618@correo-ficticio.pe,JUNIN,1985-02-06
+CLI-00934,25268818,Gabriela Arapa,GABRIELA.ARAPA934@CORREO-FICTICIO.PE,AREQUIPA,1984-04-15
+CLI-01041,70131365,Rosa Torres,rosa.torres1041@correo-ficticio.pe,LAMBAYEQUE,1959-05-10
+CLI-00950,42903787,Paola Paredes,paola.paredes950@correo-ficticio.pe,PUNO,1986-12-15
+CLI-01958,40165693,Pedro Quispe,pedro.quispe1958@correo-ficticio.pe,PUNO,1997-05-15
+CLI-00452,21822214,Hector Ramos,hector.ramos452@correo-ficticio.pe,AREQUIPA,1952-09-24
+CLI-01281,77324595,Miguel Ramos,miguel.ramos1281@correo-ficticio.pe,ICA,1965-09-22
+CLI-01414,44451037,Carmen Mendoza,carmen.mendoza1414@correo-ficticio.pe,LIMA,1959-08-29
+CLI-01917,67308735,Carmen Salazar,carmen.salazar1917@correo-ficticio.pe,CUSCO,1950-03-10
+CLI-01767,52641438,Miguel Torres,miguel.torres1767@correo-ficticio.pe,LIMA,1986-05-19
+CLI-00806,42930907,Luis Mamani,luis.mamani806@correo-ficticio.pe,LORETO,1970-11-06
+CLI-01508,53878423,Paola Rios,paola.rios1508@correo-ficticio.pe,LA LIBERTAD,2001-09-25
+CLI-01879,31301014,Carlos Vargas,CARLOS.VARGAS1879@CORREO-FICTICIO.PE,LIMA,1999-05-30
+CLI-01941,25147416,Elena Quispe,elena.quispe1941@correo-ficticio.pe,PUNO,2002-12-22
+CLI-01861,66039206,Carlos Salazar,carlos.salazar1861@correo-ficticio.pe,LORETO,1988-11-07
+CLI-00270,61247480,Victor Condori,victor.condori270@correo-ficticio.pe,LAMBAYEQUE,1999-01-03
+CLI-01812,42002001,Maria Condori,maria.condori1812@correo-ficticio.pe,AREQUIPA,1981-02-20
+CLI-01464,62752910,Ana Condori,ana.condori1464@correo-ficticio.pe,ICA,1978-08-28
+CLI-00458,27219234,Paola Cruz,paola.cruz458@correo-ficticio.pe,JUNIN,1979-01-16
+CLI-01030,47920013,Ana Rios,ana.rios1030@correo-ficticio.pe,ICA,1987-06-06
+CLI-00302,22897913,Hector Huaman,hector.huaman302@correo-ficticio.pe,JUNIN,1975-11-20
+CLI-00988,55755466,Valeria Garcia,valeria.garcia988@correo-ficticio.pe,JUNIN,1989-04-26
+CLI-00587,54624457,Hector Rojas,hector.rojas587@correo-ficticio.pe,ICA,2000-03-01
+CLI-00965,52526277,Rosa Rios,rosa.rios965@correo-ficticio.pe,CUSCO,1955-10-13
+CLI-00508,13547383,Valeria Rios,valeria.rios508@correo-ficticio.pe,PUNO,2005-04-19
+CLI-01135,34185333,Carlos Rojas,carlos.rojas1135@correo-ficticio.pe,LAMBAYEQUE,1989-12-01
+CLI-01257,11213191,Elena Arapa,elena.arapa1257@correo-ficticio.pe,puno,1977-08-02
+CLI-00158,34309317,Paola Huaman,paola.huaman158@correo-ficticio.pe,JUNIN,1989-10-11
+CLI-01410,51828649,Jorge Flores,jorge.flores1410@correo-ficticio.pe,AREQUIPA,1991-11-13
+CLI-01140,34689231,Ana Rojas,ana.rojas1140@correo-ficticio.pe,PIURA,1965-06-01
+CLI-00083,66309126,Luis Vargas,LUIS.VARGAS83@CORREO-FICTICIO.PE,ICA,1970-10-04
+CLI-00974,22256347,Luis Salazar,luis.salazar974@correo-ficticio.pe,ICA,2003-07-03
+CLI-00906,57657893,Jorge Cruz,jorge.cruz906@correo-ficticio.pe,LAMBAYEQUE,1983-01-06
+CLI-01851,64915119,Jorge Vargas,jorge.vargas1851@correo-ficticio.pe,ICA,1967-04-09
+CLI-01175,25391947,Valeria Vargas,valeria.vargas1175@correo-ficticio.pe,LIMA,1996-09-06
+CLI-00127,79349383,Rosa Arapa,rosa.arapa127@correo-ficticio.pe,PIURA,1954-10-11
+CLI-00556,57250239,Maria Vargas,maria.vargas556@correo-ficticio.pe,LA LIBERTAD,2001-10-09
+CLI-01486,36033678,Lucia Quispe,lucia.quispe1486@correo-ficticio.pe,LA LIBERTAD,1961-12-01
+CLI-01569,28374943,Raul Vargas,RAUL.VARGAS1569@CORREO-FICTICIO.PE,LORETO,1990-04-11
+CLI-01253,70695398,Carlos Ramos,carlos.ramos1253@correo-ficticio.pe,LAMBAYEQUE,1993-01-03
+CLI-01110,75639535,Carlos Rojas,carlos.rojas1110@correo-ficticio.pe,  Lambayeque ,1954-01-06
+CLI-00371,21535559,Maria Ramos,maria.ramos371@correo-ficticio.pe,puno,1984-11-17
+CLI-01748,63601832,Victor Garcia,victor.garcia1748@correo-ficticio.pe,JUNIN,1953-02-22
+CLI-01515,34006598,Rosa Vargas,rosa.vargas1515@correo-ficticio.pe,CUSCO,1970-10-08
+CLI-00901,53435758,Raul Ramos,raul.ramos901@correo-ficticio.pe,PUNO,1968-10-11
+CLI-00566,60572168,Miguel Garcia,miguel.garcia566@correo-ficticio.pe,PUNO,1981-03-25
+CLI-01972,36741915,Lucia Cruz,LUCIA.CRUZ1972@CORREO-FICTICIO.PE,LORETO,1970-08-09
+CLI-00113,79902347,Ana Rojas,ana.rojas113@correo-ficticio.pe,JUNIN,1977-07-18
+CLI-00915,45859465,Ana Ramos,ana.ramos915@correo-ficticio.pe,LAMBAYEQUE,1989-10-03
+CLI-00450,26624026,Jorge Paredes,jorge.paredes450@correo-ficticio.pe,CUSCO,1978-08-07
+CLI-00077,45843496,Rosa Quispe,rosa.quispe77@correo-ficticio.pe,LA LIBERTAD,2001-12-10
+CLI-00245,18170667,Elena Salazar,elena.salazar245@correo-ficticio.pe,LIMA,1969-02-18
+CLI-00853,28345218,Luis Torres,LUIS.TORRES853@CORREO-FICTICIO.PE,PUNO,1990-10-23
+CLI-00897,55812608,Jorge Cruz,jorge.cruz897@correo-ficticio.pe,LIMA,1960-11-15
+CLI-01510,73138354,Valeria Vargas,valeria.vargas1510@correo-ficticio.pe,LA LIBERTAD,1955-04-20
+CLI-01009,50369258,Hector Flores,hector.flores1009@correo-ficticio.pe,PIURA,1963-07-08
+CLI-01371,66593945,Jorge Flores,jorge.flores1371@correo-ficticio.pe,PIURA,2005-03-03
+CLI-00145,62963167,Jose Arapa,jose.arapa145@correo-ficticio.pe,ICA,1998-09-16
+CLI-01842,76617370,Miguel Arapa,miguel.arapa1842@correo-ficticio.pe,LAMBAYEQUE,2001-07-31
+CLI-01837,50604327,Carlos Flores,carlos.flores1837@correo-ficticio.pe,la libertad,1968-03-10
+CLI-00514,61723378,Valeria Arapa,VALERIA.ARAPA514@CORREO-FICTICIO.PE,LIMA,1960-05-20
+CLI-00665,44787478,Pedro Quispe,pedro.quispe665@correo-ficticio.pe,PUNO,1953-12-04
+CLI-01625,66685382,Lucia Torres,lucia.torres1625@correo-ficticio.pe,LORETO,1963-01-24
+CLI-01186,49890682,Luis Chavez,luis.chavez1186@correo-ficticio.pe,ICA,1982-06-24
+CLI-01430,71733507,Lucia Gutierrez,lucia.gutierrez1430@correo-ficticio.pe,PIURA,1976-09-02
+CLI-01320,34658223,Raul Quispe,raul.quispe1320@correo-ficticio.pe,LAMBAYEQUE,1955-04-05
+CLI-00730,76683514,Maria Rojas,maria.rojas730@correo-ficticio.pe,LA LIBERTAD,1988-01-18
+CLI-01492,78522618,Paola Torres,paola.torres1492@correo-ficticio.pe,lima,1999-11-18
+CLI-00760,65967360,Carlos Quispe,carlos.quispe760@correo-ficticio.pe,LORETO,1965-09-16
+CLI-01498,29146126,Raul Quispe,raul.quispe1498@correo-ficticio.pe,LA LIBERTAD,2002-12-28
+CLI-00368,64613193,Elena Mamani,ELENA.MAMANI368@CORREO-FICTICIO.PE,ICA,1957-11-17
+CLI-00131,72828591,Miguel Torres,MIGUEL.TORRES131@CORREO-FICTICIO.PE,  Junin ,1961-09-09
+CLI-01662,25269011,Maria Paredes,maria.paredes1662@correo-ficticio.pe,LIMA,1988-03-30
+CLI-00796,39922049,Luis Rojas,luis.rojas796@correo-ficticio.pe,LIMA,1992-01-08
+CLI-00666,28296440,Hector Torres,hector.torres666@correo-ficticio.pe,LA LIBERTAD,1950-10-12
+CLI-01197,17921928,Raul Torres,raul.torres1197@correo-ficticio.pe,LAMBAYEQUE,2004-12-16
+CLI-01859,51784859,Paola Condori,paola.condori1859@correo-ficticio.pe,LORETO,1966-12-15
+CLI-00082,65974034,Carmen Rojas,carmen.rojas82@correo-ficticio.pe,LORETO,1959-09-11
+CLI-00564,17784102,Diego Castillo,diego.castillo564@correo-ficticio.pe,LAMBAYEQUE,1956-10-02
+CLI-00103,74667003,Raul Arapa,RAUL.ARAPA103@CORREO-FICTICIO.PE,PIURA,1960-05-24
+CLI-00444,49528752,Ana Ramos,ana.ramos444@correo-ficticio.pe,LA LIBERTAD,1968-02-07
+CLI-01409,39973947,Jorge Arapa,jorge.arapa1409@correo-ficticio.pe,arequipa,2003-01-27
+CLI-01928,73085423,Maria Paredes,maria.paredes1928@correo-ficticio.pe,LORETO,1970-01-18
+CLI-01718,45993875,Valeria Rios,valeria.rios1718@correo-ficticio.pe,LIMA,1974-08-11
+CLI-01845,10798560,Jorge Silva,jorge.silva1845@correo-ficticio.pe,ICA,1957-07-05
+CLI-00686,73044808,Paola Flores,paola.flores686@correo-ficticio.pe,LA LIBERTAD,1958-06-28
+CLI-00319,72526261,Rosa Mendoza,rosa.mendoza319@correo-ficticio.pe,PUNO,1993-08-18
+CLI-01307,55165181,Paola Rios,paola.rios1307@correo-ficticio.pe,CUSCO,1987-11-20
+CLI-00329,55336287,Raul Gutierrez,raul.gutierrez329@correo-ficticio.pe,JUNIN,1957-11-03
+CLI-01227,35928299,Victor Chavez,victor.chavez1227@correo-ficticio.pe,AREQUIPA,1992-01-12
+CLI-00332,46900700,Jose Garcia,jose.garcia332@correo-ficticio.pe,AREQUIPA,2001-08-04
+CLI-01533,24793664,Victor Arapa,victor.arapa1533@correo-ficticio.pe,AREQUIPA,1985-07-15
+CLI-00364,31331167,Miguel Huaman,miguel.huaman364@correo-ficticio.pe,PIURA,1999-06-24
+CLI-00555,14104211,Ana Rios,ana.rios555@correo-ficticio.pe,PIURA,1955-09-29
+CLI-00105,29445705,Sofia Quispe,sofia.quispe105@correo-ficticio.pe,LA LIBERTAD,1982-10-07
+CLI-01593,53674514,Ana Silva,ana.silva1593@correo-ficticio.pe,LORETO,1981-05-25
+CLI-00486,45825757,Victor Rios,victor.rios486@correo-ficticio.pe,CUSCO,1999-12-30
+CLI-00990,79929142,Rosa Vargas,rosa.vargas990@correo-ficticio.pe,LAMBAYEQUE,1958-01-31
+CLI-00279,67966682,Pedro Garcia,pedro.garcia279@correo-ficticio.pe,PUNO,1964-03-14
+CLI-01776,62377778,Hector Huaman,hector.huaman1776@correo-ficticio.pe,PIURA,1962-11-24
+CLI-00119,79794213,Luis Mendoza,luis.mendoza119@correo-ficticio.pe,ICA,1983-01-22
+CLI-01073,11564194,Rosa Cruz,rosa.cruz1073@correo-ficticio.pe,PUNO,1983-11-29
+CLI-01702,38610292,Gabriela Mamani,GABRIELA.MAMANI1702@CORREO-FICTICIO.PE,ICA,1970-04-17
+CLI-01174,17300194,Valeria Rios,VALERIA.RIOS1174@CORREO-FICTICIO.PE,AREQUIPA,1956-05-14
+CLI-01084,33878559,Jorge Chavez,jorge.chavez1084@correo-ficticio.pe,LORETO,1982-02-05
+CLI-00540,55820293,Jose Salazar,jose.salazar540@correo-ficticio.pe,PIURA,1997-08-17
+CLI-00316,29515776,Maria Paredes,maria.paredes316@correo-ficticio.pe,LA LIBERTAD,1985-11-06
+CLI-00785,60132825,Carlos Arapa,carlos.arapa785@correo-ficticio.pe,CUSCO,1960-07-13
+CLI-00292,25467899,Victor Huaman,victor.huaman292@correo-ficticio.pe,ICA,1950-01-25
+CLI-01220,67349813,Pedro Paredes,pedro.paredes1220@correo-ficticio.pe,CUSCO,2004-01-26
+CLI-01668,11722005,Gabriela Paredes,gabriela.paredes1668@correo-ficticio.pe,CUSCO,1956-12-20
+CLI-00409,12134991,Rosa Rojas,rosa.rojas409@correo-ficticio.pe,  Arequipa ,1979-03-04
+CLI-00096,34915395,Rosa Flores,rosa.flores96@correo-ficticio.pe,LAMBAYEQUE,1993-12-08
+CLI-01362,17322433,Victor Castillo,victor.castillo1362@correo-ficticio.pe,LIMA,1965-09-11
+CLI-01104,49202339,Gabriela Salazar,gabriela.salazar1104@correo-ficticio.pe,JUNIN,1985-01-20
+CLI-00907,60954020,Ana Torres,ana.torres907@correo-ficticio.pe,LA LIBERTAD,1980-11-02
+CLI-00108,53788744,Hector Flores,hector.flores108@correo-ficticio.pe,AREQUIPA,1981-01-13
+CLI-00628,33857045,Diego Vargas,diego.vargas628@correo-ficticio.pe,PUNO,1981-02-21
+CLI-00539,46658511,Maria Mamani,maria.mamani539@correo-ficticio.pe,AREQUIPA,1974-12-30
+CLI-01358,15563696,Ana Gutierrez,ana.gutierrez1358@correo-ficticio.pe,LORETO,1985-06-30
+CLI-00850,75108475,Maria Mamani,maria.mamani850@correo-ficticio.pe,LIMA,1967-01-28
+CLI-01055,32646516,Luis Garcia,LUIS.GARCIA1055@CORREO-FICTICIO.PE,LIMA,1950-07-30
+CLI-01436,54828061,Lucia Castillo,lucia.castillo1436@correo-ficticio.pe,LIMA,1951-10-17
+CLI-00053,39774682,Paola Flores,paola.flores53@correo-ficticio.pe,CUSCO,1985-10-20
+CLI-01666,38099742,Carlos Cruz,carlos.cruz1666@correo-ficticio.pe,LAMBAYEQUE,1993-07-03
+CLI-00916,31094294,Victor Castillo,victor.castillo916@correo-ficticio.pe,  Loreto ,2000-10-20
+CLI-01899,62914817,Valeria Rojas,valeria.rojas1899@correo-ficticio.pe,  Ica ,1956-11-08
+CLI-00061,49314126,Pedro Torres,pedro.torres61@correo-ficticio.pe,LA LIBERTAD,1984-11-12
+CLI-01541,74348780,Maria Chavez,maria.chavez1541@correo-ficticio.pe,LORETO,1992-06-10
+CLI-00294,36602467,Luis Arapa,luis.arapa294@correo-ficticio.pe,ICA,1956-06-06
+CLI-01920,33949169,Jose Chavez,jose.chavez1920@correo-ficticio.pe,CUSCO,1950-03-04
+CLI-00023,65302958,Carmen Gutierrez,carmen.gutierrez23@correo-ficticio.pe,CUSCO,1967-08-25
+CLI-00606,41805059,Gabriela Rios,gabriela.rios606@correo-ficticio.pe,PIURA,1999-01-16
+CLI-00260,48503818,Victor Huaman,victor.huaman260@correo-ficticio.pe,LA LIBERTAD,1990-02-15
+CLI-01846,20998767,Elena Rojas,elena.rojas1846@correo-ficticio.pe,ICA,1951-10-28
+CLI-01210,25251316,Paola Gutierrez,paola.gutierrez1210@correo-ficticio.pe,CUSCO,2002-05-19
+CLI-01383,63258732,Lucia Garcia,lucia.garcia1383@correo-ficticio.pe,AREQUIPA,1993-10-26
+CLI-00488,50245213,Diego Salazar,diego.salazar488@correo-ficticio.pe,JUNIN,1990-12-01
+CLI-01881,24980539,Hector Rios,hector.rios1881@correo-ficticio.pe,PUNO,1988-12-24
+CLI-01416,38427785,Jose Rios,jose.rios1416@correo-ficticio.pe,PIURA,1977-11-25
+CLI-00725,71974017,Carmen Flores,carmen.flores725@correo-ficticio.pe,LORETO,1960-03-27
+CLI-01751,17194541,Victor Garcia,victor.garcia1751@correo-ficticio.pe,ICA,1998-05-26
+CLI-00634,51511053,Elena Ramos,elena.ramos634@correo-ficticio.pe,CUSCO,1982-01-05
+CLI-01803,70012595,Miguel Paredes,miguel.paredes1803@correo-ficticio.pe,PIURA,1975-07-21
+CLI-00183,67680307,Maria Mamani,maria.mamani183@correo-ficticio.pe,PUNO,1963-07-11
+CLI-01311,13177689,Diego Salazar,diego.salazar1311@correo-ficticio.pe,LIMA,1980-02-06
+CLI-01610,38839271,Ana Vargas,ana.vargas1610@correo-ficticio.pe,JUNIN,1972-12-26
+CLI-01832,26361659,Rosa Garcia,rosa.garcia1832@correo-ficticio.pe,JUNIN,1978-09-12
+CLI-00610,35434526,Diego Quispe,DIEGO.QUISPE610@CORREO-FICTICIO.PE,JUNIN,1969-11-11
+CLI-01680,26620323,Luis Cruz,luis.cruz1680@correo-ficticio.pe,LA LIBERTAD,1972-02-05
+CLI-00647,52162826,Lucia Castillo,lucia.castillo647@correo-ficticio.pe,CUSCO,1964-02-09
+CLI-00912,29047505,Lucia Rojas,LUCIA.ROJAS912@CORREO-FICTICIO.PE,  Arequipa ,2005-03-12
+CLI-01856,73981799,Carmen Arapa,carmen.arapa1856@correo-ficticio.pe,ICA,1973-05-13
+CLI-00206,75725729,Elena Chavez,elena.chavez206@correo-ficticio.pe,JUNIN,1971-06-04
+CLI-01956,76382419,Jorge Flores,JORGE.FLORES1956@CORREO-FICTICIO.PE,PUNO,2005-03-23
+CLI-01542,45626380,Carmen Mamani,carmen.mamani1542@correo-ficticio.pe,CUSCO,1998-05-20
+CLI-01550,49613231,Paola Silva,paola.silva1550@correo-ficticio.pe,ICA,1997-01-01
+CLI-01011,62150048,Elena Castillo,elena.castillo1011@correo-ficticio.pe,LIMA,1978-07-20
+CLI-00662,65405739,Raul Paredes,raul.paredes662@correo-ficticio.pe,PIURA,2003-11-09
+CLI-00559,44609897,Victor Castillo,victor.castillo559@correo-ficticio.pe,JUNIN,1971-03-26
+CLI-00793,53161133,Gabriela Gutierrez,gabriela.gutierrez793@correo-ficticio.pe,CUSCO,1992-06-19
+CLI-01604,60667502,Pedro Paredes,pedro.paredes1604@correo-ficticio.pe,LA LIBERTAD,1993-04-12
+CLI-01097,53590855,Raul Vargas,raul.vargas1097@correo-ficticio.pe,AREQUIPA,1959-09-03
+CLI-01151,63480208,Diego Rojas,diego.rojas1151@correo-ficticio.pe,LIMA,1993-04-05
+CLI-00349,33968981,Jose Cruz,jose.cruz349@correo-ficticio.pe,PIURA,1996-10-17
+CLI-00115,51958816,Lucia Gutierrez,lucia.gutierrez115@correo-ficticio.pe,PUNO,1966-07-14
+CLI-01963,58032915,Carlos Torres,carlos.torres1963@correo-ficticio.pe,CUSCO,1967-08-22
+CLI-00617,10451401,Miguel Quispe,miguel.quispe617@correo-ficticio.pe,LIMA,1976-03-30
+CLI-00048,39469554,Lucia Rios,lucia.rios48@correo-ficticio.pe,CUSCO,1998-07-26
+CLI-01865,46338459,Rosa Chavez,rosa.chavez1865@correo-ficticio.pe,JUNIN,1971-08-24
+CLI-01415,68722434,Jorge Arapa,jorge.arapa1415@correo-ficticio.pe,LIMA,1992-09-23
+CLI-01239,43680354,Luis Salazar,luis.salazar1239@correo-ficticio.pe,PIURA,2003-08-30
+CLI-01886,78524955,Gabriela Arapa,gabriela.arapa1886@correo-ficticio.pe,PUNO,1974-12-23
+CLI-00201,73495866,Paola Mamani,paola.mamani201@correo-ficticio.pe,JUNIN,1973-09-14
+CLI-01204,26062222,Victor Mendoza,victor.mendoza1204@correo-ficticio.pe,AREQUIPA,1951-02-23
+CLI-01576,48714221,Carmen Mendoza,carmen.mendoza1576@correo-ficticio.pe,LAMBAYEQUE,1992-03-18
+CLI-01835,52855265,Rosa Rojas,rosa.rojas1835@correo-ficticio.pe,lima,1990-09-04
+CLI-00377,47297752,Miguel Cruz,miguel.cruz377@correo-ficticio.pe,LA LIBERTAD,1966-11-01
+CLI-00367,20172897,Jose Mamani,jose.mamani367@correo-ficticio.pe,JUNIN,1990-02-11
+CLI-00731,57508063,Lucia Huaman,lucia.huaman731@correo-ficticio.pe,JUNIN,1984-06-07
+CLI-01122,20988254,Luis Mendoza,luis.mendoza1122@correo-ficticio.pe,PIURA,1956-02-16
+CLI-01930,54028238,Carlos Silva,carlos.silva1930@correo-ficticio.pe,lima,2003-02-10
+CLI-00354,41324594,Elena Huaman,elena.huaman354@correo-ficticio.pe,LA LIBERTAD,1971-05-21
+CLI-00961,75058638,Luis Flores,luis.flores961@correo-ficticio.pe,JUNIN,1959-01-05
+CLI-00509,75618731,Carlos Silva,carlos.silva509@correo-ficticio.pe,arequipa,1982-01-01
+CLI-01838,75983521,Jorge Condori,jorge.condori1838@correo-ficticio.pe,ICA,1963-12-12
+CLI-01891,64691881,Diego Huaman,diego.huaman1891@correo-ficticio.pe,JUNIN,1995-01-02
+CLI-00609,29687201,Pedro Rios,pedro.rios609@correo-ficticio.pe,PIURA,2005-12-30
+CLI-01323,58512136,Valeria Gutierrez,valeria.gutierrez1323@correo-ficticio.pe,PIURA,1969-02-28
+CLI-01993,48631331,Diego Huaman,diego.huaman1993@correo-ficticio.pe,CUSCO,1968-12-22
+CLI-00265,67329843,Ana Huaman,ana.huaman265@correo-ficticio.pe,PIURA,1995-08-26
+CLI-00215,45687515,Gabriela Mamani,gabriela.mamani215@correo-ficticio.pe,lambayeque,1985-01-23
+CLI-01442,33407977,Sofia Quispe,sofia.quispe1442@correo-ficticio.pe,cusco,1987-09-22
+CLI-01340,52528690,Carmen Gutierrez,carmen.gutierrez1340@correo-ficticio.pe,CUSCO,1997-02-11
+CLI-00659,49048794,Diego Mamani,diego.mamani659@correo-ficticio.pe,LAMBAYEQUE,1986-01-25
+CLI-00387,21425430,Ana Flores,ana.flores387@correo-ficticio.pe,CUSCO,1966-08-28
+CLI-01271,44437717,Ana Paredes,ana.paredes1271@correo-ficticio.pe,LIMA,1962-09-10
+CLI-00457,66794539,Hector Vargas,hector.vargas457@correo-ficticio.pe,CUSCO,1953-08-13
+CLI-01096,70764174,Valeria Mamani,valeria.mamani1096@correo-ficticio.pe,LAMBAYEQUE,1970-09-26
+CLI-00846,54128798,Pedro Garcia,pedro.garcia846@correo-ficticio.pe,LAMBAYEQUE,1968-02-04
+CLI-00179,64888845,Luis Castillo,luis.castillo179@correo-ficticio.pe,ICA,1989-07-31
+CLI-01528,79012360,Hector Mendoza,hector.mendoza1528@correo-ficticio.pe,AREQUIPA,1982-05-03
+CLI-00779,44674004,Raul Cruz,raul.cruz779@correo-ficticio.pe,CUSCO,1998-04-30
+CLI-01686,38601851,Miguel Cruz,miguel.cruz1686@correo-ficticio.pe,LA LIBERTAD,1958-02-12
+CLI-00422,64922215,Carlos Vargas,carlos.vargas422@correo-ficticio.pe,  Lambayeque ,1988-03-03
+CLI-01628,20500441,Raul Paredes,raul.paredes1628@correo-ficticio.pe,LORETO,1966-05-01
+CLI-01565,26944812,Maria Quispe,maria.quispe1565@correo-ficticio.pe,AREQUIPA,2005-06-23
+CLI-01543,67427148,Carmen Paredes,carmen.paredes1543@correo-ficticio.pe,LIMA,1968-03-01
+CLI-01328,25965300,Rosa Garcia,rosa.garcia1328@correo-ficticio.pe,JUNIN,1988-02-12
+CLI-01910,44746485,Carmen Gutierrez,carmen.gutierrez1910@correo-ficticio.pe,JUNIN,1957-02-04
+CLI-00230,66304593,Maria Gutierrez,maria.gutierrez230@correo-ficticio.pe,ICA,1962-02-21
+CLI-00271,33480401,Ana Paredes,ANA.PAREDES271@CORREO-FICTICIO.PE,PIURA,1965-05-02
+CLI-01665,77957068,Pedro Garcia,pedro.garcia1665@correo-ficticio.pe,JUNIN,1983-11-22
+CLI-00143,14111824,Valeria Arapa,valeria.arapa143@correo-ficticio.pe,LA LIBERTAD,1986-03-10
+CLI-01243,50561104,Sofia Castillo,sofia.castillo1243@correo-ficticio.pe,junin,1989-02-25
+CLI-01226,12742969,Raul Silva,raul.silva1226@correo-ficticio.pe,LORETO,1952-12-08
+CLI-00075,22751501,Sofia Huaman,sofia.huaman75@correo-ficticio.pe,PUNO,1999-01-08
+CLI-00064,10267455,Maria Gutierrez,maria.gutierrez64@correo-ficticio.pe,AREQUIPA,1969-05-25
+CLI-00517,34220230,Ana Chavez,ana.chavez517@correo-ficticio.pe,  Puno ,2005-06-21
+CLI-00873,26394444,Sofia Ramos,sofia.ramos873@correo-ficticio.pe,JUNIN,1960-06-20
+CLI-00125,22225844,Ana Castillo,ana.castillo125@correo-ficticio.pe,AREQUIPA,1950-08-28
+CLI-00523,76560864,Jose Quispe,jose.quispe523@correo-ficticio.pe,CUSCO,1962-12-05
+CLI-01555,77321176,Carlos Castillo,CARLOS.CASTILLO1555@CORREO-FICTICIO.PE,CUSCO,1955-12-05
+CLI-00079,46056809,Lucia Garcia,lucia.garcia79@correo-ficticio.pe,PIURA,1996-03-13
+CLI-00208,40265642,Rosa Ramos,rosa.ramos208@correo-ficticio.pe,LORETO,1990-10-16
+CLI-01676,11083515,Carmen Mendoza,carmen.mendoza1676@correo-ficticio.pe,LORETO,1980-11-09
+CLI-01292,55525333,Jose Chavez,jose.chavez1292@correo-ficticio.pe,ICA,1963-01-01
+CLI-00248,58575520,Carlos Chavez,carlos.chavez248@correo-ficticio.pe,LIMA,1993-06-20
+CLI-01039,78658125,Lucia Vargas,LUCIA.VARGAS1039@CORREO-FICTICIO.PE,AREQUIPA,1967-11-22
+CLI-01280,75368313,Ana Garcia,ana.garcia1280@correo-ficticio.pe,JUNIN,1960-09-12
+CLI-01651,11098037,Raul Mendoza,raul.mendoza1651@correo-ficticio.pe,LORETO,1961-02-21
+CLI-00739,48706812,Maria Chavez,MARIA.CHAVEZ739@CORREO-FICTICIO.PE,AREQUIPA,1976-02-11
+CLI-01291,20954787,Rosa Quispe,rosa.quispe1291@correo-ficticio.pe,ICA,1996-04-04
+CLI-00724,48138944,Jorge Garcia,jorge.garcia724@correo-ficticio.pe,LAMBAYEQUE,1982-08-05
+CLI-00407,21247750,Raul Mamani,raul.mamani407@correo-ficticio.pe,ICA,2005-11-29
+CLI-01230,76596419,Miguel Huaman,miguel.huaman1230@correo-ficticio.pe,AREQUIPA,1990-01-25
+CLI-00738,36347752,Victor Garcia,victor.garcia738@correo-ficticio.pe,LORETO,1974-03-20
+CLI-01862,71126322,Carlos Flores,carlos.flores1862@correo-ficticio.pe,ICA,1985-11-02
+CLI-01168,52585923,Sofia Rios,sofia.rios1168@correo-ficticio.pe,PUNO,2001-01-21
+CLI-01968,45370356,Sofia Castillo,sofia.castillo1968@correo-ficticio.pe,CUSCO,1963-12-09
+CLI-00594,53113073,Jose Garcia,jose.garcia594@correo-ficticio.pe,ICA,1995-12-15
+CLI-00626,50813736,Sofia Huaman,sofia.huaman626@correo-ficticio.pe,CUSCO,1959-01-12
+CLI-01194,32790128,Diego Castillo,DIEGO.CASTILLO1194@CORREO-FICTICIO.PE,LAMBAYEQUE,1995-03-12
+CLI-01276,18532992,Lucia Paredes,lucia.paredes1276@correo-ficticio.pe,AREQUIPA,1962-01-26
+CLI-01143,57367263,Victor Castillo,victor.castillo1143@correo-ficticio.pe,PIURA,1962-10-02
+CLI-00120,20197968,Pedro Condori,pedro.condori120@correo-ficticio.pe,PUNO,1959-12-19
+CLI-01453,24125101,Luis Flores,luis.flores1453@correo-ficticio.pe,PIURA,1966-01-05
+CLI-00823,13331613,Raul Ramos,raul.ramos823@correo-ficticio.pe,LA LIBERTAD,1978-12-24
+CLI-01570,38648914,Lucia Salazar,lucia.salazar1570@correo-ficticio.pe,LORETO,1950-01-23
+CLI-01943,57421524,Rosa Flores,rosa.flores1943@correo-ficticio.pe,CUSCO,1962-04-25
+CLI-00744,57432365,Lucia Mendoza,lucia.mendoza744@correo-ficticio.pe,PIURA,1960-07-15
+CLI-01148,65371485,Rosa Rios,rosa.rios1148@correo-ficticio.pe,ICA,1971-10-06
+CLI-01251,43357720,Miguel Garcia,miguel.garcia1251@correo-ficticio.pe,la libertad,1988-02-24
+CLI-01355,70617032,Victor Gutierrez,victor.gutierrez1355@correo-ficticio.pe,JUNIN,1985-01-12
+CLI-00255,78479872,Miguel Garcia,miguel.garcia255@correo-ficticio.pe,LA LIBERTAD,1951-07-31
+CLI-01398,78064947,Sofia Salazar,sofia.salazar1398@correo-ficticio.pe,  Junin ,1970-11-11
+CLI-01948,72835283,Diego Chavez,diego.chavez1948@correo-ficticio.pe,PIURA,1960-01-31
+CLI-00977,69863532,Ana Rojas,ANA.ROJAS977@CORREO-FICTICIO.PE,PUNO,1950-01-15
+CLI-00867,68048945,Luis Flores,luis.flores867@correo-ficticio.pe,JUNIN,1973-02-02
+CLI-00807,54841483,Rosa Mamani,ROSA.MAMANI807@CORREO-FICTICIO.PE,CUSCO,1998-10-23
+CLI-00711,38641339,Maria Mamani,maria.mamani711@correo-ficticio.pe,CUSCO,1953-06-17
+CLI-00164,65095231,Elena Rojas,elena.rojas164@correo-ficticio.pe,AREQUIPA,2005-06-05
+CLI-01403,20509239,Victor Huaman,victor.huaman1403@correo-ficticio.pe,PIURA,1960-04-02
+CLI-00101,42362684,Pedro Torres,pedro.torres101@correo-ficticio.pe,PUNO,1964-03-22
+CLI-00188,28479467,Gabriela Mendoza,gabriela.mendoza188@correo-ficticio.pe,PIURA,1960-09-26
+CLI-00432,55607329,Pedro Flores,pedro.flores432@correo-ficticio.pe,AREQUIPA,1959-02-19
+CLI-01901,18599593,Victor Cruz,victor.cruz1901@correo-ficticio.pe,LORETO,1986-03-11
+CLI-01700,57971947,Carlos Cruz,carlos.cruz1700@correo-ficticio.pe,LORETO,1958-04-23
+CLI-00614,49689428,Victor Chavez,victor.chavez614@correo-ficticio.pe,CUSCO,1980-11-10
+CLI-01779,46268655,Ana Flores,ana.flores1779@correo-ficticio.pe,LAMBAYEQUE,1996-06-03
+CLI-00908,55707001,Jorge Quispe,jorge.quispe908@correo-ficticio.pe,LAMBAYEQUE,1988-02-17
+CLI-00671,49665027,Victor Salazar,victor.salazar671@correo-ficticio.pe,AREQUIPA,1963-04-16
+CLI-01001,74348746,Valeria Mamani,valeria.mamani1001@correo-ficticio.pe,JUNIN,1980-01-13
+CLI-01095,65052298,Valeria Castillo,valeria.castillo1095@correo-ficticio.pe,PIURA,1983-02-01
+CLI-00397,74158569,Sofia Flores,sofia.flores397@correo-ficticio.pe,PIURA,1987-12-11
+CLI-01784,72075979,Gabriela Vargas,gabriela.vargas1784@correo-ficticio.pe,CUSCO,1983-09-10
+CLI-00093,35374331,Elena Salazar,elena.salazar93@correo-ficticio.pe,ICA,1963-09-27
+CLI-01959,55875480,Jorge Vargas,jorge.vargas1959@correo-ficticio.pe,AREQUIPA,1980-12-30
+CLI-00898,56302576,Luis Vargas,luis.vargas898@correo-ficticio.pe,LA LIBERTAD,1968-04-11
+CLI-01591,39991536,Ana Rojas,ana.rojas1591@correo-ficticio.pe,AREQUIPA,1963-07-27
+CLI-00288,39146869,Paola Salazar,paola.salazar288@correo-ficticio.pe,CUSCO,1953-02-06
+CLI-01744,42169827,Sofia Rojas,sofia.rojas1744@correo-ficticio.pe,CUSCO,1987-06-26
+CLI-00459,17835114,Elena Flores,ELENA.FLORES459@CORREO-FICTICIO.PE,ICA,1969-04-10
+CLI-01408,63231082,Lucia Vargas,lucia.vargas1408@correo-ficticio.pe,CUSCO,1974-12-24
+CLI-01331,53292547,Raul Paredes,raul.paredes1331@correo-ficticio.pe,LORETO,1973-03-15
+CLI-01540,50688099,Ana Chavez,ana.chavez1540@correo-ficticio.pe,JUNIN,1977-09-02
+CLI-00616,48795917,Elena Mendoza,ELENA.MENDOZA616@CORREO-FICTICIO.PE,PIURA,1993-04-16
+CLI-00449,38936976,Maria Mendoza,maria.mendoza449@correo-ficticio.pe,arequipa,1990-08-04
+CLI-00135,12820275,Carlos Condori,carlos.condori135@correo-ficticio.pe,PIURA,1971-12-17
+CLI-00748,79852469,Miguel Chavez,miguel.chavez748@correo-ficticio.pe,PUNO,1973-11-03
+CLI-00882,59601354,Pedro Chavez,pedro.chavez882@correo-ficticio.pe,JUNIN,1985-12-17
+CLI-00828,19244174,Rosa Flores,rosa.flores828@correo-ficticio.pe,LA LIBERTAD,1975-08-15
+CLI-00699,52547504,Lucia Mamani,lucia.mamani699@correo-ficticio.pe,ICA,1978-12-11
+CLI-01102,59720543,Victor Garcia,VICTOR.GARCIA1102@CORREO-FICTICIO.PE,lambayeque,1950-01-16
+CLI-00484,52616879,Valeria Condori,valeria.condori484@correo-ficticio.pe,LAMBAYEQUE,1972-12-22
+CLI-00072,54154075,Sofia Vargas,sofia.vargas72@correo-ficticio.pe,JUNIN,1989-11-15
+CLI-00013,14443850,Miguel Quispe,miguel.quispe13@correo-ficticio.pe,LORETO,1996-11-29
+CLI-01563,43354785,Luis Mamani,luis.mamani1563@correo-ficticio.pe,LORETO,1955-10-16
+CLI-01114,69139223,Sofia Condori,sofia.condori1114@correo-ficticio.pe,PUNO,2002-11-20
+CLI-00971,31594632,Sofia Flores,sofia.flores971@correo-ficticio.pe,AREQUIPA,1991-03-23
+CLI-00533,60298215,Valeria Torres,valeria.torres533@correo-ficticio.pe,  Loreto ,1957-08-21
+CLI-01379,44368888,Jose Arapa,jose.arapa1379@correo-ficticio.pe,LIMA,1970-02-24
+CLI-00042,52421355,Ana Salazar,ana.salazar42@correo-ficticio.pe,LORETO,1960-09-18
+CLI-01632,51806765,Pedro Rojas,pedro.rojas1632@correo-ficticio.pe,LA LIBERTAD,1954-11-08
+CLI-01894,31000557,Hector Silva,HECTOR.SILVA1894@CORREO-FICTICIO.PE,LA LIBERTAD,1978-11-15
+CLI-01874,78710976,Paola Chavez,paola.chavez1874@correo-ficticio.pe,CUSCO,1991-05-31
+CLI-01352,69910422,Elena Mendoza,elena.mendoza1352@correo-ficticio.pe,LAMBAYEQUE,1999-01-13
+CLI-01810,21467435,Victor Silva,victor.silva1810@correo-ficticio.pe,LORETO,1953-08-21
+CLI-01639,66585588,Paola Cruz,paola.cruz1639@correo-ficticio.pe,PIURA,1959-03-11
+CLI-01737,11225921,Luis Rios,luis.rios1737@correo-ficticio.pe,LAMBAYEQUE,1999-05-28
+CLI-00237,28001941,Rosa Quispe,rosa.quispe237@correo-ficticio.pe,LA LIBERTAD,1963-11-20
+CLI-01031,50911376,Diego Arapa,diego.arapa1031@correo-ficticio.pe,CUSCO,1951-10-05
+CLI-01078,20016069,Jose Huaman,jose.huaman1078@correo-ficticio.pe,AREQUIPA,1976-11-27
+CLI-01843,59997827,Jorge Huaman,jorge.huaman1843@correo-ficticio.pe,LORETO,2004-05-11
+CLI-01887,59779879,Victor Condori,victor.condori1887@correo-ficticio.pe,LIMA,1969-10-02
+CLI-01524,79562984,Sofia Cruz,sofia.cruz1524@correo-ficticio.pe,CUSCO,1986-11-26
+CLI-01395,57397407,Carmen Cruz,carmen.cruz1395@correo-ficticio.pe,ICA,2005-04-02
+CLI-01284,63802083,Raul Cruz,raul.cruz1284@correo-ficticio.pe,ICA,1985-02-22
+CLI-00574,18534266,Maria Quispe,maria.quispe574@correo-ficticio.pe,PIURA,1965-04-20
+CLI-00162,66990323,Victor Ramos,victor.ramos162@correo-ficticio.pe,cusco,1962-09-16
+CLI-00362,73183073,Raul Flores,raul.flores362@correo-ficticio.pe,ica,1954-04-21
+CLI-00313,67181907,Miguel Flores,miguel.flores313@correo-ficticio.pe,JUNIN,1970-06-06
+CLI-01172,37344369,Luis Silva,luis.silva1172@correo-ficticio.pe,PIURA,1973-03-03
+CLI-01780,23611352,Valeria Mamani,valeria.mamani1780@correo-ficticio.pe,ICA,1961-05-03
+CLI-00111,74240714,Raul Silva,raul.silva111@correo-ficticio.pe,CUSCO,1962-01-19
+CLI-00029,35303973,Ana Cruz,ana.cruz29@correo-ficticio.pe,LIMA,1997-07-17
+CLI-00943,65922220,Pedro Condori,pedro.condori943@correo-ficticio.pe,CUSCO,1961-06-30
+CLI-00786,76922886,Lucia Salazar,lucia.salazar786@correo-ficticio.pe,LAMBAYEQUE,1960-08-13
+CLI-00778,18261634,Hector Cruz,hector.cruz778@correo-ficticio.pe,LA LIBERTAD,2005-10-30
+CLI-00734,24752408,Lucia Torres,lucia.torres734@correo-ficticio.pe,PUNO,1980-12-14
+CLI-00343,59507430,Jorge Salazar,jorge.salazar343@correo-ficticio.pe,AREQUIPA,1984-10-15
+CLI-01903,50586293,Miguel Chavez,miguel.chavez1903@correo-ficticio.pe,JUNIN,2003-04-06
+CLI-00982,24438141,Victor Ramos,victor.ramos982@correo-ficticio.pe,PIURA,1961-10-02
+CLI-01969,32085627,Valeria Garcia,valeria.garcia1969@correo-ficticio.pe,JUNIN,1986-08-03
+CLI-00306,79899607,Sofia Rojas,sofia.rojas306@correo-ficticio.pe,LAMBAYEQUE,1973-06-24
+CLI-00129,61786198,Luis Rios,luis.rios129@correo-ficticio.pe,PUNO,1966-01-05
+CLI-00159,66852484,Raul Garcia,raul.garcia159@correo-ficticio.pe,CUSCO,1991-08-10
+CLI-01209,57418410,Valeria Rios,valeria.rios1209@correo-ficticio.pe,LIMA,1971-04-27
+CLI-00687,52662740,Gabriela Paredes,gabriela.paredes687@correo-ficticio.pe,LIMA,2003-12-06
+CLI-00059,79336332,Diego Salazar,diego.salazar59@correo-ficticio.pe,CUSCO,1959-06-01
+CLI-01705,49584169,Paola Condori,paola.condori1705@correo-ficticio.pe,LORETO,1980-11-12
+CLI-01103,49837826,Jose Mamani,jose.mamani1103@correo-ficticio.pe,LA LIBERTAD,1965-12-06
+CLI-01724,47438421,Diego Huaman,diego.huaman1724@correo-ficticio.pe,LA LIBERTAD,1994-07-03
+CLI-01150,25986393,Carmen Vargas,carmen.vargas1150@correo-ficticio.pe,LORETO,1983-01-07
+CLI-00283,78466354,Sofia Salazar,sofia.salazar283@correo-ficticio.pe,LORETO,1964-12-04
+CLI-01588,14317080,Rosa Silva,rosa.silva1588@correo-ficticio.pe,ICA,1958-08-01
+CLI-01272,17850518,Victor Mamani,victor.mamani1272@correo-ficticio.pe,LA LIBERTAD,1962-04-09
+CLI-00196,52734192,Pedro Quispe,PEDRO.QUISPE196@CORREO-FICTICIO.PE,PUNO,1986-12-15
+CLI-01535,77912855,Gabriela Rojas,gabriela.rojas1535@correo-ficticio.pe,LA LIBERTAD,1982-07-15
+CLI-00440,75645042,Hector Quispe,HECTOR.QUISPE440@CORREO-FICTICIO.PE,LA LIBERTAD,1973-07-04
+CLI-01530,12269309,Paola Mamani,paola.mamani1530@correo-ficticio.pe,CUSCO,1970-11-09
+CLI-01855,18334040,Luis Condori,luis.condori1855@correo-ficticio.pe,CUSCO,1993-10-22
+CLI-00379,50963119,Pedro Quispe,pedro.quispe379@correo-ficticio.pe,AREQUIPA,1958-04-05
+CLI-01623,59580003,Victor Rojas,victor.rojas1623@correo-ficticio.pe,LORETO,1967-01-26
+CLI-01769,57960675,Valeria Rios,valeria.rios1769@correo-ficticio.pe,JUNIN,1995-07-21
+CLI-01318,45094067,Jose Rojas,JOSE.ROJAS1318@CORREO-FICTICIO.PE,LAMBAYEQUE,1980-08-22
+CLI-00046,26466530,Maria Torres,maria.torres46@correo-ficticio.pe,CUSCO,2003-07-22
+CLI-00361,34783685,Jose Ramos,jose.ramos361@correo-ficticio.pe,PUNO,1971-03-23
+CLI-00427,28637545,Pedro Condori,pedro.condori427@correo-ficticio.pe,arequipa,1954-03-25
+CLI-00980,32117579,Sofia Quispe,sofia.quispe980@correo-ficticio.pe,JUNIN,1963-09-13
+CLI-01496,34561424,Hector Arapa,hector.arapa1496@correo-ficticio.pe,LAMBAYEQUE,1978-04-09
+CLI-00401,63291069,Hector Garcia,hector.garcia401@correo-ficticio.pe,CUSCO,1966-03-07
+CLI-00325,79613237,Miguel Castillo,miguel.castillo325@correo-ficticio.pe,PUNO,1996-09-20
+CLI-00709,37825349,Rosa Gutierrez,rosa.gutierrez709@correo-ficticio.pe,LAMBAYEQUE,1990-03-13
+CLI-00040,17692234,Sofia Quispe,SOFIA.QUISPE40@CORREO-FICTICIO.PE,LIMA,1958-06-03
+CLI-01288,73042397,Elena Torres,elena.torres1288@correo-ficticio.pe,JUNIN,1956-07-16
+CLI-01169,59700424,Rosa Vargas,rosa.vargas1169@correo-ficticio.pe,ICA,1989-09-04
+CLI-00157,24157186,Sofia Garcia,sofia.garcia157@correo-ficticio.pe,PIURA,1999-09-29
+CLI-01005,60059750,Lucia Chavez,lucia.chavez1005@correo-ficticio.pe,CUSCO,1988-05-13
+CLI-01363,60949867,Luis Gutierrez,luis.gutierrez1363@correo-ficticio.pe,JUNIN,1963-01-24
+CLI-00480,60626792,Rosa Mamani,rosa.mamani480@correo-ficticio.pe,PIURA,2005-02-26
+CLI-01863,10462236,Sofia Rojas,sofia.rojas1863@correo-ficticio.pe,PIURA,1971-08-29
+CLI-01040,66122591,Carmen Castillo,carmen.castillo1040@correo-ficticio.pe,AREQUIPA,1965-06-17
+CLI-00390,67615075,Pedro Rojas,pedro.rojas390@correo-ficticio.pe,LORETO,2000-11-18
+CLI-01587,59374781,Sofia Silva,sofia.silva1587@correo-ficticio.pe,PUNO,1994-12-23
+CLI-00152,60722376,Lucia Arapa,lucia.arapa152@correo-ficticio.pe,LIMA,1969-04-26
+CLI-00546,15989318,Raul Condori,raul.condori546@correo-ficticio.pe,LA LIBERTAD,1971-12-27
+CLI-00504,11962395,Paola Silva,PAOLA.SILVA504@CORREO-FICTICIO.PE,AREQUIPA,1959-09-07
+CLI-00342,58782078,Carlos Mamani,carlos.mamani342@correo-ficticio.pe,cusco,1976-09-28
+CLI-01315,46462443,Diego Rojas,diego.rojas1315@correo-ficticio.pe,ICA,1998-08-06
+CLI-00437,54339328,Carlos Silva,carlos.silva437@correo-ficticio.pe,ICA,1974-08-14
+CLI-01085,65520935,Sofia Gutierrez,sofia.gutierrez1085@correo-ficticio.pe,ICA,1984-09-02
+CLI-01160,77124370,Jorge Rojas,jorge.rojas1160@correo-ficticio.pe,LORETO,1978-11-12
+CLI-00115,51958816,Lucia Gutierrez,lucia.gutierrez115@correo-ficticio.pe,PUNO,1966-07-14
+CLI-00415,26968581,Paola Rojas,paola.rojas415@correo-ficticio.pe,PUNO,1964-05-03
+CLI-01580,43311705,Elena Salazar,elena.salazar1580@correo-ficticio.pe,LORETO,1957-04-23
+CLI-01783,63380156,Hector Silva,hector.silva1783@correo-ficticio.pe,CUSCO,1986-07-01
+CLI-01860,75040957,Jose Rojas,jose.rojas1860@correo-ficticio.pe,PUNO,1978-11-13
+CLI-00381,11013459,Jose Castillo,jose.castillo381@correo-ficticio.pe,LA LIBERTAD,1983-06-02
+CLI-01312,30179169,Ana Chavez,ANA.CHAVEZ1312@CORREO-FICTICIO.PE,PIURA,1978-07-14
+CLI-00714,38882908,Gabriela Silva,gabriela.silva714@correo-ficticio.pe,JUNIN,1999-02-04
+CLI-00802,10757434,Jose Flores,jose.flores802@correo-ficticio.pe,ICA,1978-07-20
+CLI-00149,55290396,Valeria Gutierrez,valeria.gutierrez149@correo-ficticio.pe,LAMBAYEQUE,1997-12-26
+CLI-00797,68092731,Lucia Chavez,lucia.chavez797@correo-ficticio.pe,LIMA,1969-04-28
+CLI-01676,11083515,Carmen Mendoza,carmen.mendoza1676@correo-ficticio.pe,LORETO,1980-11-09
+CLI-00005,78932553,Elena Salazar,elena.salazar5@correo-ficticio.pe,JUNIN,1998-04-10
+CLI-00941,57464145,Rosa Mamani,ROSA.MAMANI941@CORREO-FICTICIO.PE,LAMBAYEQUE,2005-04-18
+CLI-00410,74220358,Rosa Castillo,rosa.castillo410@correo-ficticio.pe,JUNIN,1952-12-18
+CLI-01881,24980539,Hector Rios,hector.rios1881@correo-ficticio.pe,PUNO,1988-12-24
+CLI-01973,70851740,Pedro Garcia,pedro.garcia1973@correo-ficticio.pe,  Lambayeque ,1974-08-09
+CLI-01071,76840256,Miguel Chavez,MIGUEL.CHAVEZ1071@CORREO-FICTICIO.PE,PIURA,2004-04-12
+CLI-00074,71480303,Miguel Castillo,miguel.castillo74@correo-ficticio.pe,lambayeque,1979-07-14
+CLI-01893,13054723,Elena Vargas,elena.vargas1893@correo-ficticio.pe,  Cusco ,1978-04-19
+CLI-00482,28943627,Paola Mendoza,PAOLA.MENDOZA482@CORREO-FICTICIO.PE,LAMBAYEQUE,1958-01-23
+CLI-00842,58304554,Raul Castillo,raul.castillo842@correo-ficticio.pe,LIMA,1995-09-18
+CLI-00398,56734011,Jose Chavez,jose.chavez398@correo-ficticio.pe,LORETO,1975-12-16
+CLI-01523,26186368,Lucia Mamani,lucia.mamani1523@correo-ficticio.pe,PUNO,1968-06-12
+CLI-01112,45459955,Paola Rios,PAOLA.RIOS1112@CORREO-FICTICIO.PE,CUSCO,1984-02-07
+CLI-01262,43800518,Raul Rios,raul.rios1262@correo-ficticio.pe,LAMBAYEQUE,1959-10-28
+CLI-00004,75805171,Raul Quispe,raul.quispe4@correo-ficticio.pe,PIURA,1981-03-11
+CLI-00814,64105636,Luis Paredes,LUIS.PAREDES814@CORREO-FICTICIO.PE,LA LIBERTAD,1954-07-02
+CLI-01300,24812856,Hector Huaman,hector.huaman1300@correo-ficticio.pe,CUSCO,1985-10-12
+CLI-00466,60855805,Ana Ramos,ana.ramos466@correo-ficticio.pe,LA LIBERTAD,1976-01-31
+CLI-01482,36679085,Carmen Rios,CARMEN.RIOS1482@CORREO-FICTICIO.PE,LORETO,1966-05-20
+CLI-00900,56869597,Victor Castillo,victor.castillo900@correo-ficticio.pe,JUNIN,1963-08-20
+CLI-00016,44739729,Raul Gutierrez,raul.gutierrez16@correo-ficticio.pe,CUSCO,1992-12-26
+CLI-00777,19361948,Jorge Huaman,jorge.huaman777@correo-ficticio.pe,LIMA,1982-02-26
+CLI-00787,78243831,Gabriela Huaman,GABRIELA.HUAMAN787@CORREO-FICTICIO.PE,ICA,1979-10-31
+CLI-01870,79835410,Hector Mendoza,hector.mendoza1870@correo-ficticio.pe,AREQUIPA,1951-04-13
+CLI-01729,50516856,Raul Silva,raul.silva1729@correo-ficticio.pe,CUSCO,1988-07-26
+CLI-01742,46079061,Victor Flores,victor.flores1742@correo-ficticio.pe,piura,1953-06-18
+CLI-00049,44222072,Gabriela Salazar,gabriela.salazar49@correo-ficticio.pe,piura,1974-11-02
+CLI-01369,23093771,Pedro Garcia,pedro.garcia1369@correo-ficticio.pe,PIURA,2003-02-23
+CLI-01690,21427250,Lucia Silva,lucia.silva1690@correo-ficticio.pe,LIMA,1964-06-07
+CLI-00212,43171135,Victor Mamani,victor.mamani212@correo-ficticio.pe,LORETO,1970-04-07
+CLI-00455,38704764,Diego Garcia,diego.garcia455@correo-ficticio.pe,LA LIBERTAD,1984-01-23
+CLI-01819,10331655,Carlos Cruz,carlos.cruz1819@correo-ficticio.pe,LAMBAYEQUE,1989-12-31
+CLI-01741,22837223,Diego Quispe,diego.quispe1741@correo-ficticio.pe,AREQUIPA,1982-09-20
+CLI-00439,51395320,Lucia Condori,lucia.condori439@correo-ficticio.pe,AREQUIPA,1959-03-01
+CLI-00596,34625190,Hector Castillo,hector.castillo596@correo-ficticio.pe,ICA,1993-01-24
+CLI-01275,64514704,Elena Garcia,elena.garcia1275@correo-ficticio.pe,JUNIN,2000-08-22
+CLI-01130,29211318,Elena Silva,elena.silva1130@correo-ficticio.pe,LORETO,1982-03-05
+CLI-00620,51690547,Paola Rojas,paola.rojas620@correo-ficticio.pe,PUNO,2000-12-01
+CLI-00981,43239302,Hector Torres,hector.torres981@correo-ficticio.pe,LAMBAYEQUE,1976-05-26
+CLI-00769,61554071,Pedro Quispe,pedro.quispe769@correo-ficticio.pe,LAMBAYEQUE,1993-03-18
+CLI-00637,71462694,Elena Castillo,elena.castillo637@correo-ficticio.pe,CUSCO,1981-10-04
+CLI-01338,46086786,Paola Mendoza,paola.mendoza1338@correo-ficticio.pe,AREQUIPA,1971-03-12
+CLI-01166,46918377,Rosa Rojas,rosa.rojas1166@correo-ficticio.pe,PIURA,1988-03-01
+CLI-01282,41208477,Diego Ramos,diego.ramos1282@correo-ficticio.pe,LA LIBERTAD,1959-04-15
+CLI-00541,31651250,Jorge Chavez,jorge.chavez541@correo-ficticio.pe,PIURA,1976-12-08
+CLI-01503,79187885,Victor Chavez,victor.chavez1503@correo-ficticio.pe,LORETO,1950-12-17
+CLI-00323,35630283,Carmen Gutierrez,carmen.gutierrez323@correo-ficticio.pe,LAMBAYEQUE,1998-07-05
+CLI-01439,29063188,Pedro Chavez,pedro.chavez1439@correo-ficticio.pe,LA LIBERTAD,1999-12-09
+CLI-00314,35288573,Maria Vargas,maria.vargas314@correo-ficticio.pe,JUNIN,1986-03-03
+CLI-00205,68534190,Carmen Rios,carmen.rios205@correo-ficticio.pe,PIURA,1983-09-22
+CLI-00017,76896901,Carlos Vargas,carlos.vargas17@correo-ficticio.pe,PIURA,1986-11-25
+CLI-01344,15595798,Diego Quispe,diego.quispe1344@correo-ficticio.pe,LAMBAYEQUE,1964-04-13
+CLI-00953,43697529,Miguel Silva,miguel.silva953@correo-ficticio.pe,  Loreto ,1965-01-08
+CLI-00238,28258385,Luis Castillo,luis.castillo238@correo-ficticio.pe,ICA,1991-11-27
+CLI-00521,45491471,Lucia Salazar,lucia.salazar521@correo-ficticio.pe,puno,1993-11-30
+CLI-01309,33355679,Pedro Quispe,pedro.quispe1309@correo-ficticio.pe,lambayeque,1988-04-06
+CLI-00728,11247311,Jose Rojas,jose.rojas728@correo-ficticio.pe,JUNIN,1964-06-24
+CLI-01263,48260368,Jose Torres,JOSE.TORRES1263@CORREO-FICTICIO.PE,PUNO,1977-01-19
+CLI-01261,47541806,Carmen Arapa,carmen.arapa1261@correo-ficticio.pe,LORETO,1950-09-06
+CLI-01477,39960826,Gabriela Paredes,gabriela.paredes1477@correo-ficticio.pe,LIMA,1995-05-18
+CLI-01788,20756326,Paola Chavez,paola.chavez1788@correo-ficticio.pe,JUNIN,2004-12-20
+CLI-00133,76434800,Jose Torres,jose.torres133@correo-ficticio.pe,cusco,1984-01-19
+CLI-01850,25477903,Ana Rios,ana.rios1850@correo-ficticio.pe,PIURA,2002-11-06
+CLI-00355,76864185,Miguel Castillo,miguel.castillo355@correo-ficticio.pe,  Junin ,2000-08-27
+CLI-01189,40920802,Jorge Torres,jorge.torres1189@correo-ficticio.pe,LIMA,1985-06-08
+CLI-01841,26644634,Elena Ramos,elena.ramos1841@correo-ficticio.pe,AREQUIPA,1955-02-18
+CLI-01466,16416353,Carlos Chavez,carlos.chavez1466@correo-ficticio.pe,AREQUIPA,1978-02-03
+CLI-00710,77065718,Elena Cruz,elena.cruz710@correo-ficticio.pe,PUNO,1960-01-12
+CLI-01743,63609078,Carlos Vargas,carlos.vargas1743@correo-ficticio.pe,LIMA,1988-11-09
+CLI-01234,67364560,Gabriela Mamani,gabriela.mamani1234@correo-ficticio.pe,LIMA,1999-08-10
+CLI-01684,55660276,Pedro Paredes,pedro.paredes1684@correo-ficticio.pe,LAMBAYEQUE,1986-02-02
+CLI-01687,18451780,Hector Silva,hector.silva1687@correo-ficticio.pe,LIMA,1986-01-25
+CLI-01433,37654641,Luis Castillo,luis.castillo1433@correo-ficticio.pe,PUNO,1994-05-08
+CLI-01023,61810188,Hector Paredes,hector.paredes1023@correo-ficticio.pe,LAMBAYEQUE,1986-07-24
+CLI-01615,29313128,Raul Mamani,RAUL.MAMANI1615@CORREO-FICTICIO.PE,CUSCO,1968-03-19
+CLI-00635,16189429,Jose Silva,jose.silva635@correo-ficticio.pe,CUSCO,1994-08-01
+CLI-00510,53760537,Miguel Rios,miguel.rios510@correo-ficticio.pe,ICA,1980-01-01
+CLI-01805,51965689,Hector Quispe,hector.quispe1805@correo-ficticio.pe,AREQUIPA,1958-01-16
+CLI-00161,34347740,Ana Rios,ana.rios161@correo-ficticio.pe,AREQUIPA,1998-11-24
+CLI-00551,45437457,Paola Arapa,PAOLA.ARAPA551@CORREO-FICTICIO.PE,LA LIBERTAD,2005-05-04
+CLI-01734,18272704,Valeria Mamani,valeria.mamani1734@correo-ficticio.pe,ICA,1968-02-21
+CLI-00572,16943919,Luis Ramos,luis.ramos572@correo-ficticio.pe,LA LIBERTAD,1994-06-09
+CLI-00985,70287015,Maria Flores,maria.flores985@correo-ficticio.pe,ICA,1978-09-09
+CLI-01299,71801429,Luis Rojas,luis.rojas1299@correo-ficticio.pe,LIMA,1953-03-22
+CLI-01490,20867273,Victor Garcia,victor.garcia1490@correo-ficticio.pe,LORETO,1955-12-28
+CLI-00117,39335391,Luis Paredes,luis.paredes117@correo-ficticio.pe,LIMA,1962-08-02
+CLI-01119,73683931,Carlos Torres,carlos.torres1119@correo-ficticio.pe,LAMBAYEQUE,1995-07-31
+CLI-01822,25099391,Lucia Ramos,lucia.ramos1822@correo-ficticio.pe,LA LIBERTAD,1956-03-19
+CLI-01356,31714651,Sofia Huaman,sofia.huaman1356@correo-ficticio.pe,LAMBAYEQUE,1987-05-13
+CLI-01417,19194755,Valeria Arapa,valeria.arapa1417@correo-ficticio.pe,PIURA,1950-03-17
+CLI-01617,20274567,Pedro Paredes,pedro.paredes1617@correo-ficticio.pe,  Lambayeque ,1992-02-01
+CLI-01410,51828649,Jorge Flores,jorge.flores1410@correo-ficticio.pe,AREQUIPA,1991-11-13
+CLI-01203,79042311,Diego Rojas,diego.rojas1203@correo-ficticio.pe,ICA,1997-11-14
+CLI-01884,25366963,Ana Cruz,ana.cruz1884@correo-ficticio.pe,PUNO,1986-04-05
+CLI-00178,62096035,Maria Rojas,MARIA.ROJAS178@CORREO-FICTICIO.PE,PUNO,2000-05-28
+CLI-01864,48397930,Elena Castillo,elena.castillo1864@correo-ficticio.pe,LORETO,1995-10-23
+CLI-01557,22110723,Rosa Mamani,rosa.mamani1557@correo-ficticio.pe,JUNIN,2000-07-22
+CLI-01781,42004034,Maria Gutierrez,maria.gutierrez1781@correo-ficticio.pe,CUSCO,1959-10-19
+CLI-00625,49515084,Hector Mendoza,hector.mendoza625@correo-ficticio.pe,PUNO,1964-02-08
+CLI-00191,56325053,Ana Arapa,ana.arapa191@correo-ficticio.pe,PIURA,1992-07-02
+CLI-01002,48518799,Hector Rojas,hector.rojas1002@correo-ficticio.pe,ICA,1965-12-31
+CLI-00954,32820825,Diego Vargas,DIEGO.VARGAS954@CORREO-FICTICIO.PE,ICA,1981-12-22
+CLI-00144,32263680,Lucia Huaman,lucia.huaman144@correo-ficticio.pe,PIURA,2003-12-20
+CLI-00698,11703163,Diego Quispe,diego.quispe698@correo-ficticio.pe,AREQUIPA,2001-07-30
+CLI-00987,49029285,Carlos Castillo,carlos.castillo987@correo-ficticio.pe,JUNIN,1974-03-14
+CLI-00322,55482383,Jose Paredes,jose.paredes322@correo-ficticio.pe,LIMA,1982-04-01
+CLI-01827,72562743,Sofia Salazar,SOFIA.SALAZAR1827@CORREO-FICTICIO.PE,LA LIBERTAD,1973-03-12
+CLI-01683,49597535,Hector Chavez,hector.chavez1683@correo-ficticio.pe,ICA,1965-07-15
+CLI-01650,64743010,Luis Torres,luis.torres1650@correo-ficticio.pe,LORETO,2002-05-29
+CLI-00007,66669073,Elena Cruz,ELENA.CRUZ7@CORREO-FICTICIO.PE,LORETO,1960-06-12
+CLI-01511,23872276,Diego Huaman,diego.huaman1511@correo-ficticio.pe,LORETO,1982-11-14
+CLI-01971,26246085,Paola Ramos,paola.ramos1971@correo-ficticio.pe,PIURA,1960-05-09
+CLI-00456,75370164,Elena Rios,elena.rios456@correo-ficticio.pe,JUNIN,1991-03-12
+CLI-00118,79974347,Carmen Ramos,carmen.ramos118@correo-ficticio.pe,LAMBAYEQUE,2002-01-24
+CLI-00707,50186820,Carmen Garcia,carmen.garcia707@correo-ficticio.pe,junin,1980-03-07
+CLI-00701,56879532,Carmen Mamani,carmen.mamani701@correo-ficticio.pe,LAMBAYEQUE,1989-05-06
+CLI-01068,61897997,Raul Quispe,raul.quispe1068@correo-ficticio.pe,LIMA,1994-10-23
+CLI-00758,10046601,Raul Quispe,raul.quispe758@correo-ficticio.pe,LA LIBERTAD,1993-03-28
+CLI-00472,73709938,Jorge Chavez,jorge.chavez472@correo-ficticio.pe,ICA,1998-10-30
+CLI-00190,28159473,Paola Rojas,paola.rojas190@correo-ficticio.pe,LA LIBERTAD,1997-12-09
+CLI-01426,67896520,Sofia Rios,sofia.rios1426@correo-ficticio.pe,AREQUIPA,1958-01-01
+CLI-00226,16024597,Hector Ramos,HECTOR.RAMOS226@CORREO-FICTICIO.PE,CUSCO,1953-10-16
+CLI-00185,61825725,Pedro Cruz,PEDRO.CRUZ185@CORREO-FICTICIO.PE,LAMBAYEQUE,1950-11-25
+CLI-01000,71875256,Carmen Mendoza,carmen.mendoza1000@correo-ficticio.pe,CUSCO,1963-01-17
+CLI-00887,30198325,Raul Mamani,raul.mamani887@correo-ficticio.pe,AREQUIPA,1969-03-21
+CLI-00076,66966881,Victor Chavez,victor.chavez76@correo-ficticio.pe,  Junin ,1985-11-12
+CLI-01728,38024538,Elena Castillo,elena.castillo1728@correo-ficticio.pe,ICA,1981-08-26
+CLI-00199,56225057,Gabriela Gutierrez,gabriela.gutierrez199@correo-ficticio.pe,ICA,1957-04-04
+CLI-00621,45016401,Ana Rojas,ana.rojas621@correo-ficticio.pe,LA LIBERTAD,1982-01-15
+CLI-00009,78846905,Hector Paredes,hector.paredes9@correo-ficticio.pe,LIMA,1961-07-29
+CLI-00729,57386335,Valeria Silva,valeria.silva729@correo-ficticio.pe,LIMA,1966-08-12
+CLI-00366,64398068,Paola Torres,PAOLA.TORRES366@CORREO-FICTICIO.PE,CUSCO,1959-03-12
+CLI-00259,11601630,Ana Castillo,ana.castillo259@correo-ficticio.pe,CUSCO,1984-10-05
+CLI-00928,27888546,Ana Rojas,ana.rojas928@correo-ficticio.pe,LA LIBERTAD,1979-06-22
+CLI-00091,42332421,Luis Cruz,luis.cruz91@correo-ficticio.pe,ICA,1961-05-07
+CLI-01902,51004908,Luis Condori,luis.condori1902@correo-ficticio.pe,PIURA,1965-07-01
+CLI-00070,52101740,Paola Salazar,paola.salazar70@correo-ficticio.pe,PUNO,1981-04-09
+CLI-00140,10672258,Jorge Salazar,jorge.salazar140@correo-ficticio.pe,AREQUIPA,1979-02-19
+CLI-01672,65197718,Carmen Chavez,carmen.chavez1672@correo-ficticio.pe,LAMBAYEQUE,1973-09-22
+CLI-01347,54191692,Maria Rojas,maria.rojas1347@correo-ficticio.pe,LIMA,1992-04-08
+CLI-00311,79686935,Pedro Arapa,pedro.arapa311@correo-ficticio.pe,  Loreto ,1950-12-30
+CLI-01400,75308220,Sofia Ramos,sofia.ramos1400@correo-ficticio.pe,JUNIN,1997-09-10
+CLI-01833,79899722,Jorge Paredes,jorge.paredes1833@correo-ficticio.pe,LIMA,1951-07-03
+CLI-01109,68763548,Jorge Chavez,jorge.chavez1109@correo-ficticio.pe,JUNIN,1969-06-01
+CLI-00099,17807338,Paola Quispe,PAOLA.QUISPE99@CORREO-FICTICIO.PE,LORETO,1973-01-28
+CLI-01647,17278286,Rosa Castillo,ROSA.CASTILLO1647@CORREO-FICTICIO.PE,LIMA,1959-02-03
+CLI-00720,74009226,Hector Castillo,hector.castillo720@correo-ficticio.pe,JUNIN,1988-08-08
+CLI-01659,40524140,Rosa Vargas,rosa.vargas1659@correo-ficticio.pe,PUNO,1976-02-01
+CLI-00216,59694461,Carlos Silva,carlos.silva216@correo-ficticio.pe,ICA,2000-02-29
+CLI-00770,26582834,Luis Flores,luis.flores770@correo-ficticio.pe,LORETO,1994-07-18
+CLI-01056,34934616,Carlos Paredes,CARLOS.PAREDES1056@CORREO-FICTICIO.PE,LAMBAYEQUE,1993-06-26
+CLI-01868,12889379,Jose Huaman,jose.huaman1868@correo-ficticio.pe,PIURA,1957-08-06
+CLI-00240,70361878,Gabriela Gutierrez,GABRIELA.GUTIERREZ240@CORREO-FICTICIO.PE,AREQUIPA,1991-07-02
+CLI-00603,26593728,Maria Cruz,maria.cruz603@correo-ficticio.pe,ICA,1986-08-22
+CLI-01213,62315806,Valeria Vargas,valeria.vargas1213@correo-ficticio.pe,PIURA,2000-10-28
+CLI-01514,48989105,Carlos Rios,carlos.rios1514@correo-ficticio.pe,LA LIBERTAD,1994-08-17
+CLI-01936,29373125,Maria Condori,maria.condori1936@correo-ficticio.pe,AREQUIPA,1991-05-01
+CLI-01402,67689998,Jose Mendoza,jose.mendoza1402@correo-ficticio.pe,ICA,1961-12-31
+CLI-01245,43997518,Luis Flores,luis.flores1245@correo-ficticio.pe,LAMBAYEQUE,1991-08-31
+CLI-01756,68313471,Jorge Paredes,jorge.paredes1756@correo-ficticio.pe,LORETO,1978-05-02
+CLI-00678,45088729,Jorge Silva,jorge.silva678@correo-ficticio.pe,PIURA,1993-10-02
+CLI-01921,48335028,Hector Cruz,hector.cruz1921@correo-ficticio.pe,JUNIN,1961-10-24
+CLI-01387,76854674,Maria Gutierrez,maria.gutierrez1387@correo-ficticio.pe,la libertad,1986-10-04
+CLI-01630,66342909,Carlos Ramos,carlos.ramos1630@correo-ficticio.pe,ICA,1983-01-10
+CLI-00655,63879906,Elena Cruz,elena.cruz655@correo-ficticio.pe,LA LIBERTAD,1954-01-21
+CLI-00972,63030388,Rosa Rojas,rosa.rojas972@correo-ficticio.pe,ICA,1970-12-24
+CLI-01332,25159791,Paola Flores,paola.flores1332@correo-ficticio.pe,LA LIBERTAD,1995-07-05
+CLI-01188,75576887,Sofia Paredes,sofia.paredes1188@correo-ficticio.pe,LA LIBERTAD,1964-07-31
+CLI-01449,58288737,Maria Mamani,maria.mamani1449@correo-ficticio.pe,PIURA,1958-03-21
+CLI-01059,43590782,Diego Rios,diego.rios1059@correo-ficticio.pe,PUNO,1971-10-29
+CLI-01714,14573769,Jose Chavez,jose.chavez1714@correo-ficticio.pe,PIURA,1998-02-06
+CLI-00232,52148125,Paola Huaman,paola.huaman232@correo-ficticio.pe,  Junin ,1985-06-18
+CLI-00772,17183476,Victor Rios,victor.rios772@correo-ficticio.pe,LIMA,1998-04-17
+CLI-00026,76782671,Jose Garcia,jose.garcia26@correo-ficticio.pe,LORETO,1965-04-26
+CLI-01966,13020267,Jorge Chavez,jorge.chavez1966@correo-ficticio.pe,PUNO,1980-09-18
+CLI-02000,63220518,Miguel Quispe,miguel.quispe2000@correo-ficticio.pe,CUSCO,1971-10-03
+CLI-01892,66062619,Lucia Quispe,lucia.quispe1892@correo-ficticio.pe,PUNO,1979-11-19
+CLI-01137,46521929,Jorge Paredes,JORGE.PAREDES1137@CORREO-FICTICIO.PE,LIMA,1992-06-10
+CLI-00651,37570758,Raul Mamani,raul.mamani651@correo-ficticio.pe,PIURA,1963-05-26
+CLI-00483,66385240,Miguel Vargas,MIGUEL.VARGAS483@CORREO-FICTICIO.PE,LA LIBERTAD,1969-08-11
+CLI-00771,69563105,Gabriela Garcia,gabriela.garcia771@correo-ficticio.pe,LORETO,1981-02-17
+CLI-00359,10962854,Sofia Gutierrez,sofia.gutierrez359@correo-ficticio.pe,ICA,1954-09-12
+CLI-00645,60279262,Pedro Flores,pedro.flores645@correo-ficticio.pe,AREQUIPA,1987-02-25
+CLI-01759,52991712,Valeria Ramos,valeria.ramos1759@correo-ficticio.pe,ICA,1990-04-06
+CLI-01551,15749748,Carlos Rios,carlos.rios1551@correo-ficticio.pe,AREQUIPA,2001-12-19
+CLI-01539,43445167,Carlos Gutierrez,carlos.gutierrez1539@correo-ficticio.pe,LORETO,1974-08-10
+CLI-00020,10688684,Elena Mamani,elena.mamani20@correo-ficticio.pe,LORETO,1994-02-20
+CLI-00639,27306234,Luis Rojas,luis.rojas639@correo-ficticio.pe,LIMA,2002-06-03
+CLI-00856,56102648,Sofia Mamani,SOFIA.MAMANI856@CORREO-FICTICIO.PE,  Junin ,1959-08-14
+CLI-01594,74978416,Hector Vargas,hector.vargas1594@correo-ficticio.pe,PUNO,1980-07-08
+CLI-01798,25824511,Ana Ramos,ANA.RAMOS1798@CORREO-FICTICIO.PE,LIMA,1996-10-26
+CLI-00304,77303377,Miguel Silva,MIGUEL.SILVA304@CORREO-FICTICIO.PE,LAMBAYEQUE,1996-10-28
+CLI-01592,23895701,Miguel Garcia,miguel.garcia1592@correo-ficticio.pe,LA LIBERTAD,1989-02-23
+CLI-00175,10299433,Carmen Vargas,carmen.vargas175@correo-ficticio.pe,  Lima ,1965-11-03
+CLI-00682,20199446,Raul Garcia,raul.garcia682@correo-ficticio.pe,AREQUIPA,1989-10-21
+CLI-01974,23391253,Carlos Garcia,carlos.garcia1974@correo-ficticio.pe,LA LIBERTAD,2004-07-04
+CLI-00177,27037476,Ana Castillo,ana.castillo177@correo-ficticio.pe,LAMBAYEQUE,1955-12-30
+CLI-01577,70189874,Pedro Chavez,pedro.chavez1577@correo-ficticio.pe,LAMBAYEQUE,1996-06-04
+CLI-01428,20111733,Diego Torres,diego.torres1428@correo-ficticio.pe,LIMA,1954-03-05
+CLI-01475,51154323,Rosa Mendoza,rosa.mendoza1475@correo-ficticio.pe,LORETO,1977-10-31
+CLI-00380,41536285,Maria Gutierrez,maria.gutierrez380@correo-ficticio.pe,PUNO,1954-09-10
+CLI-01735,14070367,Paola Mendoza,paola.mendoza1735@correo-ficticio.pe,LAMBAYEQUE,1985-06-05
+CLI-00552,16972389,Carmen Salazar,carmen.salazar552@correo-ficticio.pe,JUNIN,1987-05-29
+CLI-00996,69067212,Valeria Vargas,valeria.vargas996@correo-ficticio.pe,AREQUIPA,1962-05-10
+CLI-00869,41238774,Pedro Castillo,pedro.castillo869@correo-ficticio.pe,PUNO,1982-09-01
+CLI-01232,50074202,Diego Huaman,diego.huaman1232@correo-ficticio.pe,PUNO,1998-04-26
+CLI-00024,24245056,Diego Quispe,diego.quispe24@correo-ficticio.pe,  Arequipa ,1981-02-18
+CLI-01491,25956934,Lucia Torres,lucia.torres1491@correo-ficticio.pe,JUNIN,1970-05-26
+CLI-01065,57881916,Maria Arapa,maria.arapa1065@correo-ficticio.pe,AREQUIPA,1982-07-24
+CLI-01772,42597560,Diego Huaman,diego.huaman1772@correo-ficticio.pe,LORETO,1969-02-10
+CLI-01342,27085875,Raul Rios,RAUL.RIOS1342@CORREO-FICTICIO.PE,PUNO,1970-03-07
+CLI-01087,26680142,Pedro Salazar,pedro.salazar1087@correo-ficticio.pe,ICA,1975-02-17
+CLI-01018,17451439,Ana Huaman,ana.huaman1018@correo-ficticio.pe,LAMBAYEQUE,1957-01-20
+CLI-01538,39951653,Carlos Condori,CARLOS.CONDORI1538@CORREO-FICTICIO.PE,  La Libertad ,1995-08-15
+CLI-01698,61623950,Jose Rojas,jose.rojas1698@correo-ficticio.pe,LA LIBERTAD,1964-06-17
+CLI-01450,62096284,Ana Ramos,ANA.RAMOS1450@CORREO-FICTICIO.PE,PIURA,1968-07-20
+CLI-01225,47596378,Valeria Vargas,valeria.vargas1225@correo-ficticio.pe,LA LIBERTAD,1990-01-25
+CLI-00644,37468040,Valeria Condori,VALERIA.CONDORI644@CORREO-FICTICIO.PE,JUNIN,1961-01-26
+CLI-01471,48363179,Victor Chavez,victor.chavez1471@correo-ficticio.pe,PUNO,1981-12-13
+CLI-01116,23045337,Hector Flores,hector.flores1116@correo-ficticio.pe,LAMBAYEQUE,1992-11-02
+CLI-00485,14265954,Sofia Mamani,sofia.mamani485@correo-ficticio.pe,LA LIBERTAD,1979-01-05
+CLI-01242,57431130,Miguel Garcia,miguel.garcia1242@correo-ficticio.pe,AREQUIPA,1951-07-25
+CLI-01955,73520622,Diego Rios,diego.rios1955@correo-ficticio.pe,LIMA,1955-12-11
+CLI-00854,71364895,Ana Rojas,ana.rojas854@correo-ficticio.pe,AREQUIPA,2000-07-03
+CLI-01101,23914648,Luis Huaman,luis.huaman1101@correo-ficticio.pe,  Lambayeque ,2004-01-05
+CLI-01401,53658703,Elena Castillo,elena.castillo1401@correo-ficticio.pe,  Ica ,1997-11-15
+CLI-00352,38042429,Victor Vargas,VICTOR.VARGAS352@CORREO-FICTICIO.PE,JUNIN,2003-02-17
+CLI-00374,72574936,Hector Garcia,hector.garcia374@correo-ficticio.pe,LAMBAYEQUE,1966-12-21
+CLI-00014,36821744,Paola Mendoza,paola.mendoza14@correo-ficticio.pe,PUNO,1994-08-08
+CLI-00723,59500657,Sofia Rojas,SOFIA.ROJAS723@CORREO-FICTICIO.PE,ICA,1989-08-16
+CLI-01050,17495591,Ana Arapa,ANA.ARAPA1050@CORREO-FICTICIO.PE,ICA,1951-05-06
+CLI-01600,21302872,Carmen Gutierrez,carmen.gutierrez1600@correo-ficticio.pe,LIMA,1969-12-18
+CLI-01067,14352772,Carlos Salazar,carlos.salazar1067@correo-ficticio.pe,LORETO,1976-11-20
+CLI-01129,58457776,Carlos Condori,carlos.condori1129@correo-ficticio.pe,LORETO,1987-03-09
+CLI-00741,42361799,Hector Arapa,hector.arapa741@correo-ficticio.pe,LIMA,1983-06-19
+CLI-00870,59380952,Luis Ramos,luis.ramos870@correo-ficticio.pe,AREQUIPA,1998-08-21
+CLI-01128,73999393,Jorge Gutierrez,jorge.gutierrez1128@correo-ficticio.pe,PUNO,1966-03-30
+CLI-00843,60191767,Elena Mendoza,ELENA.MENDOZA843@CORREO-FICTICIO.PE,LAMBAYEQUE,1981-10-11
+CLI-00913,14026966,Rosa Condori,rosa.condori913@correo-ficticio.pe,LIMA,1956-03-17
+CLI-01487,33150306,Jorge Silva,jorge.silva1487@correo-ficticio.pe,ICA,1961-03-14
+CLI-01831,65930998,Lucia Garcia,LUCIA.GARCIA1831@CORREO-FICTICIO.PE,LIMA,1960-10-06
+CLI-01093,77331836,Valeria Huaman,valeria.huaman1093@correo-ficticio.pe,la libertad,1953-09-12
+CLI-00168,58026052,Raul Torres,raul.torres168@correo-ficticio.pe,LA LIBERTAD,1977-12-05
+CLI-00170,55156162,Jose Garcia,jose.garcia170@correo-ficticio.pe,LAMBAYEQUE,2004-08-11
+CLI-00579,73753586,Carmen Paredes,carmen.paredes579@correo-ficticio.pe,CUSCO,1976-12-05
+CLI-00195,37042162,Sofia Rojas,sofia.rojas195@correo-ficticio.pe,ica,1978-04-11
+CLI-01990,52956868,Elena Silva,elena.silva1990@correo-ficticio.pe,LA LIBERTAD,1963-04-04
+CLI-01441,11188312,Victor Chavez,victor.chavez1441@correo-ficticio.pe,LIMA,2004-02-06
+CLI-00505,72181539,Jose Paredes,jose.paredes505@correo-ficticio.pe,LORETO,1995-02-01
+CLI-01336,56943136,Pedro Quispe,PEDRO.QUISPE1336@CORREO-FICTICIO.PE,JUNIN,1956-08-02
+CLI-01976,40326246,Rosa Torres,rosa.torres1976@correo-ficticio.pe,PUNO,1960-05-19
+CLI-01919,74683275,Maria Vargas,maria.vargas1919@correo-ficticio.pe,CUSCO,1979-10-29
+CLI-00750,25775679,Ana Mamani,ana.mamani750@correo-ficticio.pe,CUSCO,1985-01-16
+CLI-01422,78716829,Jose Rios,jose.rios1422@correo-ficticio.pe,LA LIBERTAD,1973-08-27
+CLI-01730,24537613,Hector Rojas,hector.rojas1730@correo-ficticio.pe,LAMBAYEQUE,1957-06-23
+CLI-00718,26773396,Lucia Rios,lucia.rios718@correo-ficticio.pe,LAMBAYEQUE,1977-03-31
+CLI-01713,72125665,Hector Cruz,hector.cruz1713@correo-ficticio.pe,PUNO,1971-08-09
+CLI-01637,33625576,Sofia Mendoza,sofia.mendoza1637@correo-ficticio.pe,LA LIBERTAD,1988-02-25
+CLI-00287,53108364,Jose Salazar,jose.salazar287@correo-ficticio.pe,ICA,1958-10-01
+CLI-01386,12437295,Gabriela Rios,gabriela.rios1386@correo-ficticio.pe,CUSCO,1992-01-07
+CLI-01161,37965632,Victor Mendoza,victor.mendoza1161@correo-ficticio.pe,CUSCO,1992-09-14
+CLI-00307,63545076,Luis Mendoza,LUIS.MENDOZA307@CORREO-FICTICIO.PE,JUNIN,1982-06-13
+CLI-01051,64190263,Pedro Gutierrez,pedro.gutierrez1051@correo-ficticio.pe,ICA,1957-12-20
+CLI-01765,40427864,Elena Mamani,ELENA.MAMANI1765@CORREO-FICTICIO.PE,LIMA,1976-02-09
+CLI-01866,51465120,Gabriela Mamani,gabriela.mamani1866@correo-ficticio.pe,LA LIBERTAD,1963-11-29
+CLI-01106,15404440,Maria Vargas,maria.vargas1106@correo-ficticio.pe,LIMA,1959-12-28
+CLI-01717,72135788,Raul Torres,raul.torres1717@correo-ficticio.pe,la libertad,1951-01-08
+CLI-01007,58314401,Raul Silva,raul.silva1007@correo-ficticio.pe,LORETO,1990-03-02
+CLI-01707,36750954,Hector Castillo,hector.castillo1707@correo-ficticio.pe,AREQUIPA,1987-02-18
+CLI-01664,55993958,Elena Chavez,elena.chavez1664@correo-ficticio.pe,LORETO,1956-04-28
+CLI-01425,63645830,Hector Paredes,hector.paredes1425@correo-ficticio.pe,JUNIN,1998-07-27
+CLI-01558,19360755,Pedro Huaman,pedro.huaman1558@correo-ficticio.pe,LAMBAYEQUE,1952-07-09
+CLI-00405,41145165,Luis Vargas,luis.vargas405@correo-ficticio.pe,AREQUIPA,2001-09-30
+CLI-00273,25085658,Paola Rojas,PAOLA.ROJAS273@CORREO-FICTICIO.PE,LORETO,1994-11-02
+CLI-00909,12540113,Gabriela Mendoza,gabriela.mendoza909@correo-ficticio.pe,ICA,1953-03-06
+CLI-00877,20383886,Raul Vargas,RAUL.VARGAS877@CORREO-FICTICIO.PE,ICA,1956-03-08
+CLI-00506,16733680,Diego Vargas,diego.vargas506@correo-ficticio.pe,LAMBAYEQUE,1999-12-02
+CLI-01240,76231426,Pedro Arapa,PEDRO.ARAPA1240@CORREO-FICTICIO.PE,ICA,2004-10-29
+CLI-00960,42762386,Gabriela Flores,gabriela.flores960@correo-ficticio.pe,AREQUIPA,1975-12-12
+CLI-01058,69109034,Jose Mamani,jose.mamani1058@correo-ficticio.pe,LIMA,1994-10-10
+CLI-01480,43280104,Paola Mamani,paola.mamani1480@correo-ficticio.pe,ICA,1974-06-01
+CLI-01766,75731702,Jose Garcia,jose.garcia1766@correo-ficticio.pe,LAMBAYEQUE,1976-10-17
+CLI-01343,54885714,Rosa Flores,rosa.flores1343@correo-ficticio.pe,PIURA,1958-07-03
+CLI-00831,21192056,Lucia Mendoza,lucia.mendoza831@correo-ficticio.pe,PUNO,2003-04-16
+CLI-01704,56687355,Ana Rojas,ana.rojas1704@correo-ficticio.pe,LAMBAYEQUE,1990-05-19
+CLI-00553,76545914,Victor Rojas,victor.rojas553@correo-ficticio.pe,PIURA,1984-06-08
+CLI-00968,59205659,Valeria Cruz,valeria.cruz968@correo-ficticio.pe,PUNO,1961-10-23
+CLI-00116,25262863,Raul Chavez,raul.chavez116@correo-ficticio.pe,LORETO,1997-07-17
+CLI-00566,60572168,Miguel Garcia,miguel.garcia566@correo-ficticio.pe,PUNO,1981-03-25
+CLI-00181,63310792,Rosa Silva,rosa.silva181@correo-ficticio.pe,AREQUIPA,2001-07-05
+CLI-00365,37616744,Luis Vargas,luis.vargas365@correo-ficticio.pe,LA LIBERTAD,1959-03-14
+CLI-01708,25541179,Carmen Salazar,carmen.salazar1708@correo-ficticio.pe,PIURA,1970-02-26
+CLI-01950,61301495,Gabriela Chavez,gabriela.chavez1950@correo-ficticio.pe,AREQUIPA,1991-07-26
+CLI-00633,71522151,Lucia Gutierrez,lucia.gutierrez633@correo-ficticio.pe,PIURA,1983-02-07
+CLI-01396,56006323,Ana Arapa,ana.arapa1396@correo-ficticio.pe,LA LIBERTAD,1994-11-23
+CLI-01381,18324072,Jose Condori,jose.condori1381@correo-ficticio.pe,puno,1965-08-27
+CLI-00847,55139853,Jorge Quispe,jorge.quispe847@correo-ficticio.pe,LORETO,1983-05-09
+CLI-00192,30380767,Ana Castillo,ana.castillo192@correo-ficticio.pe,LAMBAYEQUE,1959-04-10
+CLI-00565,31339056,Lucia Castillo,LUCIA.CASTILLO565@CORREO-FICTICIO.PE,PUNO,2001-11-08
+CLI-01596,17897129,Rosa Cruz,rosa.cruz1596@correo-ficticio.pe,LAMBAYEQUE,1978-06-13
+CLI-00180,65653827,Pedro Flores,pedro.flores180@correo-ficticio.pe,LA LIBERTAD,1998-02-07
+CLI-01678,59413081,Rosa Rojas,rosa.rojas1678@correo-ficticio.pe,LA LIBERTAD,1999-02-12
+CLI-00281,62898711,Carmen Cruz,carmen.cruz281@correo-ficticio.pe,JUNIN,1955-08-30
+CLI-01900,60099445,Lucia Chavez,lucia.chavez1900@correo-ficticio.pe,LIMA,1970-11-07
+CLI-01270,23440428,Gabriela Gutierrez,gabriela.gutierrez1270@correo-ficticio.pe,ICA,1983-11-21
+CLI-01885,77570711,Hector Arapa,HECTOR.ARAPA1885@CORREO-FICTICIO.PE,LIMA,1983-07-31
+CLI-01922,67604183,Carmen Rios,carmen.rios1922@correo-ficticio.pe,PIURA,1952-09-04
+CLI-00549,69653678,Rosa Quispe,rosa.quispe549@correo-ficticio.pe,PIURA,1985-04-19
+CLI-00697,67573596,Raul Torres,raul.torres697@correo-ficticio.pe,PIURA,1952-07-05
+CLI-00512,36541537,Victor Garcia,victor.garcia512@correo-ficticio.pe,ICA,1967-11-20
+CLI-01753,64180802,Lucia Torres,lucia.torres1753@correo-ficticio.pe,AREQUIPA,1961-06-30
+CLI-00078,73879958,Valeria Rios,valeria.rios78@correo-ficticio.pe,PUNO,1953-05-13
+CLI-01043,28392176,Diego Condori,diego.condori1043@correo-ficticio.pe,PIURA,1987-05-07
+CLI-00986,56623029,Carlos Huaman,carlos.huaman986@correo-ficticio.pe,PIURA,1985-02-13
+CLI-00754,47497161,Hector Chavez,hector.chavez754@correo-ficticio.pe,LORETO,1962-10-16
+CLI-01749,46549375,Jose Garcia,jose.garcia1749@correo-ficticio.pe,PIURA,1992-07-24
+CLI-00543,77836785,Jorge Torres,jorge.torres543@correo-ficticio.pe,  Ica ,1968-12-08
+CLI-00894,78659568,Carlos Silva,carlos.silva894@correo-ficticio.pe,LORETO,1982-05-16
+CLI-01495,59151647,Hector Arapa,hector.arapa1495@correo-ficticio.pe,LAMBAYEQUE,2005-07-26
+CLI-01823,59651508,Raul Mendoza,raul.mendoza1823@correo-ficticio.pe,JUNIN,1961-07-07
+CLI-01218,61539909,Valeria Castillo,valeria.castillo1218@correo-ficticio.pe,JUNIN,1989-12-23
+CLI-01158,46656017,Ana Castillo,ana.castillo1158@correo-ficticio.pe,LORETO,1994-09-19
+CLI-00122,45754149,Rosa Gutierrez,rosa.gutierrez122@correo-ficticio.pe,AREQUIPA,1953-04-05
+CLI-00830,33434192,Valeria Rojas,valeria.rojas830@correo-ficticio.pe,  Arequipa ,1964-02-27
+CLI-00295,66496959,Valeria Huaman,VALERIA.HUAMAN295@CORREO-FICTICIO.PE,  Lima ,1960-04-16
+CLI-00822,65119178,Jose Chavez,jose.chavez822@correo-ficticio.pe,LIMA,1986-12-21
+CLI-01295,18575382,Jorge Ramos,jorge.ramos1295@correo-ficticio.pe,LIMA,1967-09-01
+CLI-00018,11883416,Jorge Cruz,JORGE.CRUZ18@CORREO-FICTICIO.PE,PUNO,1957-06-14
+CLI-01606,76398109,Elena Cruz,elena.cruz1606@correo-ficticio.pe,cusco,1980-04-03
+CLI-01517,47861060,Jorge Arapa,jorge.arapa1517@correo-ficticio.pe,LORETO,1970-01-27
+CLI-00837,34186961,Elena Gutierrez,elena.gutierrez837@correo-ficticio.pe,LAMBAYEQUE,1984-10-26
+CLI-01595,12997079,Victor Huaman,victor.huaman1595@correo-ficticio.pe,LORETO,1973-03-13
+CLI-00100,31986261,Jose Quispe,jose.quispe100@correo-ficticio.pe,AREQUIPA,1988-11-09
+CLI-01933,47345246,Victor Gutierrez,victor.gutierrez1933@correo-ficticio.pe,CUSCO,1973-05-16
+CLI-00243,28819154,Paola Gutierrez,paola.gutierrez243@correo-ficticio.pe,LAMBAYEQUE,1995-11-17
+CLI-01374,38095235,Diego Salazar,diego.salazar1374@correo-ficticio.pe,ICA,1995-12-12
+CLI-00324,77408011,Gabriela Paredes,gabriela.paredes324@correo-ficticio.pe,AREQUIPA,1966-10-20
+CLI-01755,72657658,Jose Gutierrez,jose.gutierrez1755@correo-ficticio.pe,  Piura ,1991-07-03
+CLI-01829,40418756,Pedro Flores,pedro.flores1829@correo-ficticio.pe,LAMBAYEQUE,1970-07-04
+CLI-00404,45179113,Hector Mamani,hector.mamani404@correo-ficticio.pe,CUSCO,1980-09-25
+CLI-01534,13626913,Valeria Flores,valeria.flores1534@correo-ficticio.pe,  Loreto ,1985-11-20
+CLI-01034,18267527,Raul Gutierrez,raul.gutierrez1034@correo-ficticio.pe,JUNIN,1990-10-10
+CLI-00189,73202588,Diego Vargas,diego.vargas189@correo-ficticio.pe,PIURA,1982-04-07
+CLI-01366,41230475,Elena Gutierrez,elena.gutierrez1366@correo-ficticio.pe,ICA,2000-06-04
+CLI-00648,13549969,Ana Chavez,ana.chavez648@correo-ficticio.pe,PIURA,1992-09-15
+CLI-00285,22187216,Miguel Paredes,miguel.paredes285@correo-ficticio.pe,LIMA,1961-05-25
+CLI-01090,14410089,Jose Paredes,jose.paredes1090@correo-ficticio.pe,LORETO,1956-11-24
+CLI-00150,77917659,Victor Castillo,victor.castillo150@correo-ficticio.pe,JUNIN,1997-03-02
+CLI-00269,66489437,Lucia Mamani,lucia.mamani269@correo-ficticio.pe,LIMA,1984-11-14
+CLI-01641,45263502,Jorge Mamani,jorge.mamani1641@correo-ficticio.pe,ICA,1957-06-22
+CLI-01621,10095315,Lucia Ramos,lucia.ramos1621@correo-ficticio.pe,PIURA,1960-10-13
+CLI-01015,18233220,Lucia Quispe,LUCIA.QUISPE1015@CORREO-FICTICIO.PE,la libertad,1959-09-28
+CLI-00925,35959945,Sofia Torres,sofia.torres925@correo-ficticio.pe,LAMBAYEQUE,1955-08-06
+CLI-01685,69653468,Victor Salazar,victor.salazar1685@correo-ficticio.pe,AREQUIPA,1991-05-22
+CLI-01839,24138689,Rosa Mamani,rosa.mamani1839@correo-ficticio.pe,JUNIN,1992-04-13
+CLI-00768,26622969,Diego Mendoza,diego.mendoza768@correo-ficticio.pe,LA LIBERTAD,1959-07-05
+CLI-00027,79741374,Jorge Condori,jorge.condori27@correo-ficticio.pe,LORETO,2003-09-02
+CLI-01721,41055183,Ana Mendoza,ana.mendoza1721@correo-ficticio.pe,AREQUIPA,1981-06-15
+CLI-00833,34385829,Maria Ramos,MARIA.RAMOS833@CORREO-FICTICIO.PE,LAMBAYEQUE,1990-03-30
+CLI-00652,63124310,Carlos Silva,carlos.silva652@correo-ficticio.pe,AREQUIPA,1951-02-06
+CLI-01568,71706914,Ana Mamani,ana.mamani1568@correo-ficticio.pe,PUNO,2002-01-30
+CLI-00010,23767568,Ana Gutierrez,ana.gutierrez10@correo-ficticio.pe,LAMBAYEQUE,1993-04-02
+CLI-00534,61947849,Raul Ramos,raul.ramos534@correo-ficticio.pe,ICA,1958-12-02
+CLI-00691,79336665,Raul Mamani,raul.mamani691@correo-ficticio.pe,loreto,1982-02-18
+CLI-01693,54135681,Elena Chavez,elena.chavez1693@correo-ficticio.pe,LORETO,1983-05-04
+CLI-01849,11874117,Lucia Rojas,LUCIA.ROJAS1849@CORREO-FICTICIO.PE,LORETO,1978-06-30
+CLI-01452,23868671,Victor Mendoza,VICTOR.MENDOZA1452@CORREO-FICTICIO.PE,JUNIN,1972-07-22
+CLI-00788,44484045,Miguel Quispe,miguel.quispe788@correo-ficticio.pe,junin,1955-12-03
+CLI-00172,60655016,Hector Huaman,hector.huaman172@correo-ficticio.pe,JUNIN,1981-06-19
+CLI-01525,69143350,Gabriela Salazar,gabriela.salazar1525@correo-ficticio.pe,PIURA,1977-12-25
+CLI-00321,75760905,Diego Garcia,diego.garcia321@correo-ficticio.pe,ICA,1980-12-13
+CLI-00039,44376392,Rosa Vargas,ROSA.VARGAS39@CORREO-FICTICIO.PE,LAMBAYEQUE,1973-01-22
+CLI-01322,15672382,Ana Chavez,ana.chavez1322@correo-ficticio.pe,LIMA,1979-04-24
+CLI-00657,66551226,Jorge Mendoza,jorge.mendoza657@correo-ficticio.pe,AREQUIPA,1958-07-29
+CLI-00917,19015374,Paola Cruz,paola.cruz917@correo-ficticio.pe,AREQUIPA,1964-06-29
+CLI-00031,20557407,Gabriela Rios,gabriela.rios31@correo-ficticio.pe,CUSCO,1973-08-20
+CLI-01602,30351981,Carlos Salazar,carlos.salazar1602@correo-ficticio.pe,LAMBAYEQUE,1973-10-29
+CLI-00222,51020839,Carlos Garcia,carlos.garcia222@correo-ficticio.pe,JUNIN,1950-06-14
+CLI-01497,19417728,Diego Flores,diego.flores1497@correo-ficticio.pe,JUNIN,1990-05-23
+CLI-01802,40415337,Pedro Ramos,pedro.ramos1802@correo-ficticio.pe,LORETO,1956-09-16
+CLI-00688,12895039,Miguel Flores,miguel.flores688@correo-ficticio.pe,LA LIBERTAD,2002-04-20
+CLI-00976,37915271,Hector Garcia,hector.garcia976@correo-ficticio.pe,LORETO,2003-06-15
+CLI-00363,31022449,Gabriela Salazar,gabriela.salazar363@correo-ficticio.pe,PIURA,1974-07-25
+CLI-00715,45921554,Rosa Mamani,rosa.mamani715@correo-ficticio.pe,la libertad,1959-10-03
+CLI-00601,72353424,Pedro Cruz,pedro.cruz601@correo-ficticio.pe,LORETO,1972-04-01
+CLI-00471,62645715,Hector Silva,hector.silva471@correo-ficticio.pe,ICA,1999-06-19
+CLI-01913,44450808,Raul Mendoza,raul.mendoza1913@correo-ficticio.pe,JUNIN,1980-07-05
+CLI-00098,30806154,Raul Rios,raul.rios98@correo-ficticio.pe,CUSCO,1953-08-12
+CLI-00184,31371293,Pedro Huaman,pedro.huaman184@correo-ficticio.pe,la libertad,1959-03-31
+CLI-01992,64899735,Rosa Mamani,rosa.mamani1992@correo-ficticio.pe,AREQUIPA,1995-10-31
+CLI-01179,42755857,Ana Paredes,ana.paredes1179@correo-ficticio.pe,LAMBAYEQUE,1978-06-29
+CLI-01732,60560974,Victor Castillo,victor.castillo1732@correo-ficticio.pe,PUNO,1955-07-18
+CLI-01212,32317664,Victor Cruz,VICTOR.CRUZ1212@CORREO-FICTICIO.PE,PUNO,2003-12-16
+CLI-00790,67571561,Luis Quispe,luis.quispe790@correo-ficticio.pe,LIMA,1971-08-17
+CLI-00927,43478588,Raul Silva,raul.silva927@correo-ficticio.pe,PUNO,1957-06-28
+CLI-01221,18353091,Jose Vargas,JOSE.VARGAS1221@CORREO-FICTICIO.PE,PUNO,1956-10-28
+CLI-00453,67349468,Luis Mamani,luis.mamani453@correo-ficticio.pe,la libertad,2000-05-19
+CLI-01296,36580444,Sofia Mamani,sofia.mamani1296@correo-ficticio.pe,PUNO,1978-05-17
+CLI-00516,46302625,Elena Cruz,elena.cruz516@correo-ficticio.pe,ICA,2003-02-15
+CLI-01927,47495014,Rosa Vargas,rosa.vargas1927@correo-ficticio.pe,AREQUIPA,1984-08-20
+CLI-00461,75884747,Jose Flores,jose.flores461@correo-ficticio.pe,PIURA,1974-04-21
+CLI-01341,55109189,Raul Garcia,RAUL.GARCIA1341@CORREO-FICTICIO.PE,PIURA,1965-10-01
+CLI-01923,55599246,Pedro Flores,pedro.flores1923@correo-ficticio.pe,LAMBAYEQUE,1979-04-13
+CLI-00871,59702366,Diego Vargas,diego.vargas871@correo-ficticio.pe,PIURA,1969-09-23
+CLI-00632,13532520,Lucia Mendoza,lucia.mendoza632@correo-ficticio.pe,PUNO,1965-03-02
+CLI-00420,29785416,Sofia Garcia,sofia.garcia420@correo-ficticio.pe,JUNIN,2000-08-25
+CLI-01560,17102497,Carmen Mamani,carmen.mamani1560@correo-ficticio.pe,LAMBAYEQUE,1999-03-30
+CLI-01890,54853236,Maria Condori,maria.condori1890@correo-ficticio.pe,AREQUIPA,1992-09-22
+CLI-01178,58329230,Ana Garcia,ana.garcia1178@correo-ficticio.pe,CUSCO,1993-06-14
+CLI-00214,47371830,Miguel Paredes,miguel.paredes214@correo-ficticio.pe,ICA,1956-09-02
+CLI-00498,61877752,Carmen Castillo,CARMEN.CASTILLO498@CORREO-FICTICIO.PE,AREQUIPA,1984-09-02
+CLI-00229,35538338,Victor Rojas,victor.rojas229@correo-ficticio.pe,LIMA,1993-08-30
+CLI-00675,14913510,Rosa Mendoza,rosa.mendoza675@correo-ficticio.pe,PUNO,1974-03-19
+CLI-01786,48973798,Sofia Paredes,sofia.paredes1786@correo-ficticio.pe,LA LIBERTAD,1963-03-21
+CLI-00692,53429505,Valeria Mamani,valeria.mamani692@correo-ficticio.pe,puno,1983-02-08
+CLI-01537,36876793,Pedro Castillo,pedro.castillo1537@correo-ficticio.pe,ICA,1992-10-09
+CLI-01605,43074389,Elena Huaman,elena.huaman1605@correo-ficticio.pe,LAMBAYEQUE,1997-09-21
+CLI-01191,38151475,Raul Cruz,RAUL.CRUZ1191@CORREO-FICTICIO.PE,LA LIBERTAD,1994-07-17
+CLI-01215,29969397,Rosa Chavez,ROSA.CHAVEZ1215@CORREO-FICTICIO.PE,LORETO,1957-07-16
+CLI-00182,69202219,Sofia Paredes,sofia.paredes182@correo-ficticio.pe,CUSCO,1975-10-15
+CLI-00531,67136928,Hector Torres,hector.torres531@correo-ficticio.pe,LIMA,1994-01-17
+CLI-00719,55932636,Raul Rojas,raul.rojas719@correo-ficticio.pe,PIURA,1991-11-12
+CLI-00310,13795911,Miguel Ramos,miguel.ramos310@correo-ficticio.pe,PUNO,1984-08-14
+CLI-00756,17481008,Rosa Garcia,rosa.garcia756@correo-ficticio.pe,LORETO,1990-07-01
+CLI-00984,50868403,Diego Condori,diego.condori984@correo-ficticio.pe,JUNIN,1964-12-11
+CLI-01435,15605215,Victor Cruz,victor.cruz1435@correo-ficticio.pe,JUNIN,1984-11-24
+CLI-01032,68396254,Carlos Chavez,carlos.chavez1032@correo-ficticio.pe,LIMA,1971-01-31
+CLI-00733,27666437,Sofia Condori,sofia.condori733@correo-ficticio.pe,CUSCO,1994-03-18
+CLI-01393,26624238,Pedro Flores,pedro.flores1393@correo-ficticio.pe,cusco,2005-07-17
+CLI-00044,54365408,Luis Castillo,luis.castillo44@correo-ficticio.pe,AREQUIPA,1987-05-19
+CLI-01983,49810484,Carlos Mendoza,carlos.mendoza1983@correo-ficticio.pe,LORETO,1979-08-08
+CLI-01446,33159655,Jorge Castillo,jorge.castillo1446@correo-ficticio.pe,JUNIN,1951-04-02
+CLI-00375,35659911,Carmen Mamani,carmen.mamani375@correo-ficticio.pe,LORETO,1983-12-27
+CLI-00993,47285385,Victor Arapa,VICTOR.ARAPA993@CORREO-FICTICIO.PE,AREQUIPA,2002-05-06
+CLI-01100,73850174,Jorge Quispe,jorge.quispe1100@correo-ficticio.pe,JUNIN,1973-04-21
+CLI-01882,36877349,Jorge Mendoza,jorge.mendoza1882@correo-ficticio.pe,AREQUIPA,2003-06-02
+CLI-01764,57796085,Rosa Rios,rosa.rios1764@correo-ficticio.pe,LORETO,1993-04-28
+CLI-01642,24821962,Rosa Chavez,rosa.chavez1642@correo-ficticio.pe,LAMBAYEQUE,1963-10-26
+CLI-01929,34364947,Lucia Silva,lucia.silva1929@correo-ficticio.pe,CUSCO,1960-07-22
+CLI-00460,46659914,Carmen Mendoza,carmen.mendoza460@correo-ficticio.pe,JUNIN,1990-02-14
+CLI-01069,42399879,Valeria Salazar,valeria.salazar1069@correo-ficticio.pe,LORETO,1983-04-03
+CLI-00370,13924506,Lucia Torres,lucia.torres370@correo-ficticio.pe,PUNO,2004-01-31
+CLI-00923,74098569,Carlos Torres,carlos.torres923@correo-ficticio.pe,ICA,1955-12-01
+CLI-01695,21150174,Jose Condori,JOSE.CONDORI1695@CORREO-FICTICIO.PE,ICA,1993-10-22
+CLI-00442,13074674,Hector Rojas,hector.rojas442@correo-ficticio.pe,PIURA,1952-11-16
+CLI-01456,37422974,Lucia Mamani,lucia.mamani1456@correo-ficticio.pe,LIMA,1994-01-04
+CLI-01182,65317470,Paola Flores,PAOLA.FLORES1182@CORREO-FICTICIO.PE,CUSCO,1983-03-16
+CLI-01601,78958390,Diego Mamani,DIEGO.MAMANI1601@CORREO-FICTICIO.PE,AREQUIPA,1981-07-04
+CLI-01376,68743916,Ana Torres,ana.torres1376@correo-ficticio.pe,LAMBAYEQUE,1963-09-25
+CLI-00069,32594416,Miguel Ramos,miguel.ramos69@correo-ficticio.pe,ICA,1978-12-14
+CLI-01250,47757983,Gabriela Ramos,gabriela.ramos1250@correo-ficticio.pe,LIMA,1972-03-26
+CLI-01483,63711780,Jorge Mamani,jorge.mamani1483@correo-ficticio.pe,LORETO,1959-04-17
+CLI-01906,28705550,Lucia Huaman,lucia.huaman1906@correo-ficticio.pe,LA LIBERTAD,1992-07-26
+CLI-01365,57484326,Carlos Vargas,carlos.vargas1365@correo-ficticio.pe,AREQUIPA,1961-03-23
+CLI-00479,54657514,Pedro Silva,pedro.silva479@correo-ficticio.pe,ICA,1967-08-05
+CLI-00646,25432846,Elena Salazar,ELENA.SALAZAR646@CORREO-FICTICIO.PE,LAMBAYEQUE,1967-11-09
+CLI-01259,46872571,Miguel Mamani,miguel.mamani1259@correo-ficticio.pe,AREQUIPA,1959-07-23
+CLI-01451,73308275,Elena Mamani,ELENA.MAMANI1451@CORREO-FICTICIO.PE,CUSCO,1990-05-15
+CLI-00681,32694997,Ana Salazar,ANA.SALAZAR681@CORREO-FICTICIO.PE,PIURA,1973-11-29
+CLI-00501,55685473,Luis Mamani,luis.mamani501@correo-ficticio.pe,AREQUIPA,1957-08-15
+CLI-01255,27714724,Gabriela Quispe,gabriela.quispe1255@correo-ficticio.pe,LAMBAYEQUE,1992-07-26
+CLI-01053,47182211,Luis Paredes,luis.paredes1053@correo-ficticio.pe,LIMA,1988-08-18
+CLI-01529,29128494,Valeria Vargas,valeria.vargas1529@correo-ficticio.pe,JUNIN,2004-03-21
+CLI-00999,56287771,Carmen Arapa,carmen.arapa999@correo-ficticio.pe,LORETO,1981-03-25
+CLI-00389,74598695,Sofia Silva,SOFIA.SILVA389@CORREO-FICTICIO.PE,LAMBAYEQUE,1993-05-15
+CLI-01711,33394290,Hector Quispe,hector.quispe1711@correo-ficticio.pe,LAMBAYEQUE,1968-01-07
+CLI-01561,47228300,Sofia Ramos,sofia.ramos1561@correo-ficticio.pe,LA LIBERTAD,1980-10-19
+CLI-00008,75905026,Sofia Gutierrez,sofia.gutierrez8@correo-ficticio.pe,ICA,1987-09-05
+CLI-00160,69296377,Sofia Rojas,sofia.rojas160@correo-ficticio.pe,PUNO,1958-11-04
+CLI-01238,40659323,Carlos Torres,carlos.torres1238@correo-ficticio.pe,PIURA,1960-05-13
+CLI-00406,15870015,Raul Rios,raul.rios406@correo-ficticio.pe,LA LIBERTAD,1957-12-24
+CLI-00394,14042359,Carmen Arapa,carmen.arapa394@correo-ficticio.pe,ICA,2004-04-26
+CLI-00726,19377636,Rosa Mendoza,rosa.mendoza726@correo-ficticio.pe,ICA,1954-08-09
+CLI-01654,56615586,Lucia Mendoza,lucia.mendoza1654@correo-ficticio.pe,LORETO,1963-01-02
+CLI-01357,28773747,Lucia Rojas,lucia.rojas1357@correo-ficticio.pe,LIMA,1962-06-03
+CLI-00497,11660365,Carlos Quispe,carlos.quispe497@correo-ficticio.pe,JUNIN,1975-05-21
+CLI-01775,70110058,Hector Rojas,hector.rojas1775@correo-ficticio.pe,LAMBAYEQUE,1994-05-10
+CLI-01419,53382959,Elena Arapa,elena.arapa1419@correo-ficticio.pe,PUNO,1970-08-28
+CLI-00097,50352315,Gabriela Quispe,gabriela.quispe97@correo-ficticio.pe,JUNIN,1958-04-03
+CLI-01502,25760591,Ana Arapa,ana.arapa1502@correo-ficticio.pe,LIMA,1978-10-04
+CLI-00766,44612208,Carmen Chavez,carmen.chavez766@correo-ficticio.pe,AREQUIPA,2000-10-30
+CLI-01998,32800280,Maria Cruz,maria.cruz1998@correo-ficticio.pe,LA LIBERTAD,1989-04-22
+CLI-01750,25361255,Pedro Cruz,pedro.cruz1750@correo-ficticio.pe,PUNO,1995-05-29
+CLI-01905,34806537,Gabriela Chavez,gabriela.chavez1905@correo-ficticio.pe,AREQUIPA,1952-07-24
+CLI-00962,78569779,Carmen Rios,carmen.rios962@correo-ficticio.pe,LA LIBERTAD,1963-05-14
+CLI-00280,22309408,Carlos Castillo,carlos.castillo280@correo-ficticio.pe,PIURA,1976-01-04
+CLI-01391,43668884,Luis Paredes,luis.paredes1391@correo-ficticio.pe,LORETO,1959-10-02
+CLI-00275,12266713,Luis Paredes,luis.paredes275@correo-ficticio.pe,LAMBAYEQUE,1962-12-28
+CLI-01124,11060560,Gabriela Mamani,gabriela.mamani1124@correo-ficticio.pe,LIMA,1987-04-16
+CLI-01171,18776353,Ana Rios,ana.rios1171@correo-ficticio.pe,LAMBAYEQUE,1995-12-23
+CLI-00567,62804654,Miguel Paredes,miguel.paredes567@correo-ficticio.pe,LAMBAYEQUE,1989-05-11
+CLI-00266,32372610,Raul Silva,raul.silva266@correo-ficticio.pe,PUNO,1950-11-29
+CLI-01785,55914799,Hector Condori,hector.condori1785@correo-ficticio.pe,AREQUIPA,1961-10-11
+CLI-00693,54294079,Jorge Condori,jorge.condori693@correo-ficticio.pe,LA LIBERTAD,1960-10-12
+CLI-01202,37371351,Luis Castillo,luis.castillo1202@correo-ficticio.pe,ICA,1984-05-29
+CLI-01739,10314090,Hector Paredes,hector.paredes1739@correo-ficticio.pe,PUNO,1964-06-15
+CLI-01688,70289935,Maria Mamani,maria.mamani1688@correo-ficticio.pe,PIURA,1996-10-13
+CLI-01582,62556179,Lucia Mendoza,lucia.mendoza1582@correo-ficticio.pe,PUNO,1992-06-14
+CLI-01566,73429268,Miguel Silva,MIGUEL.SILVA1566@CORREO-FICTICIO.PE,ICA,1952-01-13
+CLI-00204,36698887,Diego Mamani,diego.mamani204@correo-ficticio.pe,LA LIBERTAD,1988-08-25
+CLI-01431,75360665,Ana Rojas,ANA.ROJAS1431@CORREO-FICTICIO.PE,ICA,1956-09-19
+CLI-00171,60013396,Diego Garcia,diego.garcia171@correo-ficticio.pe,LAMBAYEQUE,1990-08-19
+CLI-01290,51492222,Carlos Mendoza,carlos.mendoza1290@correo-ficticio.pe,LORETO,1950-08-27
+CLI-01667,23690689,Gabriela Mendoza,gabriela.mendoza1667@correo-ficticio.pe,puno,1980-03-26
+CLI-01181,51281475,Elena Mendoza,elena.mendoza1181@correo-ficticio.pe,PUNO,1964-05-03
+CLI-00166,66245341,Victor Torres,victor.torres166@correo-ficticio.pe,ICA,1997-04-23
+CLI-00932,25378293,Diego Castillo,DIEGO.CASTILLO932@CORREO-FICTICIO.PE,LA LIBERTAD,1956-08-03
+CLI-01412,65013482,Elena Gutierrez,ELENA.GUTIERREZ1412@CORREO-FICTICIO.PE,LAMBAYEQUE,1956-05-13
+CLI-01681,16113027,Valeria Vargas,VALERIA.VARGAS1681@CORREO-FICTICIO.PE,JUNIN,1962-06-06
+CLI-01660,26070904,Victor Paredes,victor.paredes1660@correo-ficticio.pe,JUNIN,1952-07-17
+CLI-01790,27987449,Diego Mamani,DIEGO.MAMANI1790@CORREO-FICTICIO.PE,JUNIN,2005-04-21
+CLI-00320,78862799,Diego Gutierrez,diego.gutierrez320@correo-ficticio.pe,LA LIBERTAD,2002-08-29
+CLI-00569,37331823,Luis Torres,luis.torres569@correo-ficticio.pe,PIURA,1956-10-04
+CLI-01925,59507101,Miguel Silva,miguel.silva1925@correo-ficticio.pe,PIURA,1962-06-05
+CLI-01247,73783053,Luis Garcia,luis.garcia1247@correo-ficticio.pe,  Lima ,1972-04-27
+CLI-00589,22253782,Paola Garcia,paola.garcia589@correo-ficticio.pe,LORETO,1977-04-08
+CLI-01052,77553925,Miguel Condori,MIGUEL.CONDORI1052@CORREO-FICTICIO.PE,LA LIBERTAD,1959-01-01
+CLI-00499,70826423,Miguel Salazar,miguel.salazar499@correo-ficticio.pe,ICA,1959-09-15
+CLI-01423,39200147,Gabriela Salazar,GABRIELA.SALAZAR1423@CORREO-FICTICIO.PE,JUNIN,1967-02-11
+CLI-00763,68848920,Sofia Garcia,SOFIA.GARCIA763@CORREO-FICTICIO.PE,LIMA,1989-10-14
+CLI-00055,73627612,Raul Arapa,raul.arapa55@correo-ficticio.pe,LORETO,1964-03-14
+CLI-01522,35701594,Sofia Garcia,sofia.garcia1522@correo-ficticio.pe,LA LIBERTAD,1987-06-23
+CLI-00393,16036275,Valeria Quispe,valeria.quispe393@correo-ficticio.pe,AREQUIPA,1999-06-13
+CLI-01132,39453793,Pedro Garcia,PEDRO.GARCIA1132@CORREO-FICTICIO.PE,LA LIBERTAD,1997-12-15
+CLI-01488,75950356,Valeria Chavez,valeria.chavez1488@correo-ficticio.pe,AREQUIPA,1967-05-13
+CLI-00613,46290192,Pedro Mamani,pedro.mamani613@correo-ficticio.pe,LA LIBERTAD,1991-08-12
+CLI-00494,21676719,Valeria Paredes,valeria.paredes494@correo-ficticio.pe,arequipa,1979-06-04
+CLI-00350,40991035,Gabriela Gutierrez,GABRIELA.GUTIERREZ350@CORREO-FICTICIO.PE,CUSCO,1980-10-09
+CLI-01163,55984144,Carlos Huaman,carlos.huaman1163@correo-ficticio.pe,LIMA,1961-08-26
+CLI-00712,61609609,Sofia Mendoza,sofia.mendoza712@correo-ficticio.pe,LA LIBERTAD,1972-07-29
+CLI-01671,32066592,Jorge Condori,jorge.condori1671@correo-ficticio.pe,PUNO,2003-01-22
+CLI-00880,71608298,Maria Gutierrez,maria.gutierrez880@correo-ficticio.pe,LA LIBERTAD,1995-02-02
+CLI-00337,15312025,Carmen Ramos,carmen.ramos337@correo-ficticio.pe,LAMBAYEQUE,1996-08-23
+CLI-00153,62827763,Rosa Paredes,rosa.paredes153@correo-ficticio.pe,CUSCO,1967-01-01
+CLI-00348,19163801,Ana Cruz,ana.cruz348@correo-ficticio.pe,LAMBAYEQUE,1982-09-25
+CLI-01145,48706850,Jorge Salazar,jorge.salazar1145@correo-ficticio.pe,CUSCO,1967-11-09
+CLI-00765,75736422,Victor Rojas,victor.rojas765@correo-ficticio.pe,CUSCO,1981-10-05
+CLI-01368,20702147,Raul Arapa,raul.arapa1368@correo-ficticio.pe,la libertad,1950-06-06
+CLI-01848,67045225,Ana Paredes,ana.paredes1848@correo-ficticio.pe,ica,1979-08-30
+CLI-00875,10237181,Hector Cruz,hector.cruz875@correo-ficticio.pe,JUNIN,1982-07-05
+CLI-00513,32362719,Gabriela Garcia,gabriela.garcia513@correo-ficticio.pe,PIURA,1986-06-11
+CLI-01978,57971098,Sofia Cruz,sofia.cruz1978@correo-ficticio.pe,AREQUIPA,1967-07-23
+CLI-01113,50427645,Carmen Garcia,carmen.garcia1113@correo-ficticio.pe,PIURA,1963-05-14
+CLI-00438,39481722,Luis Silva,luis.silva438@correo-ficticio.pe,LORETO,1977-01-30
+CLI-01945,16322531,Maria Rios,MARIA.RIOS1945@CORREO-FICTICIO.PE,la libertad,1959-01-27
+CLI-00241,24126071,Gabriela Flores,gabriela.flores241@correo-ficticio.pe,CUSCO,1965-12-21
+CLI-00467,65301150,Sofia Mamani,sofia.mamani467@correo-ficticio.pe,JUNIN,1991-02-10
+CLI-00372,62985066,Ana Garcia,ana.garcia372@correo-ficticio.pe,PUNO,1977-04-23
+CLI-00839,14891858,Ana Paredes,ana.paredes839@correo-ficticio.pe,PUNO,1960-06-20
+CLI-01070,12453465,Jorge Salazar,jorge.salazar1070@correo-ficticio.pe,LAMBAYEQUE,1989-02-17
+CLI-00886,30958877,Raul Chavez,raul.chavez886@correo-ficticio.pe,PIURA,2004-10-11
+CLI-00209,48946076,Ana Vargas,ana.vargas209@correo-ficticio.pe,LIMA,1991-08-31
+CLI-01692,51406149,Valeria Castillo,valeria.castillo1692@correo-ficticio.pe,PUNO,1980-02-02
+CLI-01697,73684550,Sofia Flores,sofia.flores1697@correo-ficticio.pe,JUNIN,1950-07-28
+CLI-00541,31651250,Jorge Chavez,jorge.chavez541@correo-ficticio.pe,PIURA,1976-12-08
+CLI-01193,47579605,Paola Silva,paola.silva1193@correo-ficticio.pe,LAMBAYEQUE,1987-03-27
+CLI-01329,29787676,Miguel Chavez,miguel.chavez1329@correo-ficticio.pe,cusco,1969-09-25
+CLI-01953,62265847,Gabriela Vargas,gabriela.vargas1953@correo-ficticio.pe,AREQUIPA,1989-12-14
+CLI-00037,32988153,Maria Rios,maria.rios37@correo-ficticio.pe,LIMA,1966-08-23
+CLI-01339,39113443,Raul Mendoza,raul.mendoza1339@correo-ficticio.pe,LA LIBERTAD,1991-06-22
+CLI-00067,79651800,Maria Arapa,maria.arapa67@correo-ficticio.pe,JUNIN,1990-11-27
+CLI-00187,24927977,Carlos Castillo,carlos.castillo187@correo-ficticio.pe,AREQUIPA,1991-08-17
+CLI-00272,69259508,Rosa Flores,rosa.flores272@correo-ficticio.pe,JUNIN,2005-04-24
+CLI-00095,45911099,Rosa Mamani,rosa.mamani95@correo-ficticio.pe,JUNIN,1965-02-05
+CLI-01669,28823254,Diego Salazar,DIEGO.SALAZAR1669@CORREO-FICTICIO.PE,CUSCO,1972-03-14
+CLI-01026,69946744,Jorge Rojas,jorge.rojas1026@correo-ficticio.pe,PUNO,1988-04-27
+CLI-00841,65602948,Ana Mamani,ana.mamani841@correo-ficticio.pe,PUNO,1965-02-23
+CLI-00006,71397604,Carmen Castillo,carmen.castillo6@correo-ficticio.pe,LORETO,1983-02-03
+CLI-00081,54289631,Maria Mamani,maria.mamani81@correo-ficticio.pe,PUNO,1965-04-28
+CLI-01351,51699801,Maria Huaman,maria.huaman1351@correo-ficticio.pe,LIMA,1968-09-22
+CLI-01572,58430897,Lucia Paredes,lucia.paredes1572@correo-ficticio.pe,PUNO,1981-10-12
+CLI-00690,68035846,Carmen Flores,CARMEN.FLORES690@CORREO-FICTICIO.PE,AREQUIPA,1999-01-26
+CLI-00597,35282251,Lucia Ramos,lucia.ramos597@correo-ficticio.pe,CUSCO,1951-02-12
+CLI-01437,32987799,Paola Mamani,paola.mamani1437@correo-ficticio.pe,AREQUIPA,1992-04-04
+CLI-01869,79964351,Diego Rojas,DIEGO.ROJAS1869@CORREO-FICTICIO.PE,LA LIBERTAD,1997-09-21
+CLI-01123,62373626,Gabriela Chavez,gabriela.chavez1123@correo-ficticio.pe,LAMBAYEQUE,1992-04-27
+CLI-01796,28541041,Carmen Arapa,carmen.arapa1796@correo-ficticio.pe,PIURA,1978-09-07
+CLI-01719,29703164,Valeria Salazar,VALERIA.SALAZAR1719@CORREO-FICTICIO.PE,PUNO,1969-04-24
+CLI-01297,14557188,Rosa Gutierrez,rosa.gutierrez1297@correo-ficticio.pe,AREQUIPA,1998-02-06
+CLI-00084,56111589,Paola Huaman,paola.huaman84@correo-ficticio.pe,LORETO,1993-10-23
+CLI-01895,49071494,Maria Rojas,maria.rojas1895@correo-ficticio.pe,PUNO,1989-05-25
+CLI-00051,15101456,Carlos Torres,carlos.torres51@correo-ficticio.pe,ICA,1980-07-26
+CLI-01177,23441132,Jose Silva,jose.silva1177@correo-ficticio.pe,PUNO,1953-03-04
+CLI-00423,43599229,Elena Mamani,elena.mamani423@correo-ficticio.pe,PIURA,1999-07-23
+CLI-00412,51236682,Elena Cruz,elena.cruz412@correo-ficticio.pe,PUNO,1953-03-31
+CLI-01447,24794107,Raul Torres,RAUL.TORRES1447@CORREO-FICTICIO.PE,PUNO,1960-04-23
+CLI-00584,25405911,Carmen Condori,carmen.condori584@correo-ficticio.pe,JUNIN,1995-03-21
+CLI-00599,74717507,Valeria Silva,valeria.silva599@correo-ficticio.pe,AREQUIPA,1993-01-21
+CLI-00829,62889808,Carmen Garcia,carmen.garcia829@correo-ficticio.pe,ICA,2005-07-07
+CLI-00297,75506791,Maria Mendoza,maria.mendoza297@correo-ficticio.pe,PIURA,1962-01-06
+CLI-00148,76692237,Raul Salazar,raul.salazar148@correo-ficticio.pe,LORETO,1953-03-30
+CLI-00642,56839607,Ana Rojas,ana.rojas642@correo-ficticio.pe,PUNO,2004-06-22
+CLI-00385,60187439,Paola Torres,paola.torres385@correo-ficticio.pe,JUNIN,1988-06-27
+CLI-01817,45010160,Rosa Torres,rosa.torres1817@correo-ficticio.pe,LORETO,1953-09-28
+CLI-01932,65201562,Maria Gutierrez,MARIA.GUTIERREZ1932@CORREO-FICTICIO.PE,AREQUIPA,1968-04-06
+CLI-00615,78823172,Miguel Rios,miguel.rios615@correo-ficticio.pe,PUNO,1966-01-19
+CLI-00274,13952661,Sofia Quispe,sofia.quispe274@correo-ficticio.pe,ICA,1964-12-29
+CLI-00947,36327371,Luis Ramos,luis.ramos947@correo-ficticio.pe,ICA,1997-04-24
+CLI-01761,21271360,Elena Salazar,elena.salazar1761@correo-ficticio.pe,LA LIBERTAD,1969-06-17
+CLI-00109,23195130,Gabriela Gutierrez,gabriela.gutierrez109@correo-ficticio.pe,la libertad,2002-12-13
+CLI-00604,57829093,Victor Chavez,victor.chavez604@correo-ficticio.pe,LIMA,1986-10-11
+CLI-00173,11344907,Miguel Paredes,miguel.paredes173@correo-ficticio.pe,puno,1952-01-29
+CLI-00849,27951502,Pedro Salazar,PEDRO.SALAZAR849@CORREO-FICTICIO.PE,piura,1976-05-16
+CLI-00696,23763521,Paola Garcia,paola.garcia696@correo-ficticio.pe,LAMBAYEQUE,1973-05-22
+CLI-01795,42862430,Raul Rojas,raul.rojas1795@correo-ficticio.pe,JUNIN,1990-05-19
+CLI-00929,45708645,Luis Ramos,luis.ramos929@correo-ficticio.pe,AREQUIPA,1977-03-31
+CLI-00888,27132181,Lucia Mamani,lucia.mamani888@correo-ficticio.pe,PIURA,1970-09-23
+CLI-00363,31022449,Gabriela Salazar,gabriela.salazar363@correo-ficticio.pe,PIURA,1974-07-25
+CLI-01283,50044265,Gabriela Torres,gabriela.torres1283@correo-ficticio.pe,LIMA,1994-10-30
+CLI-00550,79589801,Ana Castillo,ana.castillo550@correo-ficticio.pe,LAMBAYEQUE,1958-02-03
+CLI-00334,51185754,Paola Rojas,paola.rojas334@correo-ficticio.pe,PIURA,1958-03-07
+CLI-01532,67715529,Gabriela Vargas,GABRIELA.VARGAS1532@CORREO-FICTICIO.PE,LA LIBERTAD,2004-06-04
+CLI-01689,75407276,Carlos Rios,carlos.rios1689@correo-ficticio.pe,AREQUIPA,1991-05-16
+CLI-00462,58326842,Miguel Quispe,miguel.quispe462@correo-ficticio.pe,PIURA,1980-06-28
+CLI-01337,67951052,Pedro Mamani,pedro.mamani1337@correo-ficticio.pe,LORETO,1960-07-08
+CLI-01027,68191069,Lucia Quispe,LUCIA.QUISPE1027@CORREO-FICTICIO.PE,LAMBAYEQUE,1983-03-08
+CLI-01134,26563029,Victor Torres,victor.torres1134@correo-ficticio.pe,PIURA,2004-11-24
+CLI-01830,74764044,Carmen Flores,carmen.flores1830@correo-ficticio.pe,LORETO,1970-01-08
+CLI-00249,19744349,Carlos Paredes,carlos.paredes249@correo-ficticio.pe,AREQUIPA,1974-03-25
+CLI-00165,67300790,Miguel Huaman,miguel.huaman165@correo-ficticio.pe,LORETO,2004-04-06
+CLI-01644,38077318,Carlos Castillo,carlos.castillo1644@correo-ficticio.pe,PUNO,1965-04-11
+CLI-01198,79658600,Victor Silva,victor.silva1198@correo-ficticio.pe,LAMBAYEQUE,1986-07-18
+CLI-00441,27108254,Hector Condori,HECTOR.CONDORI441@CORREO-FICTICIO.PE,LA LIBERTAD,1975-06-24
+CLI-00588,10741631,Carlos Silva,carlos.silva588@correo-ficticio.pe,LAMBAYEQUE,1994-01-03
+CLI-01931,64676558,Miguel Silva,miguel.silva1931@correo-ficticio.pe,ICA,1976-03-15
+CLI-01914,56784265,Pedro Silva,pedro.silva1914@correo-ficticio.pe,AREQUIPA,1998-01-06
+CLI-00424,46384488,Maria Garcia,maria.garcia424@correo-ficticio.pe,LAMBAYEQUE,1965-07-11
+CLI-00400,43919162,Jose Flores,jose.flores400@correo-ficticio.pe,LORETO,1993-10-11
+CLI-00713,54109703,Hector Garcia,hector.garcia713@correo-ficticio.pe,LAMBAYEQUE,1978-07-03
+CLI-01763,60728510,Victor Garcia,victor.garcia1763@correo-ficticio.pe,AREQUIPA,1960-12-20
+CLI-01782,48862398,Ana Arapa,ana.arapa1782@correo-ficticio.pe,ICA,1972-01-23
+CLI-00557,23329229,Valeria Paredes,valeria.paredes557@correo-ficticio.pe,LAMBAYEQUE,1968-07-11
+CLI-00126,15852532,Carmen Silva,carmen.silva126@correo-ficticio.pe,  La Libertad ,1999-01-12
+CLI-01476,18802469,Maria Garcia,maria.garcia1476@correo-ficticio.pe,CUSCO,1985-04-04
+CLI-01062,61571611,Miguel Quispe,miguel.quispe1062@correo-ficticio.pe,LIMA,1967-07-02
+CLI-00619,52987062,Carmen Rojas,carmen.rojas619@correo-ficticio.pe,JUNIN,1960-11-21
+CLI-00963,61897425,Maria Mendoza,maria.mendoza963@correo-ficticio.pe,CUSCO,1994-01-27
+CLI-00327,69453877,Hector Rojas,hector.rojas327@correo-ficticio.pe,CUSCO,1968-05-06
+CLI-00581,55841130,Valeria Gutierrez,valeria.gutierrez581@correo-ficticio.pe,ICA,1997-04-15
+CLI-01584,78176638,Sofia Flores,sofia.flores1584@correo-ficticio.pe,LORETO,1994-06-26
+CLI-01384,61073629,Gabriela Castillo,gabriela.castillo1384@correo-ficticio.pe,LA LIBERTAD,1977-03-05
+CLI-01319,70515630,Elena Ramos,ELENA.RAMOS1319@CORREO-FICTICIO.PE,LA LIBERTAD,1959-12-22
+CLI-00123,25527561,Pedro Arapa,pedro.arapa123@correo-ficticio.pe,ICA,1981-11-28
+CLI-00317,32888322,Carmen Rojas,carmen.rojas317@correo-ficticio.pe,LIMA,1974-01-28
+CLI-01029,36621369,Gabriela Ramos,gabriela.ramos1029@correo-ficticio.pe,CUSCO,1974-07-02
+CLI-00213,46264975,Miguel Silva,MIGUEL.SILVA213@CORREO-FICTICIO.PE,LA LIBERTAD,2000-10-03
+CLI-01057,32946397,Victor Ramos,victor.ramos1057@correo-ficticio.pe,JUNIN,1994-05-12
+CLI-01152,39948992,Valeria Castillo,valeria.castillo1152@correo-ficticio.pe,LIMA,2005-09-22
+CLI-00716,21809349,Victor Flores,victor.flores716@correo-ficticio.pe,LIMA,1971-03-11
+CLI-00028,63573955,Lucia Rojas,LUCIA.ROJAS28@CORREO-FICTICIO.PE,cusco,1998-11-15
+CLI-00481,19346137,Jose Garcia,jose.garcia481@correo-ficticio.pe,LIMA,1990-10-23
+CLI-01674,69000433,Ana Rios,ana.rios1674@correo-ficticio.pe,LA LIBERTAD,1979-04-20
+CLI-01373,77899976,Valeria Arapa,valeria.arapa1373@correo-ficticio.pe,PIURA,1991-08-25
+CLI-01608,28065298,Carlos Chavez,carlos.chavez1608@correo-ficticio.pe,LAMBAYEQUE,2002-03-29
+CLI-01274,49571461,Valeria Gutierrez,valeria.gutierrez1274@correo-ficticio.pe,PUNO,1972-08-26
+CLI-00413,77742761,Carlos Quispe,CARLOS.QUISPE413@CORREO-FICTICIO.PE,CUSCO,1961-12-23
+CLI-01627,50503091,Pedro Silva,pedro.silva1627@correo-ficticio.pe,PIURA,1978-07-25
+CLI-01977,65650951,Luis Flores,LUIS.FLORES1977@CORREO-FICTICIO.PE,LIMA,1950-01-04
+CLI-00926,26137429,Jose Mendoza,jose.mendoza926@correo-ficticio.pe,AREQUIPA,1966-08-26
+CLI-00983,67042105,Hector Castillo,hector.castillo983@correo-ficticio.pe,LIMA,1983-04-18
+CLI-00944,55642417,Valeria Rios,valeria.rios944@correo-ficticio.pe,PIURA,1998-08-21
+CLI-00443,23951528,Carlos Condori,carlos.condori443@correo-ficticio.pe,LAMBAYEQUE,1955-04-09
+CLI-01380,25611311,Valeria Cruz,valeria.cruz1380@correo-ficticio.pe,PIURA,1955-06-01
+CLI-00535,44784492,Jose Huaman,jose.huaman535@correo-ficticio.pe,lambayeque,1998-01-18
+CLI-01010,19692231,Maria Castillo,maria.castillo1010@correo-ficticio.pe,PIURA,1959-08-17
+CLI-00640,36723385,Hector Chavez,hector.chavez640@correo-ficticio.pe,JUNIN,1993-03-13
+CLI-00959,34374741,Paola Silva,paola.silva959@correo-ficticio.pe,LAMBAYEQUE,1963-03-10
+CLI-00219,36675933,Raul Flores,raul.flores219@correo-ficticio.pe,LORETO,1968-01-07
+CLI-01824,73362810,Sofia Vargas,sofia.vargas1824@correo-ficticio.pe,AREQUIPA,1953-05-15
+CLI-00418,69524317,Pedro Chavez,pedro.chavez418@correo-ficticio.pe,lima,1958-03-03
+CLI-00462,58326842,Miguel Quispe,miguel.quispe462@correo-ficticio.pe,PIURA,1980-06-28
+CLI-01044,69877428,Lucia Chavez,lucia.chavez1044@correo-ficticio.pe,LAMBAYEQUE,1998-11-04
+CLI-01960,21407121,Jose Chavez,jose.chavez1960@correo-ficticio.pe,LAMBAYEQUE,1970-10-03
+CLI-00041,57017385,Gabriela Condori,gabriela.condori41@correo-ficticio.pe,PUNO,2005-03-10
+CLI-00654,17901035,Miguel Paredes,miguel.paredes654@correo-ficticio.pe,PUNO,1952-07-28
+CLI-00674,63318490,Jorge Flores,JORGE.FLORES674@CORREO-FICTICIO.PE,LAMBAYEQUE,1983-05-25
+CLI-01187,26314811,Valeria Cruz,valeria.cruz1187@correo-ficticio.pe,JUNIN,1980-05-11
+CLI-00087,17272944,Carmen Chavez,carmen.chavez87@correo-ficticio.pe,AREQUIPA,1995-08-30
+CLI-00289,52219938,Sofia Vargas,SOFIA.VARGAS289@CORREO-FICTICIO.PE,  Arequipa ,1983-08-17
+CLI-00426,28331233,Gabriela Ramos,gabriela.ramos426@correo-ficticio.pe,LAMBAYEQUE,1966-11-17
+CLI-00500,58313251,Victor Vargas,victor.vargas500@correo-ficticio.pe,AREQUIPA,1970-05-24
+CLI-00511,62465959,Gabriela Castillo,GABRIELA.CASTILLO511@CORREO-FICTICIO.PE,JUNIN,1972-06-09
+CLI-01432,46479404,Valeria Chavez,valeria.chavez1432@correo-ficticio.pe,PIURA,1978-03-08
+CLI-01077,77217502,Hector Rojas,HECTOR.ROJAS1077@CORREO-FICTICIO.PE,LAMBAYEQUE,1979-08-26
+CLI-01399,32272915,Lucia Salazar,lucia.salazar1399@correo-ficticio.pe,CUSCO,1992-02-13
+CLI-01696,37031401,Jorge Rios,jorge.rios1696@correo-ficticio.pe,LAMBAYEQUE,2003-04-17
+CLI-00605,71843435,Carlos Gutierrez,carlos.gutierrez605@correo-ficticio.pe,CUSCO,1987-07-10
+CLI-01266,30506155,Lucia Vargas,lucia.vargas1266@correo-ficticio.pe,PIURA,1994-08-25
+CLI-00529,58202840,Raul Ramos,raul.ramos529@correo-ficticio.pe,ICA,1976-06-02
+CLI-00890,35936859,Carmen Condori,carmen.condori890@correo-ficticio.pe,PIURA,1990-11-23
+CLI-00476,74827161,Lucia Garcia,lucia.garcia476@correo-ficticio.pe,  Puno ,1954-02-13
+CLI-00855,75984922,Diego Quispe,diego.quispe855@correo-ficticio.pe,AREQUIPA,1978-08-09
+CLI-00434,24351698,Miguel Flores,miguel.flores434@correo-ficticio.pe,LAMBAYEQUE,1959-06-30
+CLI-01190,49772624,Gabriela Chavez,gabriela.chavez1190@correo-ficticio.pe,PIURA,2003-09-03
+CLI-01167,16581861,Lucia Ramos,lucia.ramos1167@correo-ficticio.pe,ICA,1977-10-20
+CLI-01909,43166036,Rosa Gutierrez,rosa.gutierrez1909@correo-ficticio.pe,PUNO,1961-12-24
+CLI-01092,21422210,Jose Torres,jose.torres1092@correo-ficticio.pe,PIURA,1953-07-21
+CLI-00903,75956894,Carlos Gutierrez,carlos.gutierrez903@correo-ficticio.pe,LAMBAYEQUE,1964-06-06
+CLI-01549,36947381,Ana Paredes,ana.paredes1549@correo-ficticio.pe,PIURA,1962-07-13
+CLI-00520,62698806,Valeria Gutierrez,valeria.gutierrez520@correo-ficticio.pe,ICA,1953-03-05
+CLI-00198,55936484,Sofia Flores,sofia.flores198@correo-ficticio.pe,PIURA,1972-10-15
+CLI-00011,71310167,Lucia Garcia,lucia.garcia11@correo-ficticio.pe,ICA,1986-01-27
+CLI-01141,25401042,Valeria Ramos,valeria.ramos1141@correo-ficticio.pe,AREQUIPA,1968-08-09
+CLI-01010,19692231,Maria Castillo,maria.castillo1010@correo-ficticio.pe,PIURA,1959-08-17
+CLI-01324,23711188,Carlos Rios,carlos.rios1324@correo-ficticio.pe,LORETO,1956-12-17
+CLI-01762,45689143,Pedro Salazar,pedro.salazar1762@correo-ficticio.pe,PIURA,2003-10-27
+CLI-00138,74171815,Valeria Gutierrez,valeria.gutierrez138@correo-ficticio.pe,cusco,1997-04-27
+CLI-00677,57266672,Maria Mendoza,maria.mendoza677@correo-ficticio.pe,CUSCO,1983-11-17
+CLI-00386,69017019,Jose Garcia,jose.garcia386@correo-ficticio.pe,PUNO,1987-04-05
+CLI-01254,50520564,Victor Salazar,VICTOR.SALAZAR1254@CORREO-FICTICIO.PE,PUNO,2004-01-26
+CLI-01360,47341331,Elena Salazar,elena.salazar1360@correo-ficticio.pe,LORETO,1950-05-05
+CLI-01897,43671440,Victor Rios,victor.rios1897@correo-ficticio.pe,LAMBAYEQUE,1973-02-08
+CLI-01120,34834055,Lucia Arapa,lucia.arapa1120@correo-ficticio.pe,PUNO,1975-02-20
+CLI-00653,75697842,Carmen Mendoza,carmen.mendoza653@correo-ficticio.pe,LAMBAYEQUE,1982-09-17
+CLI-01047,36715437,Valeria Silva,valeria.silva1047@correo-ficticio.pe,JUNIN,1967-12-19
+CLI-01648,61515342,Raul Gutierrez,raul.gutierrez1648@correo-ficticio.pe,LAMBAYEQUE,1964-11-17
+CLI-01774,13575623,Jose Mamani,jose.mamani1774@correo-ficticio.pe,LAMBAYEQUE,1971-12-27
+CLI-01156,77172328,Elena Chavez,elena.chavez1156@correo-ficticio.pe,PUNO,1969-03-19
+CLI-01224,71864057,Maria Ramos,maria.ramos1224@correo-ficticio.pe,ICA,1980-04-08
+CLI-01727,45787222,Victor Mamani,victor.mamani1727@correo-ficticio.pe,LIMA,1973-07-22
+CLI-01726,69270397,Raul Quispe,raul.quispe1726@correo-ficticio.pe,LAMBAYEQUE,1993-04-18
+CLI-00346,63404411,Jorge Arapa,jorge.arapa346@correo-ficticio.pe,LORETO,1951-10-07
+CLI-00816,72191079,Diego Vargas,diego.vargas816@correo-ficticio.pe,LIMA,1951-08-09
+CLI-01117,63656166,Raul Arapa,raul.arapa1117@correo-ficticio.pe,LAMBAYEQUE,1989-07-09
+CLI-00085,14927865,Jose Vargas,jose.vargas85@correo-ficticio.pe,cusco,1982-11-08
+CLI-00676,53783070,Carlos Rojas,carlos.rojas676@correo-ficticio.pe,LAMBAYEQUE,1958-09-21
+CLI-00825,53610733,Maria Paredes,maria.paredes825@correo-ficticio.pe,cusco,1970-02-17
+CLI-00088,74773101,Gabriela Castillo,gabriela.castillo88@correo-ficticio.pe,ICA,2003-06-16
+CLI-01162,58587928,Carmen Ramos,carmen.ramos1162@correo-ficticio.pe,PUNO,1983-03-16
+CLI-01554,61505550,Hector Mamani,hector.mamani1554@correo-ficticio.pe,PUNO,1986-09-04
+CLI-01521,46327624,Pedro Mamani,pedro.mamani1521@correo-ficticio.pe,ICA,2002-04-20
+CLI-00263,40542322,Carlos Ramos,carlos.ramos263@correo-ficticio.pe,LIMA,1980-07-20
+CLI-01154,35817640,Gabriela Flores,GABRIELA.FLORES1154@CORREO-FICTICIO.PE,LA LIBERTAD,1984-11-11
+CLI-00964,41637863,Carmen Huaman,carmen.huaman964@correo-ficticio.pe,ICA,1983-12-23
+CLI-01314,48260649,Paola Quispe,paola.quispe1314@correo-ficticio.pe,PIURA,2004-01-10
+CLI-01626,79733770,Miguel Silva,miguel.silva1626@correo-ficticio.pe,PIURA,1984-09-06
+CLI-01571,59839147,Victor Salazar,victor.salazar1571@correo-ficticio.pe,LIMA,2000-12-21
+CLI-00378,71549258,Pedro Chavez,pedro.chavez378@correo-ficticio.pe,PIURA,1984-11-30
+CLI-01677,14713460,Valeria Salazar,valeria.salazar1677@correo-ficticio.pe,PIURA,2000-10-21
+CLI-01878,22891883,Diego Chavez,DIEGO.CHAVEZ1878@CORREO-FICTICIO.PE,JUNIN,1972-10-10
+CLI-00141,61701468,Raul Rojas,raul.rojas141@correo-ficticio.pe,PUNO,1976-09-06
+CLI-00496,42695332,Jorge Silva,JORGE.SILVA496@CORREO-FICTICIO.PE,LORETO,1975-07-27
+CLI-00333,79038687,Pedro Paredes,pedro.paredes333@correo-ficticio.pe,LAMBAYEQUE,1977-06-17
+CLI-00922,23231728,Paola Garcia,PAOLA.GARCIA922@CORREO-FICTICIO.PE,ICA,1968-11-10
+CLI-00883,12837555,Raul Castillo,raul.castillo883@correo-ficticio.pe,CUSCO,1965-01-20
+CLI-01200,43731912,Carmen Vargas,carmen.vargas1200@correo-ficticio.pe,LA LIBERTAD,1967-04-18
+CLI-01313,31997260,Carlos Castillo,carlos.castillo1313@correo-ficticio.pe,LORETO,1983-06-23
+CLI-01703,71284610,Rosa Ramos,rosa.ramos1703@correo-ficticio.pe,LAMBAYEQUE,1997-08-18
+CLI-01334,70672438,Raul Huaman,RAUL.HUAMAN1334@CORREO-FICTICIO.PE,AREQUIPA,1968-03-12
+CLI-00904,65737610,Luis Vargas,luis.vargas904@correo-ficticio.pe,AREQUIPA,1965-08-12
+CLI-00080,59584636,Miguel Silva,MIGUEL.SILVA80@CORREO-FICTICIO.PE,PIURA,1951-01-09
+CLI-00775,26258641,Miguel Flores,miguel.flores775@correo-ficticio.pe,  Puno ,2000-08-30
+CLI-00819,49650590,Luis Chavez,luis.chavez819@correo-ficticio.pe,CUSCO,1952-05-16
+CLI-01694,11332736,Jose Chavez,jose.chavez1694@correo-ficticio.pe,CUSCO,1994-09-07
+CLI-00086,36673639,Miguel Cruz,miguel.cruz86@correo-ficticio.pe,ICA,1985-11-17
+CLI-00411,34457976,Elena Flores,elena.flores411@correo-ficticio.pe,LORETO,1990-09-19
+CLI-00762,13274846,Jose Vargas,jose.vargas762@correo-ficticio.pe,AREQUIPA,1999-11-09
+CLI-00930,42464045,Paola Rios,paola.rios930@correo-ficticio.pe,LAMBAYEQUE,1971-12-23
+CLI-01211,58439916,Valeria Garcia,valeria.garcia1211@correo-ficticio.pe,PUNO,1969-10-26
+CLI-01467,53376088,Gabriela Flores,gabriela.flores1467@correo-ficticio.pe,PUNO,1991-12-11
+CLI-00586,61314872,Carmen Paredes,carmen.paredes586@correo-ficticio.pe,ICA,1975-02-08
+CLI-00935,14239585,Luis Garcia,luis.garcia935@correo-ficticio.pe,AREQUIPA,2004-06-18
+CLI-00827,75593888,Diego Quispe,diego.quispe827@correo-ficticio.pe,JUNIN,1995-03-20
+CLI-01816,79593873,Gabriela Flores,gabriela.flores1816@correo-ficticio.pe,CUSCO,1964-10-09
+CLI-00884,41095566,Carlos Ramos,carlos.ramos884@correo-ficticio.pe,LORETO,1965-04-11
+CLI-00155,56574855,Raul Silva,raul.silva155@correo-ficticio.pe,AREQUIPA,1978-10-25
+CLI-00022,66073339,Carmen Rojas,carmen.rojas22@correo-ficticio.pe,CUSCO,2002-07-30
+CLI-01710,31723155,Carlos Mendoza,carlos.mendoza1710@correo-ficticio.pe,LA LIBERTAD,1967-05-28
+CLI-01229,30998957,Elena Garcia,elena.garcia1229@correo-ficticio.pe,LA LIBERTAD,2004-08-17
+CLI-01407,69511848,Pedro Silva,pedro.silva1407@correo-ficticio.pe,CUSCO,2002-01-28
+CLI-01042,51655327,Gabriela Mendoza,gabriela.mendoza1042@correo-ficticio.pe,ica,1959-02-18
+CLI-00110,70725226,Ana Rojas,ana.rojas110@correo-ficticio.pe,LAMBAYEQUE,2001-08-01
+CLI-01131,70676695,Raul Rios,raul.rios1131@correo-ficticio.pe,PIURA,1969-09-04
+CLI-00228,33257065,Paola Silva,paola.silva228@correo-ficticio.pe,LORETO,2003-05-08
+CLI-01970,17782382,Jorge Mendoza,jorge.mendoza1970@correo-ficticio.pe,JUNIN,1960-05-17
+CLI-00002,66453983,Valeria Arapa,valeria.arapa2@correo-ficticio.pe,ICA,1994-01-15
+CLI-00431,63362260,Jose Cruz,jose.cruz431@correo-ficticio.pe,LORETO,1979-02-02
+CLI-01294,37067071,Ana Torres,ana.torres1294@correo-ficticio.pe,AREQUIPA,1983-03-14
+CLI-00895,79847089,Maria Flores,maria.flores895@correo-ficticio.pe,PUNO,1975-08-01
+CLI-00056,75076364,Sofia Mamani,sofia.mamani56@correo-ficticio.pe,JUNIN,1996-12-10
+CLI-00408,79083626,Jose Salazar,jose.salazar408@correo-ficticio.pe,AREQUIPA,1989-01-25
+CLI-01333,42894611,Carlos Condori,carlos.condori1333@correo-ficticio.pe,LORETO,1987-06-01
+CLI-00558,63275198,Lucia Quispe,lucia.quispe558@correo-ficticio.pe,LA LIBERTAD,2003-04-01
+CLI-01731,44221734,Pedro Arapa,pedro.arapa1731@correo-ficticio.pe,LIMA,1966-10-29
+CLI-01118,64341887,Sofia Arapa,sofia.arapa1118@correo-ficticio.pe,LA LIBERTAD,2000-10-30
+CLI-01462,70357750,Pedro Salazar,pedro.salazar1462@correo-ficticio.pe,ICA,1985-07-05
+CLI-01723,62601673,Jorge Torres,jorge.torres1723@correo-ficticio.pe,LORETO,1959-02-02
+CLI-01934,20173575,Lucia Mamani,lucia.mamani1934@correo-ficticio.pe,piura,1999-10-14
+CLI-00043,43766169,Elena Gutierrez,elena.gutierrez43@correo-ficticio.pe,  Junin ,1989-03-08
+CLI-00035,39063835,Rosa Mendoza,rosa.mendoza35@correo-ficticio.pe,LA LIBERTAD,2000-12-17
+CLI-01548,50147681,Lucia Silva,lucia.silva1548@correo-ficticio.pe,LORETO,1955-06-13
+CLI-01350,10875487,Rosa Vargas,rosa.vargas1350@correo-ficticio.pe,PUNO,1980-10-26
+CLI-01896,12462909,Elena Flores,elena.flores1896@correo-ficticio.pe,LA LIBERTAD,1996-02-05
+CLI-01573,43512034,Rosa Rios,rosa.rios1573@correo-ficticio.pe,ICA,1990-03-18
+CLI-01746,79325822,Diego Paredes,DIEGO.PAREDES1746@CORREO-FICTICIO.PE,LIMA,1954-08-09
+CLI-01598,50995711,Lucia Quispe,LUCIA.QUISPE1598@CORREO-FICTICIO.PE,LAMBAYEQUE,1953-06-05
+CLI-01655,45427718,Elena Garcia,elena.garcia1655@correo-ficticio.pe,PIURA,2001-05-06
+CLI-01691,41108809,Carlos Castillo,carlos.castillo1691@correo-ficticio.pe,PIURA,2002-03-15
+CLI-01875,57601210,Rosa Mendoza,rosa.mendoza1875@correo-ficticio.pe,AREQUIPA,1988-06-22
+CLI-01237,20512120,Rosa Rios,rosa.rios1237@correo-ficticio.pe,LIMA,1988-01-20
+CLI-01581,47601827,Pedro Huaman,pedro.huaman1581@correo-ficticio.pe,ICA,1986-01-02
+CLI-01825,30091823,Sofia Silva,sofia.silva1825@correo-ficticio.pe,PIURA,1961-08-04
+CLI-01871,76610508,Jose Flores,jose.flores1871@correo-ficticio.pe,LORETO,1975-09-01
+CLI-01519,57610043,Carmen Torres,carmen.torres1519@correo-ficticio.pe,PIURA,1999-12-31
+CLI-00705,15748096,Elena Rios,elena.rios705@correo-ficticio.pe,CUSCO,1991-11-16
+CLI-01649,10802325,Miguel Cruz,miguel.cruz1649@correo-ficticio.pe,LIMA,1988-08-12
+CLI-01616,43480522,Jorge Vargas,jorge.vargas1616@correo-ficticio.pe,LIMA,1950-09-12
+CLI-00296,48347255,Hector Huaman,hector.huaman296@correo-ficticio.pe,LA LIBERTAD,1982-11-20
