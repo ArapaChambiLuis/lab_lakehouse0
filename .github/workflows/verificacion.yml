@@ -45,3 +45,12 @@ jobs:
           # distintos. Spark e Iceberg usan Base64 todo el tiempo.
           _JAVA_OPTIONS: "-XX:+UnlockDiagnosticVMOptions -XX:DisableIntrinsic=_base64_encodeBlock,_base64_decodeBlock"
         run: tests/verificar.sh --iceberg
+
+      - name: Guardar el reporte de la JVM si se cayo
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: jvm-crash
+          path: |
+            hs_err_pid*.log
+          if-no-files-found: ignore
