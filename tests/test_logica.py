@@ -69,7 +69,12 @@ if ICEBERG:
          .config("spark.sql.extensions", "org.apache.iceberg.spark.extensions.IcebergSparkSessionExtensions")
          .config("spark.sql.catalog.lh", "org.apache.iceberg.spark.SparkCatalog")
          .config("spark.sql.catalog.lh.type", "hadoop")
-         .config("spark.sql.catalog.lh.warehouse", "file://" + os.path.join(TMP, "warehouse")))
+         .config("spark.sql.catalog.lh.warehouse", "file://" + os.path.join(TMP, "warehouse"))
+         # Solo en la prueba: gzip en vez de zstd (el codec por defecto de Iceberg).
+         # zstd usa la libreria nativa zstd-jni, que tumba la JVM de los runners
+         # de GitHub (SIGSEGV en distintos puntos). No cambia la logica que se prueba.
+         .config("spark.sql.iceberg.compression-codec", "gzip")
+         .config("spark.driver.memory", "2g"))
 spark = b.getOrCreate()
 spark.sparkContext.setLogLevel("ERROR")
 
