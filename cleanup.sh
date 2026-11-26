@@ -36,10 +36,6 @@ while [ $# -gt 0 ]; do
   esac
 done
 
-existe_bucket() {
-  aws s3api head-bucket --region "$REGION" --bucket "$1" >/dev/null 2>&1
-}
-
 # Una subida multiparte a medias no es un objeto: "aws s3 rm" no la ve, pero
 # impide borrar el bucket y deja el stack en DELETE_FAILED.
 abortar_multipart() {
@@ -70,7 +66,11 @@ fi
 
 if [ "$CONFIRMADO" != "si" ]; then
   amarillo "En la region $REGION se va a borrar:"
-  [ "$HAY_STACK" = "si" ] && echo "   - el stack $STACK (bucket, table bucket, 3 jobs de Glue, rol IAM, workgroup)"
+  if [ "$HAY_STACK" = "si" ]; then
+    echo "   - el stack $STACK (bucket, table bucket, 3 jobs de Glue, rol IAM, workgroup)"
+  else
+    echo "   - lo creado a mano con el estandar ${BASE}-*: jobs, workgroup, rol IAM y presupuesto"
+  fi
   [ -n "$RAW_BUCKET" ] && echo "   - el bucket $RAW_BUCKET con todo su contenido"
   [ -n "$TABLE_BUCKET_ARN" ] && echo "   - todas las tablas Iceberg de $TABLE_BUCKET"
   echo "   - la base $DB_BRONZE del Glue Data Catalog"
@@ -157,8 +157,34 @@ else
     aws s3tables delete-table-bucket --region "$REGION" --table-bucket-arn "$TABLE_BUCKET_ARN" \
       && echo "   borrado el table bucket $TABLE_BUCKET"
   fi
-  amarillo "   Revisa a mano en la consola si quedaron: jobs ${BASE}-job-*, rol ${BASE}-role-glue-${REGION},"
-  amarillo "   workgroup $WORKGROUP y el presupuesto ${BASE}-budget-5usd."
+  # Lo que se crea a mano en la consola (labs/manual-consola) y no tiene stack
+  # que lo borre: jobs, workgroup, rol IAM y presupuesto.
+  for job in "$JOB_SILVER" "$JOB_GOLD" "$JOB_LAB4"; do
+    if aws glue get-job --region "$REGION" --job-name "$job" >/dev/null 2>&1; then
+      aws glue delete-job --region "$REGION" --job-name "$job" >/dev/null && echo "   borrado el job $job"
+    fi
+  done
+  if aws athena get-work-group --region "$REGION" --work-group "$WORKGROUP" >/dev/null 2>&1; then
+    aws athena delete-work-group --region "$REGION" --work-group "$WORKGROUP" \
+      --recursive-delete-option && echo "   borrado el workgroup $WORKGROUP"
+  fi
+  if aws iam get-role --role-name "$ROLE_GLUE" >/dev/null 2>&1; then
+    for politica in $(aws iam list-role-policies --role-name "$ROLE_GLUE" \
+                        --query 'PolicyNames[]' --output text 2>/dev/null || true); do
+      [ "$politica" = "None" ] && continue
+      aws iam delete-role-policy --role-name "$ROLE_GLUE" --policy-name "$politica"
+    done
+    for arn in $(aws iam list-attached-role-policies --role-name "$ROLE_GLUE" \
+                   --query 'AttachedPolicies[].PolicyArn' --output text 2>/dev/null || true); do
+      [ "$arn" = "None" ] && continue
+      aws iam detach-role-policy --role-name "$ROLE_GLUE" --policy-arn "$arn"
+    done
+    aws iam delete-role --role-name "$ROLE_GLUE" && echo "   borrado el rol $ROLE_GLUE"
+  fi
+  if aws budgets describe-budget --account-id "$ACCOUNT_ID" --budget-name "$BUDGET" >/dev/null 2>&1; then
+    aws budgets delete-budget --account-id "$ACCOUNT_ID" --budget-name "$BUDGET" \
+      && echo "   borrado el presupuesto $BUDGET"
+  fi
 fi
 
 verde "Listo: no queda nada que cobre."

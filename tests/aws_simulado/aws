@@ -1,0 +1,470 @@
+#!/usr/bin/env python3
+"""
+AWS CLI simulada CON ESTADO, solo para las pruebas de flujo (tests/test_flujos.sh).
+
+Imita lo justo de cada servicio que usan deploy.sh, lab.sh y cleanup.sh para
+que los flujos se puedan probar sin cuenta de AWS:
+  - CloudFormation crea o borra TODOS los recursos del template;
+  - los recursos "creados a mano en la consola" se siembran con  aws __sembrar;
+  - un job de Glue solo termina en SUCCEEDED si su configuracion es la correcta
+    (script en S3, parametros, namespaces), igual que en AWS;
+  - Athena falla si la tabla, la base o el catalogo no existen.
+
+Estado en $AWS_SIMULADO_DIR/estado.json; cada llamada queda en llamadas.log.
+No reemplaza una prueba en AWS real: prueba la logica de los scripts.
+"""
+import json
+import os
+import re
+import sys
+
+DIR = os.environ.get("AWS_SIMULADO_DIR", "/tmp/aws_simulado")
+ESTADO = os.path.join(DIR, "estado.json")
+CUENTA = "111122223333"
+REGION = "us-east-1"
+SIN_VALOR = {"--recursive", "--only-show-errors", "--no-fail-on-empty-changeset",
+             "--recursive-delete-option", "--si"}
+
+SILVER = ["clientes", "polizas", "pagos_primas", "siniestros"]
+GOLD = ["agg_siniestralidad_producto_anual", "agg_siniestros_producto_mensual",
+        "agg_cartera_region_producto"]
+
+
+def cargar():
+    if os.path.exists(ESTADO):
+        with open(ESTADO) as f:
+            return json.load(f)
+    return {"stack": None, "buckets": {}, "tablebuckets": {}, "roles": {}, "jobs": {},
+            "workgroups": {}, "catalogo": False, "bases": {}, "budgets": [], "runs": {},
+            "consultas": {}, "lab4": False, "n": 0}
+
+
+def guardar(e):
+    with open(ESTADO, "w") as f:
+        json.dump(e, f, indent=1)
+
+
+def fin(codigo=0, salida=None, error=None):
+    if salida is not None:
+        print(salida)
+    if error:
+        print(error, file=sys.stderr)
+    sys.exit(codigo)
+
+
+def opciones(args):
+    o, i = {}, 0
+    while i < len(args):
+        a = args[i]
+        if a.startswith("--"):
+            if a in SIN_VALOR:
+                o[a] = True
+                i += 1
+                continue
+            vals = []
+            i += 1
+            while i < len(args) and not args[i].startswith("--"):
+                vals.append(args[i])
+                i += 1
+            o[a] = vals[0] if len(vals) == 1 else vals
+        else:
+            o.setdefault("_pos", []).append(a)
+            i += 1
+    return o
+
+
+def arn_tb(nombre):
+    return f"arn:aws:s3tables:{REGION}:{CUENTA}:bucket/{nombre}"
+
+
+def nombres(base):
+    return {
+        "raw": f"{base}-raw-{CUENTA}-{REGION}", "tb": f"{base}-tables",
+        "wg": f"{base}-wg-analistas", "rol": f"{base}-role-glue-{REGION}",
+        "budget": f"{base}-budget-5usd",
+        "jobs": {f"{base}-job-bronze-to-silver": "bronze_to_silver.py",
+                 f"{base}-job-silver-to-gold": "silver_to_gold.py",
+                 f"{base}-job-silver-auditoria": "silver_auditoria.py"},
+    }
+
+
+def crear_infra(e, base, presupuesto, defecto=None):
+    """Crea lo mismo que infra/template.yaml. `defecto` simula errores a mano."""
+    n = nombres(base)
+    defecto = defecto or []
+    e["buckets"][n["raw"]] = {"objetos": []}
+    if "sin_table_bucket" not in defecto:
+        e["tablebuckets"][n["tb"]] = {"ns": {} if "sin_namespaces" in defecto else {"silver": [], "gold": []}}
+    if "sin_rol" not in defecto:
+        e["roles"][n["rol"]] = {"inline": ["lkh-lab-policy-lakehouse"],
+                                "adjuntas": ["arn:aws:iam::aws:policy/service-role/AWSGlueServiceRole"]}
+    if "sin_workgroup" not in defecto:
+        e["workgroups"][n["wg"]] = {"salida": f"s3://{n['raw']}/athena-results/"}
+    for job, script in n["jobs"].items():
+        if "sin_jobs" in defecto:
+            continue
+        args = {"--datalake-formats": "iceberg", "--TABLE_BUCKET_ARN": arn_tb(n["tb"]),
+                "--AWS_REGION_NAME": REGION}
+        if script == "bronze_to_silver.py":
+            args["--RAW_BUCKET"] = n["raw"]
+        if "job_arn_malo" in defecto:
+            args["--TABLE_BUCKET_ARN"] = arn_tb("otro-bucket")
+        if "job_sin_formato" in defecto:
+            del args["--datalake-formats"]
+        e["jobs"][job] = {"script": f"s3://{n['raw']}/scripts/{script}", "version": "5.0", "args": args}
+    if presupuesto:
+        e["budgets"].append(n["budget"])
+
+
+def borrar_infra(e, base):
+    n = nombres(base)
+    if e["buckets"].get(n["raw"], {}).get("objetos"):
+        return False
+    tb = e["tablebuckets"].get(n["tb"])
+    if tb and any(tb["ns"].values()):
+        return False
+    e["buckets"].pop(n["raw"], None)
+    e["tablebuckets"].pop(n["tb"], None)
+    e["roles"].pop(n["rol"], None)
+    e["workgroups"].pop(n["wg"], None)
+    for job in n["jobs"]:
+        e["jobs"].pop(job, None)
+    if n["budget"] in e["budgets"]:
+        e["budgets"].remove(n["budget"])
+    return True
+
+
+def tb_por_arn(e, arn):
+    for nombre, tb in e["tablebuckets"].items():
+        if arn_tb(nombre) == arn:
+            return tb
+    return None
+
+
+def main():
+    os.makedirs(DIR, exist_ok=True)
+    args = sys.argv[1:]
+    with open(os.path.join(DIR, "llamadas.log"), "a") as f:
+        f.write(" ".join(args) + "\n")
+    e = cargar()
+
+    if args == ["--version"]:
+        fin(0, "aws-cli/2.31.0 Python/3.13.0 Linux/6 exe/x86_64")
+
+    # --- utilidad de las pruebas: sembrar recursos "creados a mano" ---
+    if args and args[0] == "__sembrar":
+        modo = args[1]
+        defectos = args[2:]
+        if modo == "consola":
+            crear_infra(e, "lkh-lab", presupuesto=True, defecto=defectos)
+        elif modo == "consola_parcial":   # solo bucket y table bucket
+            n = nombres("lkh-lab")
+            e["buckets"][n["raw"]] = {"objetos": []}
+            e["tablebuckets"][n["tb"]] = {"ns": {}}
+        elif modo == "catalogo":
+            e["catalogo"] = True
+        guardar(e)
+        fin(0)
+
+    if len(args) < 2:
+        fin(1, error="uso: aws <servicio> <operacion>")
+    svc, op, o = args[0], args[1], opciones(args[2:])
+    q = o.get("--query", "")
+
+    # ---------------- sts ----------------
+    if svc == "sts":
+        if "Arn" in q:
+            fin(0, f"arn:aws:iam::{CUENTA}:user/luis.arapa")
+        fin(0, CUENTA)
+
+    if svc == "s3tables" and op == "help":
+        fin(0)
+
+    # ---------------- cloudformation ----------------
+    if svc == "cloudformation":
+        base = None
+        if op == "deploy":
+            params = dict(p.split("=", 1) for p in o["--parameter-overrides"])
+            base = f"{params['Proyecto']}-{params['Entorno']}"
+            n = nombres(base)
+            if e["stack"] is None and (n["raw"] in e["buckets"] or n["tb"] in e["tablebuckets"]):
+                fin(255, error=f"Failed to create the changeset: {n['raw']} already exists")
+            if e["stack"] is None:
+                crear_infra(e, base, presupuesto=bool(params.get("EmailAlerta")))
+                e["stack"] = {"nombre": o["--stack-name"], "base": base, "estado": "CREATE_COMPLETE"}
+            guardar(e)
+            fin(0, f"Successfully created/updated stack - {o['--stack-name']}")
+        st = e["stack"]
+        if op == "describe-stacks":
+            if not st or st["nombre"] != o.get("--stack-name"):
+                fin(255, error="Stack with id does not exist")
+            n = nombres(st["base"])
+            salidas = {"RawBucket": n["raw"], "TableBucketName": n["tb"], "TableBucketArn": arn_tb(n["tb"]),
+                       "JobSilver": f"{st['base']}-job-bronze-to-silver",
+                       "JobGold": f"{st['base']}-job-silver-to-gold",
+                       "JobLab4": f"{st['base']}-job-silver-auditoria", "WorkGroup": n["wg"]}
+            m = re.search(r"OutputKey=='(\w+)'", q)
+            fin(0, salidas[m.group(1)] if m else json.dumps({"Stacks": [{"StackName": st["nombre"]}]}))
+        if op == "delete-stack":
+            if st:
+                st["estado"] = "DELETE_COMPLETE" if borrar_infra(e, st["base"]) else "DELETE_FAILED"
+                if st["estado"] == "DELETE_COMPLETE":
+                    e["stack"] = None
+                guardar(e)
+            fin(0)
+        if op == "wait":
+            fin(255 if e["stack"] and e["stack"]["estado"] == "DELETE_FAILED" else 0)
+
+    # ---------------- s3 / s3api ----------------
+    if svc == "s3":
+        pos = o.get("_pos", [])
+        if op == "cp":
+            dest = pos[1]
+            b, _, clave = dest[5:].partition("/")
+            if b not in e["buckets"]:
+                fin(1, error="upload failed: NoSuchBucket")
+            objs = e["buckets"][b]["objetos"]
+            if o.get("--recursive"):
+                for f in sorted(os.listdir(pos[0])):
+                    if f.endswith(".py"):
+                        objs.append(clave + f)
+            else:
+                objs.append(clave)
+            e["buckets"][b]["objetos"] = sorted(set(objs))
+            guardar(e)
+            fin(0)
+        if op == "ls":
+            b, _, pref = pos[0][5:].partition("/")
+            objs = e["buckets"].get(b, {}).get("objetos", [])
+            hay = [x for x in objs if x.startswith(pref)]
+            fin(0 if hay else 1, "\n".join(hay) if hay else None)
+        if op == "rm":
+            b = pos[0][5:].split("/")[0]
+            if b in e["buckets"]:
+                e["buckets"][b]["objetos"] = []
+                guardar(e)
+            fin(0)
+    if svc == "s3api":
+        b = o.get("--bucket")
+        if op == "head-bucket":
+            fin(0 if b in e["buckets"] else 254)
+        if op == "list-multipart-uploads":
+            fin(0, "None")
+        if op == "delete-bucket":
+            if b not in e["buckets"]:
+                fin(254, error="NoSuchBucket")
+            if e["buckets"][b]["objetos"]:
+                fin(254, error="BucketNotEmpty")
+            del e["buckets"][b]
+            guardar(e)
+            fin(0)
+
+    # ---------------- s3tables ----------------
+    if svc == "s3tables":
+        if op == "list-table-buckets":
+            m = re.search(r"name=='([^']+)'", q)
+            fin(0, arn_tb(m.group(1)) if m and m.group(1) in e["tablebuckets"] else "None")
+        tb = tb_por_arn(e, o.get("--table-bucket-arn", ""))
+        if tb is None:
+            fin(254, error="NotFoundException: table bucket")
+        ns = o.get("--namespace")
+        if op == "get-namespace":
+            fin(0 if ns in tb["ns"] else 254)
+        if op == "create-namespace":
+            tb["ns"].setdefault(ns, [])
+            guardar(e)
+            fin(0)
+        if op == "delete-namespace":
+            if ns not in tb["ns"] or tb["ns"][ns]:
+                fin(254, error="Namespace no vacio o inexistente")
+            del tb["ns"][ns]
+            guardar(e)
+            fin(0)
+        if op == "get-table":
+            fin(0 if o.get("--name") in tb["ns"].get(ns, []) else 254)
+        if op == "list-tables":
+            t = tb["ns"].get(ns, [])
+            fin(0, "\t".join(t) if t else "None")
+        if op == "delete-table":
+            tb["ns"].get(ns, []).remove(o["--name"])
+            guardar(e)
+            fin(0)
+        if op == "delete-table-bucket":
+            if any(tb["ns"].values()):
+                fin(254, error="BucketNotEmpty: tiene tablas")
+            for nombre in list(e["tablebuckets"]):
+                if arn_tb(nombre) == o["--table-bucket-arn"]:
+                    del e["tablebuckets"][nombre]
+            guardar(e)
+            fin(0)
+
+    # ---------------- iam ----------------
+    if svc == "iam":
+        rol = e["roles"].get(o.get("--role-name"))
+        if rol is None:
+            fin(254, error="NoSuchEntity")
+        if op == "get-role":
+            fin(0)
+        if op == "list-role-policies":
+            fin(0, "\t".join(rol["inline"]) or "None")
+        if op == "list-attached-role-policies":
+            fin(0, "\t".join(rol["adjuntas"]) or "None")
+        if op == "delete-role-policy":
+            rol["inline"].remove(o["--policy-name"])
+        if op == "detach-role-policy":
+            rol["adjuntas"].remove(o["--policy-arn"])
+        if op == "delete-role":
+            if rol["inline"] or rol["adjuntas"]:
+                fin(254, error="DeleteConflict: el rol tiene politicas")
+            del e["roles"][o["--role-name"]]
+        guardar(e)
+        fin(0)
+
+    # ---------------- glue ----------------
+    if svc == "glue":
+        if op == "get-catalog":
+            fin(0 if e["catalogo"] else 254)
+        if op == "create-catalog":
+            e["catalogo"] = True
+            guardar(e)
+            fin(0)
+        if op == "get-table":
+            fin(0 if o.get("--name") in e["bases"].get(o.get("--database-name"), []) else 254)
+        if op == "delete-database":
+            if o["--name"] not in e["bases"]:
+                fin(254, error="EntityNotFoundException")
+            del e["bases"][o["--name"]]
+            guardar(e)
+            fin(0)
+        job = e["jobs"].get(o.get("--job-name"))
+        if op == "delete-job":
+            e["jobs"].pop(o["--job-name"], None)
+            guardar(e)
+            fin(0)
+        if job is None:
+            fin(254, error="EntityNotFoundException: job")
+        if op == "get-job":
+            if q:
+                a = job["args"]
+                fin(0, "\t".join([job["script"], job["version"],
+                                  a.get("--datalake-formats", "None"), a.get("--TABLE_BUCKET_ARN", "None"),
+                                  a.get("--RAW_BUCKET", "None"), a.get("--AWS_REGION_NAME", "None")]))
+            fin(0, json.dumps({"Job": {"Name": o["--job-name"]}}))
+        if op == "start-job-run":
+            e["n"] += 1
+            run = f"jr_{e['n']}"
+            error = ejecutar_job(e, o["--job-name"], job)
+            e["runs"][run] = {"estado": "FAILED" if error else "SUCCEEDED", "error": error or "None"}
+            guardar(e)
+            fin(0, run)
+        if op == "get-job-run":
+            r = e["runs"][o["--run-id"]]
+            fin(0, r["error"] if "ErrorMessage" in q else r["estado"])
+
+    # ---------------- athena ----------------
+    if svc == "athena":
+        if op == "get-work-group":
+            wg = e["workgroups"].get(o.get("--work-group"))
+            if wg is None:
+                fin(254, error="InvalidRequestException: WorkGroup is not found")
+            fin(0, (wg["salida"] or "None") if "OutputLocation" in q else json.dumps({"WorkGroup": {}}))
+        if op == "delete-work-group":
+            e["workgroups"].pop(o["--work-group"], None)
+            guardar(e)
+            fin(0)
+        if op == "start-query-execution":
+            wg = e["workgroups"].get(o["--work-group"])
+            if wg is None or not wg["salida"]:
+                fin(255, error="InvalidRequestException: workgroup sin ubicacion de resultados")
+            e["n"] += 1
+            qid = f"q_{e['n']}"
+            ctx = json.loads(o["--query-execution-context"])
+            error = ejecutar_sql(e, o["--query-string"], ctx)
+            e["consultas"][qid] = {"estado": "FAILED" if error else "SUCCEEDED", "razon": error or ""}
+            guardar(e)
+            fin(0, qid)
+        if op == "get-query-execution":
+            c = e["consultas"][o["--query-execution-id"]]
+            fin(0, c["razon"] if "StateChangeReason" in q else c["estado"])
+        if op == "get-query-results":
+            fin(0, json.dumps({"ResultSet": {"Rows": [
+                {"Data": [{"VarCharValue": "columna"}, {"VarCharValue": "n"}]},
+                {"Data": [{"VarCharValue": "PAGADO"}, {"VarCharValue": "1"}]}]}}))
+
+    # ---------------- logs / budgets ----------------
+    if svc == "logs":
+        fin(0, "")
+    if svc == "budgets":
+        nombre = o.get("--budget-name")
+        if op == "describe-budget":
+            fin(0 if nombre in e["budgets"] else 254)
+        if op == "delete-budget":
+            if nombre in e["budgets"]:
+                e["budgets"].remove(nombre)
+                guardar(e)
+            fin(0)
+
+    fin(2, error=f"aws simulado: operacion no soportada: {svc} {op}")
+
+
+def ejecutar_job(e, nombre, job):
+    """Devuelve el mensaje de error, o None si el job 'corre bien'."""
+    a = job["args"]
+    b, _, clave = job["script"][5:].partition("/")
+    if clave not in e["buckets"].get(b, {}).get("objetos", []):
+        return f"Script no encontrado: {job['script']}"
+    if job["version"] != "5.0" or a.get("--datalake-formats") != "iceberg":
+        return "ClassNotFoundException: org.apache.iceberg.spark.SparkCatalog"
+    tb = tb_por_arn(e, a.get("--TABLE_BUCKET_ARN", ""))
+    if tb is None:
+        return "AccessDeniedException: s3tables (TABLE_BUCKET_ARN)"
+    if "silver" not in tb["ns"] or "gold" not in tb["ns"]:
+        return "NoSuchNamespaceException"
+    script = clave.rsplit("/", 1)[-1]
+    if script == "bronze_to_silver.py":
+        objs = e["buckets"].get(a.get("--RAW_BUCKET"), {}).get("objetos", [])
+        if not any(x.startswith("bronze/siniestros/") for x in objs):
+            return "Path does not exist: bronze/siniestros/"
+        tb["ns"]["silver"] = list(SILVER)
+        e["lab4"] = False
+    elif script == "silver_to_gold.py":
+        if "siniestros" not in tb["ns"]["silver"]:
+            return "Table not found: silver.siniestros"
+        tb["ns"]["gold"] = list(GOLD)
+    elif script == "silver_auditoria.py":
+        if "siniestros" not in tb["ns"]["silver"]:
+            return "Table not found: silver.siniestros"
+        e["lab4"] = True
+    return None
+
+
+def ejecutar_sql(e, sql, ctx):
+    s = " ".join(sql.split())
+    m = re.match(r"CREATE DATABASE IF NOT EXISTS (\w+)", s, re.I)
+    if m:
+        e["bases"].setdefault(m.group(1), [])
+        return None
+    m = re.match(r"CREATE EXTERNAL TABLE IF NOT EXISTS (\w+)\.(\w+)", s, re.I)
+    if m:
+        if m.group(1) not in e["bases"]:
+            return f"Database {m.group(1)} not found"
+        e["bases"][m.group(1)] = sorted(set(e["bases"][m.group(1)] + [m.group(2)]))
+        return None
+    m = re.search(r"FROM (\w+)\.(\w+)", s, re.I)
+    if m and ctx.get("Catalog", "AwsDataCatalog") == "AwsDataCatalog":
+        return None if m.group(2) in e["bases"].get(m.group(1), []) else f"Table {m.group(0)} not found"
+    cat = ctx.get("Catalog", "")
+    if cat.startswith("s3tablescatalog/"):
+        if not e["catalogo"]:
+            return "Catalog s3tablescatalog does not exist"
+        tb = e["tablebuckets"].get(cat.split("/", 1)[1])
+        tabla = re.search(r"FROM (\w+)", s, re.I).group(1)
+        if tb is None or tabla not in tb["ns"].get(ctx.get("Database"), []):
+            return f"Table {tabla} not found"
+        if "flag_fraude" in s and not e["lab4"]:
+            return "COLUMN_NOT_FOUND: flag_fraude"
+    return None
+
+
+if __name__ == "__main__":
+    main()

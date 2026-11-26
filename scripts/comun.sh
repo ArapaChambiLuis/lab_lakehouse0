@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Funciones compartidas por deploy.sh y cleanup.sh. No se ejecuta solo.
+# Funciones compartidas por deploy.sh, lab.sh y cleanup.sh. No se ejecuta solo.
 
 verde()  { printf '\033[32m%s\033[0m\n' "$*"; }
 amarillo() { printf '\033[33m%s\033[0m\n' "$*"; }
@@ -41,19 +41,50 @@ existe_stack() {
   aws cloudformation describe-stacks --region "$REGION" --stack-name "$STACK" >/dev/null 2>&1
 }
 
-# Nombres derivados del estandar, sin preguntarle al stack. Se usa en cleanup.sh
-# cuando alguien ya borro el stack a mano y quedaron recursos huerfanos.
-# shellcheck disable=SC2034  # las variables se usan en cleanup.sh
+existe_bucket() {
+  aws s3api head-bucket --region "$REGION" --bucket "$1" >/dev/null 2>&1
+}
+
+# Nombres derivados del estandar, sin preguntarle al stack. Se usan cuando la
+# infraestructura se creo a mano en la consola (labs/manual-consola) y en
+# cleanup.sh cuando alguien ya borro el stack y quedaron recursos huerfanos.
+# shellcheck disable=SC2034  # las variables se usan en los scripts que cargan este archivo
 nombres_por_convencion() {
   RAW_BUCKET="${BASE}-raw-${ACCOUNT_ID}-${REGION}"
   TABLE_BUCKET="${BASE}-tables"
   WORKGROUP="${BASE}-wg-analistas"
+  JOB_SILVER="${BASE}-job-bronze-to-silver"
+  JOB_GOLD="${BASE}-job-silver-to-gold"
+  JOB_LAB4="${BASE}-job-silver-auditoria"
+  ROLE_GLUE="${BASE}-role-glue-${REGION}"
+  BUDGET="${BASE}-budget-5usd"
   CATALOGO_TABLES="s3tablescatalog/${TABLE_BUCKET}"
   # El ARN se consulta (no se arma a mano) para no asumir la particion de AWS.
   TABLE_BUCKET_ARN=$(aws s3tables list-table-buckets --region "$REGION" \
     --query "tableBuckets[?name=='$TABLE_BUCKET'].arn | [0]" --output text 2>/dev/null || true)
   [ "$TABLE_BUCKET_ARN" = "None" ] && TABLE_BUCKET_ARN=""
   return 0
+}
+
+# resolver_recursos -> deja MODO en:
+#   script   la infraestructura la creo CloudFormation (./lab.sh 0 o ./deploy.sh)
+#   consola  no hay stack, pero hay recursos con los nombres del estandar:
+#            los creaste a mano siguiendo labs/manual-consola
+#   ninguno  todavia no hay nada
+# y carga los nombres de los recursos desde el origen que corresponda.
+# shellcheck disable=SC2034  # MODO se usa en lab.sh, deploy.sh y cleanup.sh
+resolver_recursos() {
+  if existe_stack; then
+    MODO="script"
+    cargar_salidas
+  else
+    nombres_por_convencion
+    if existe_bucket "$RAW_BUCKET" || [ -n "$TABLE_BUCKET_ARN" ]; then
+      MODO="consola"
+    else
+      MODO="ninguno"
+    fi
+  fi
 }
 
 # salida_stack <NombreOutput>
@@ -71,6 +102,8 @@ cargar_salidas() {
   JOB_GOLD=$(salida_stack JobGold)
   JOB_LAB4=$(salida_stack JobLab4)
   WORKGROUP=$(salida_stack WorkGroup)
+  ROLE_GLUE="${BASE}-role-glue-${REGION}"
+  BUDGET="${BASE}-budget-5usd"
   CATALOGO_TABLES="s3tablescatalog/${TABLE_BUCKET}"
 }
 
