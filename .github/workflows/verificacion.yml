@@ -23,14 +23,11 @@ jobs:
         with:
           python-version: "3.11"
 
-      # Java 21 (Spark 3.5 lo soporta). Con Java 17 la JVM del runner se cae
-      # (SIGSEGV en SymbolTable::do_lookup) al compilar con el JIT las clases
-      # que genera el codegen de Spark. Glue 5.0 usa Java 17, pero la logica
-      # de los jobs que se prueba aqui no depende de la version de Java.
+      # Amazon Corretto 17: el mismo Java que usa AWS Glue 5.0
       - uses: actions/setup-java@v4
         with:
           distribution: corretto
-          java-version: "21"
+          java-version: "17"
 
       - name: Instalar herramientas de verificacion
         run: pip install cfn-lint shellcheck-py pyyaml pyspark==3.5.4
@@ -42,11 +39,6 @@ jobs:
           key: iceberg-spark-runtime-3.5_2.12-1.7.1
 
       - name: Verificar sintaxis, plantilla, consistencia, flujos y logica
-        env:
-          # Los intrinsics de Base64 de la JVM tienen un bug en algunas CPU con
-          # AVX-512: corrompen memoria y la JVM cae con SIGSEGV en puntos
-          # distintos. Spark e Iceberg usan Base64 todo el tiempo.
-          _JAVA_OPTIONS: "-XX:+UnlockDiagnosticVMOptions -XX:DisableIntrinsic=_base64_encodeBlock,_base64_decodeBlock"
         run: tests/verificar.sh --iceberg
 
       - name: Mostrar el reporte de la JVM si se cayo

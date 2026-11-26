@@ -71,15 +71,11 @@ if ICEBERG:
          .config("spark.sql.catalog.lh.type", "hadoop")
          .config("spark.sql.catalog.lh.warehouse", "file://" + os.path.join(TMP, "warehouse"))
          .config("spark.driver.memory", "2g")
-         # Solo en la prueba: sin lectura vectorizada (Arrow + netty con memoria
-         # fuera del heap) ni compresion nativa (lz4-java, zstd-jni). En los
-         # runners de GitHub corrompen la memoria de la JVM y la tiran con SIGSEGV.
-         # Son optimizaciones de rendimiento: no cambian la logica que se prueba.
-         .config("spark.sql.iceberg.vectorization.enabled", "false")
-         .config("spark.shuffle.compress", "false")
-         .config("spark.shuffle.spill.compress", "false")
-         .config("spark.broadcast.compress", "false")
-         .config("spark.sql.iceberg.compression-codec", "uncompressed"))
+         # Solo en la prueba: sin la lectura vectorizada de Iceberg (Arrow + netty
+         # con memoria fuera del heap). En los runners de GitHub corrompe la
+         # memoria de la JVM y la tira con SIGSEGV. Es una optimizacion de
+         # lectura: no cambia la logica de los jobs que se prueba.
+         .config("spark.sql.iceberg.vectorization.enabled", "false"))
 spark = b.getOrCreate()
 spark.sparkContext.setLogLevel("ERROR")
 
