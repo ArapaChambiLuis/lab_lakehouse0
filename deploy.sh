@@ -14,6 +14,11 @@
 #     --entorno <e>     Entorno: lab, dev, qa, prd (por defecto: lab)
 #     --owner <o>       Tag Owner (por defecto: tu usuario de AWS)
 #     --email <e>       Crea una alerta de presupuesto de 5 USD a ese correo
+#     --reiniciar       Si creaste recursos a mano en la consola, los borra y
+#                       despliega todo por script desde cero
+#
+#  Si ya creaste la infraestructura a mano (labs/manual-consola), deploy.sh la
+#  usa tal cual y solo corre los labs que falten: no lanza CloudFormation.
 #
 #  Para ir lab por lab en el workshop usa ./lab.sh <0-4>
 # ------------------------------------------------------------------
@@ -29,6 +34,7 @@ source "$RAIZ/scripts/etapas.sh"
 REGION="${AWS_REGION:-us-east-1}"
 EMAIL=""
 HASTA="lab4"
+REINICIAR="no"
 
 while [ $# -gt 0 ]; do
   case "$1" in
@@ -38,7 +44,8 @@ while [ $# -gt 0 ]; do
     --entorno) ENTORNO="$2"; shift 2 ;;
     --owner)   OWNER="$2"; shift 2 ;;
     --email)   EMAIL="$2"; shift 2 ;;
-    -h|--help) sed -n '2,21p' "$0"; exit 0 ;;
+    --reiniciar) REINICIAR="si"; shift ;;
+    -h|--help) sed -n '2,27p' "$0"; exit 0 ;;
     *) morir "Opcion desconocida: $1 (usa --help)" ;;
   esac
 done
@@ -54,7 +61,20 @@ paso "Verificando requisitos"
 verificar_requisitos
 verde "   Cuenta $ACCOUNT_ID | region $REGION | nombres: ${BASE}-* | hasta: $HASTA"
 
-etapa_infra
+resolver_recursos
+if [ "$MODO" = "consola" ] && [ "$REINICIAR" != "si" ]; then
+  paso "Lab 0 · Uso la infraestructura que creaste en la consola (${BASE}-*)"
+  revisar_infra_consola "$(( NIVEL < 1 ? 1 : NIVEL ))" || {
+    echo "  O desde cero por script:  ./deploy.sh --reiniciar --hasta $HASTA"
+    exit 1
+  }
+else
+  if [ "$MODO" = "consola" ]; then
+    paso "Reiniciando: borro lo creado a mano para desplegar por script"
+    "$RAIZ/cleanup.sh" --si --region "$REGION" --proyecto "$PROYECTO" --entorno "$ENTORNO"
+  fi
+  etapa_infra
+fi
 [ "$NIVEL" -ge 1 ] && etapa_bronze
 [ "$NIVEL" -ge 2 ] && { etapa_silver || exit 1; }
 [ "$NIVEL" -ge 3 ] && { etapa_gold || exit 1; }
