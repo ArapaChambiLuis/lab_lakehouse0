@@ -296,7 +296,7 @@ Repite **5.1** con estos cambios. Ninguno de los dos lleva `--RAW_BUCKET`, porqu
 ## 7. Lab 1 · Bronze: tablas en Athena
 
 1. En Athena → **Query editor**, arriba a la derecha elige el workgroup **`lkh-lab-wg-analistas`**.
-2. A la izquierda: **Data source** = `AwsDataCatalog`. Algunas versiones de la consola muestran también un campo **Catalog**: para Bronze no hace falta tocarlo.
+2. A la izquierda, en la sección **Data**: **Data source** = `AwsDataCatalog` y **Catalog** = `None`.
 3. Abre `sql/bronze_ddl.sql` en un editor de texto y **reemplaza**:
    - `__DB_BRONZE__` → `lkh_lab_bronze`
    - `__RAW_BUCKET__` → `lkh-lab-raw-<CUENTA>-us-east-1`

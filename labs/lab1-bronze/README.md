@@ -26,15 +26,14 @@ Los datos traen errores a propósito, como en la vida real:
 | Clientes duplicados | Filas idénticas |
 
 ## ✅ Verificar en la consola
-En **Athena → Query editor** hay tres controles, en lugares distintos:
+En **Athena → Query editor** hay cuatro controles, en dos lugares:
 
 | Control | Dónde está | Qué eliges |
 |---|---|---|
 | **Workgroup** | Arriba a la **derecha** (dice `primary` por defecto) | `lkh-lab-wg-analistas` |
-| **Data source** | Panel **izquierdo**, primer campo | `AwsDataCatalog` (viene por defecto) |
-| **Database** | Panel izquierdo, debajo | `lkh_lab_bronze`. Si no aparece, refresca con ↻ |
-
-Algunas versiones de la consola muestran también un campo **Catalog** entre los dos últimos. Para Bronze no hace falta tocarlo.
+| **Data source** | Panel **izquierdo** (sección *Data*), primer campo | `AwsDataCatalog` (viene por defecto) |
+| **Catalog** | Panel izquierdo, segundo campo | `None`. En el Lab 2 aquí eliges `s3tablescatalog/lkh-lab-tables` |
+| **Database** | Panel izquierdo, tercer campo | `lkh_lab_bronze`. Si no aparece, refresca con ↻ |
 
 > 💡 **Atajo:** lo único obligatorio es el **workgroup**. Como las consultas usan el nombre completo (`lkh_lab_bronze.siniestros`), funcionan aunque en el panel esté elegida otra base.
 

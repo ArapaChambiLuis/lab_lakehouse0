@@ -31,7 +31,7 @@ El job de Glue tarda ~3–5 minutos (incluye el arranque del clúster serverless
 ## ✅ Verificar en la consola
 En **Athena → Query editor**, con el workgroup `lkh-lab-wg-analistas` (arriba a la derecha), en el panel izquierdo elige **Data source** = `AwsDataCatalog`, **Catalog** = `s3tablescatalog/lkh-lab-tables` y **Database** = `silver`.
 
-> 💡 **Atajo:** si no encuentras el campo **Catalog**, escribe el nombre completo en la consulta: `FROM "s3tablescatalog/lkh-lab-tables"."silver"."siniestros"`.
+> 💡 **Atajo:** si `s3tablescatalog/lkh-lab-tables` no aparece en la lista de **Catalog**, refresca con ↻ o escribe el nombre completo en la consulta: `FROM "s3tablescatalog/lkh-lab-tables"."silver"."siniestros"`.
 
 ```sql
 -- Ahora solo hay 3 estados limpios
