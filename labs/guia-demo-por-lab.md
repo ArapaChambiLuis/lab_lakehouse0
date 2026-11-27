@@ -182,6 +182,7 @@ GROUP BY estado ORDER BY n DESC;
 |---|---|
 | La tabla sale vacía | El CSV quedó fuera de su carpeta: revisa que exista `bronze/siniestros/siniestros.csv` |
 | Athena se queja de la ubicación de resultados | El workgroup no está elegido arriba a la derecha |
+| `lkh_lab_bronze` no aparece en **Database** | **Catalog** debe estar en `None`: con `s3tablescatalog/...` solo se ven `silver` y `gold`. Refresca con ↻ |
 
 ---
 
@@ -204,7 +205,7 @@ GROUP BY estado ORDER BY n DESC;
 - **`CREATE TABLE` + `append()`:** "S3 Tables todavía no soporta `CREATE TABLE AS SELECT`. Por eso primero se crea la tabla y luego se escribe."
 - **`clasificacion = confidencial`** en clientes: "La clasificación viaja con la tabla."
 
-⭐ **Momento clave:** la misma consulta de estados del Lab 1, ahora con **solo 3 estados limpios**. Ponlas lado a lado si puedes (dos pestañas de Athena).
+⭐ **Momento clave:** la misma consulta de estados del Lab 1, ahora con **solo 3 estados limpios**. Ponlas lado a lado en dos pestañas del editor (**+**): una con **Catalog** = `None` y **Database** = `lkh_lab_bronze`, y otra con **Catalog** = `s3tablescatalog/lkh-lab-tables` y **Database** = `silver`. **Muestra** que lo único que cambia es el *Catalog*: Bronze vive en el Glue Data Catalog y Silver en S3 Tables.
 
 ```sql
 SELECT estado, count(*) AS n FROM siniestros GROUP BY estado;

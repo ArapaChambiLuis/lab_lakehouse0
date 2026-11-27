@@ -46,6 +46,8 @@ SELECT count(*) AS incompletos FROM siniestros WHERE dato_incompleto;
 
 Compara los conteos con los de Bronze. ¿Cuántas filas se fueron y por qué?
 
+> Para consultar Bronze, vuelve a poner **Catalog** = `None` y **Database** = `lkh_lab_bronze` en el panel izquierdo. O abre otra pestaña del editor (**+**) con esa selección y compara lado a lado.
+
 En **S3** → *Table buckets* → `lkh-lab-tables` → `silver` puedes ver las tablas creadas.
 
 ## 💬 Para pensar

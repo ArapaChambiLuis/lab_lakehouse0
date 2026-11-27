@@ -1,10 +1,11 @@
 -- Consultas para correr en la consola de Athena durante el workshop.
--- Workgroup: lkh-lab-wg-analistas
--- Para Silver/Gold, en el panel izquierdo elige:
---   Data source: AwsDataCatalog -> Catalog: s3tablescatalog/lkh-lab-tables
+-- Workgroup (arriba a la derecha): lkh-lab-wg-analistas
+-- Panel izquierdo (seccion Data), segun la capa:
+--   Bronze:      Data source = AwsDataCatalog, Catalog = None,                          Database = lkh_lab_bronze
+--   Silver/Gold: Data source = AwsDataCatalog, Catalog = s3tablescatalog/lkh-lab-tables, Database = silver o gold
 
 ---------------------------------------------------------------
--- LAB 1 (Bronze) - catalogo AwsDataCatalog, base lkh_lab_bronze
+-- LAB 1 (Bronze) - Data source AwsDataCatalog, Catalog None, Database lkh_lab_bronze
 ---------------------------------------------------------------
 -- La suciedad que vamos a limpiar:
 SELECT estado, count(*) AS n

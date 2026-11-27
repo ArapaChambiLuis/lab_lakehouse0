@@ -399,7 +399,7 @@ Sigue con [labs/lab4-auditoria](../lab4-auditoria/README.md). El Lab 5 es una de
 | # | Dónde | Qué borrar |
 |---|---|---|
 | 1 | **S3 → Table buckets → lkh-lab-tables** | Las tablas de `silver` (4) y `gold` (3), luego los namespaces `silver` y `gold`, y al final el table bucket. Si la consola no te deja borrar alguno, usa el bloque de CloudShell de abajo |
-| 2 | **Athena → Query editor** (`AwsDataCatalog`) | `DROP DATABASE lkh_lab_bronze CASCADE;`. Solo borra la definición de las tablas; los CSV se van en el paso 5 |
+| 2 | **Athena → Query editor** (Data source `AwsDataCatalog`, Catalog `None`) | `DROP DATABASE lkh_lab_bronze CASCADE;`. Solo borra la definición de las tablas; los CSV se van en el paso 5 |
 | 3 | **Athena → Workgroups** | `lkh-lab-wg-analistas` → **Delete**. Confirma que se borren también las consultas guardadas |
 | 4 | **AWS Glue → ETL jobs** | Los 3 jobs `lkh-lab-job-*` → **Actions → Delete job(s)** |
 | 5 | **S3 → General purpose buckets** | `lkh-lab-raw-…` → **Empty** (escribe *permanently delete*) → luego **Delete** |
