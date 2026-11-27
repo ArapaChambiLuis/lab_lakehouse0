@@ -157,7 +157,8 @@ Para ver un archivo: `cat ~/kit-demo/politica-glue.json`.
 🖥️ **Pantallas:**
 1. **S3 → tu bucket → Upload → Add folder** → arrastra `bronze/` desde `subir.zip`.
    **Di:** "Una carpeta por tabla: Athena lee una tabla como *todos los archivos de una carpeta*."
-2. **Athena →** workgroup `lkh-lab-wg-analistas` → pega cada sentencia de `bronze_ddl_listo.sql` y ejecútala (son 5).
+2. **Athena → Query editor:** elige el workgroup `lkh-lab-wg-analistas` **arriba a la derecha**, deja **Catalog** en `None` y **Database** en `default`, y pega y ejecuta cada sentencia de `bronze_ddl_listo.sql` (son 5). Después refresca el panel izquierdo (↻): aparece `lkh_lab_bronze`.
+   **Muestra** dónde está cada control: el workgroup arriba a la derecha y la base en el panel izquierdo. Es donde más se pierde la gente.
    **Di:** "Todas las columnas son `string`. En Bronze no se confía en los tipos."
 3. **Athena →** la consulta de estados (abajo).
    **Muestra** el **Data scanned** debajo del resultado.
@@ -181,6 +182,7 @@ GROUP BY estado ORDER BY n DESC;
 |---|---|
 | La tabla sale vacía | El CSV quedó fuera de su carpeta: revisa que exista `bronze/siniestros/siniestros.csv` |
 | Athena se queja de la ubicación de resultados | El workgroup no está elegido arriba a la derecha |
+| `lkh_lab_bronze` no aparece en **Database** | **Catalog** debe estar en `None`: con `s3tablescatalog/...` solo se ven `silver` y `gold`. Refresca con ↻ |
 
 ---
 
@@ -194,7 +196,7 @@ GROUP BY estado ORDER BY n DESC;
 3. Pestaña **Runs**: *Running* → **Succeeded**.
 4. **S3 → Table buckets → `lkh-lab-tables` → `silver`**: aparecen las 4 tablas.
    **Di:** "No hay archivos sueltos: son tablas, con historia y transacciones."
-5. **Athena →** catálogo `s3tablescatalog/lkh-lab-tables`, base `silver` → las consultas de abajo.
+5. **Athena →** panel izquierdo: **Catalog** = `s3tablescatalog/lkh-lab-tables`, **Database** = `silver` → las consultas de abajo. Si a alguien no le aparece **Catalog**: `FROM "s3tablescatalog/lkh-lab-tables"."silver"."siniestros"`.
 
 ⏳ **Mientras esperas** (en la pestaña *Script*):
 - **`SparkSession ... type = rest`:** "Glue habla con S3 Tables por el endpoint Iceberg REST, sin instalar nada."
@@ -203,7 +205,7 @@ GROUP BY estado ORDER BY n DESC;
 - **`CREATE TABLE` + `append()`:** "S3 Tables todavía no soporta `CREATE TABLE AS SELECT`. Por eso primero se crea la tabla y luego se escribe."
 - **`clasificacion = confidencial`** en clientes: "La clasificación viaja con la tabla."
 
-⭐ **Momento clave:** la misma consulta de estados del Lab 1, ahora con **solo 3 estados limpios**. Ponlas lado a lado si puedes (dos pestañas de Athena).
+⭐ **Momento clave:** la misma consulta de estados del Lab 1, ahora con **solo 3 estados limpios**. Ponlas lado a lado en dos pestañas del editor (**+**): una con **Catalog** = `None` y **Database** = `lkh_lab_bronze`, y otra con **Catalog** = `s3tablescatalog/lkh-lab-tables` y **Database** = `silver`. **Muestra** que lo único que cambia es el *Catalog*: Bronze vive en el Glue Data Catalog y Silver en S3 Tables.
 
 ```sql
 SELECT estado, count(*) AS n FROM siniestros GROUP BY estado;

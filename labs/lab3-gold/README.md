@@ -33,7 +33,7 @@ Nomenclatura Gold: `{tipo}_{tema}_{granularidad}`. El prefijo `agg_` indica una 
 - Ninguna tabla de Gold tiene DNI, nombre ni email: el analista trabaja aquí sin tocar PII.
 
 ## ✅ Verificar en la consola
-**Athena** → catálogo `s3tablescatalog/lkh-lab-tables` → base `gold`:
+En **Athena → Query editor**, con el workgroup `lkh-lab-wg-analistas`, en el panel izquierdo elige **Catalog** = `s3tablescatalog/lkh-lab-tables` y **Database** = `gold` (o usa el nombre completo: `"s3tablescatalog/lkh-lab-tables"."gold".<tabla>`):
 
 ```sql
 -- ¿Qué producto tiene la peor siniestralidad?

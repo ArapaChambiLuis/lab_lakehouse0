@@ -296,7 +296,7 @@ Repite **5.1** con estos cambios. Ninguno de los dos lleva `--RAW_BUCKET`, porqu
 ## 7. Lab 1 · Bronze: tablas en Athena
 
 1. En Athena → **Query editor**, arriba a la derecha elige el workgroup **`lkh-lab-wg-analistas`**.
-2. A la izquierda: **Data source** = `AwsDataCatalog`.
+2. A la izquierda, en la sección **Data**: **Data source** = `AwsDataCatalog` y **Catalog** = `None`.
 3. Abre `sql/bronze_ddl.sql` en un editor de texto y **reemplaza**:
    - `__DB_BRONZE__` → `lkh_lab_bronze`
    - `__RAW_BUCKET__` → `lkh-lab-raw-<CUENTA>-us-east-1`
@@ -304,7 +304,7 @@ Repite **5.1** con estos cambios. Ninguno de los dos lleva `--RAW_BUCKET`, porqu
 
 > Athena ejecuta una sentencia por vez. Si pegas todo junto, corre solo la primera o da error.
 
-5. Refresca el panel izquierdo, elige **Database** = `lkh_lab_bronze`: aparecen las 4 tablas.
+5. Refresca el panel izquierdo (↻) y elige **Database** = `lkh_lab_bronze`: aparecen las 4 tablas. La base recién existe después de la primera sentencia (`CREATE DATABASE`); antes solo verás `default`. Si no la encuentras en el panel, no importa: las consultas usan el nombre completo (`lkh_lab_bronze.siniestros`).
 
 ✅ **Verifica** el desorden que vamos a limpiar:
 
@@ -327,7 +327,7 @@ Sigue con las preguntas de [labs/lab1-bronze](../lab1-bronze/README.md).
 3. Si falla, haz clic en la ejecución → **Error logs** (CloudWatch) y revisa *Problemas comunes* abajo.
 
 ✅ **Verifica en Athena:**
-1. **Data source** = `AwsDataCatalog` → **Catalog** = `s3tablescatalog/lkh-lab-tables` → **Database** = `silver`.
+1. En el panel izquierdo: **Data source** = `AwsDataCatalog`, **Catalog** = `s3tablescatalog/lkh-lab-tables`, **Database** = `silver`. Si tu consola no muestra el campo **Catalog**, usa el nombre completo en la consulta: `FROM "s3tablescatalog/lkh-lab-tables"."silver"."siniestros"`.
 2. Ejecuta:
 
 ```sql
@@ -399,7 +399,7 @@ Sigue con [labs/lab4-auditoria](../lab4-auditoria/README.md). El Lab 5 es una de
 | # | Dónde | Qué borrar |
 |---|---|---|
 | 1 | **S3 → Table buckets → lkh-lab-tables** | Las tablas de `silver` (4) y `gold` (3), luego los namespaces `silver` y `gold`, y al final el table bucket. Si la consola no te deja borrar alguno, usa el bloque de CloudShell de abajo |
-| 2 | **Athena → Query editor** (`AwsDataCatalog`) | `DROP DATABASE lkh_lab_bronze CASCADE;`. Solo borra la definición de las tablas; los CSV se van en el paso 5 |
+| 2 | **Athena → Query editor** (Data source `AwsDataCatalog`, Catalog `None`) | `DROP DATABASE lkh_lab_bronze CASCADE;`. Solo borra la definición de las tablas; los CSV se van en el paso 5 |
 | 3 | **Athena → Workgroups** | `lkh-lab-wg-analistas` → **Delete**. Confirma que se borren también las consultas guardadas |
 | 4 | **AWS Glue → ETL jobs** | Los 3 jobs `lkh-lab-job-*` → **Actions → Delete job(s)** |
 | 5 | **S3 → General purpose buckets** | `lkh-lab-raw-…` → **Empty** (escribe *permanently delete*) → luego **Delete** |
