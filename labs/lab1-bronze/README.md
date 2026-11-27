@@ -59,6 +59,18 @@ WHERE c.id_cliente IS NULL;
 
 Mira el dato **"Data scanned"** debajo de cada resultado: solo son KB. Así se calcula el costo en Athena.
 
+### 🎯 Resultados esperados
+
+Con los datos del repo, todos deben ver exactamente esto:
+
+| Consulta | Resultado |
+|---|---|
+| Estados de siniestro | **9 formas** de escribir 3 estados: `PAGADO` 667, `EN_EVALUACION` 221, `RECHAZADO` 212, `pagado` 44, `  Pagado ` 19, `en_evaluacion` 18, `rechazado` 14, `  En_Evaluacion ` 8, `  Rechazado ` 4 (1,207 filas en total) |
+| Siniestros que llegaron más de una vez | **38** |
+| Pólizas de clientes que no existen | **5** (todas del cliente `CLI-99999`) |
+
+Además, `SELECT count(*), count(DISTINCT id_cliente) FROM lkh_lab_bronze.clientes` da **2,040 filas para 2,000 clientes**: hay clientes duplicados.
+
 ## 💬 Para pensar
 - Si un analista arma un reporte de siniestralidad directo desde Bronze, ¿qué número le daría a la gerencia?
 - ¿Dónde aparecen estos mismos errores en los sistemas de tu empresa?

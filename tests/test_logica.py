@@ -15,6 +15,7 @@ Lo que SI es igual que en AWS es el codigo de los scripts, que se ejecuta tal cu
 
 Uso:  python3 tests/test_logica.py [--iceberg]
 """
+import json
 import os
 import re
 import shutil
@@ -24,6 +25,7 @@ import types
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ICEBERG = "--iceberg" in sys.argv
+ESPERADO = json.load(open(os.path.join(RAIZ, "tests", "resultados_esperados.json"), encoding="utf-8"))
 ICEBERG_PKG = "org.apache.iceberg:iceberg-spark-runtime-3.5_2.12:1.7.1"
 
 pasan, fallan = 0, 0
@@ -159,6 +161,14 @@ s42 = filas(sin.filter("id_siniestro = 'SIN-00042'"))
 check(len(s42) == 1 and s42[0]["estado"] == "PAGADO" and float(s42[0]["monto_pagado"]) == 17250.0,
       "SIN-00042 llega PAGADO por 17,250 (protagonista del Lab 4)", f"{s42}")
 
+es = ESPERADO["silver"]
+reales = {r.estado: r.n for r in sin.groupBy("estado").count().withColumnRenamed("count", "n").collect()}
+check(reales == es["estados"], f"estados = los de las guias {es['estados']}", f"obtenido {reales}")
+check(sin.count() == es["siniestros_filas"], f"silver.siniestros tiene {es['siniestros_filas']} filas (las guias)")
+check(sin.filter("dato_incompleto").count() == es["incompletos"], f"{es['incompletos']} incompletos (las guias)")
+check(cli.count() == es["clientes_filas"] and pol.count() == es["polizas_filas"],
+      f"{es['clientes_filas']} clientes y {es['polizas_filas']} polizas (las guias)")
+
 if ICEBERG:
     def prop(t, k):
         return {r.key: r.value for r in spark.sql(f"SHOW TBLPROPERTIES lh.silver.{t}").collect()}.get(k)
@@ -187,7 +197,8 @@ n_gold = sp.count()  # se guarda ahora: al recrear Gold, este DataFrame apunta a
 mal_ratio = sp.filter("abs(ratio_siniestralidad - siniestros_pagados / primas_cobradas) > 0.0001").count()
 check(mal_ratio == 0, "ratio_siniestralidad = siniestros pagados / primas cobradas")
 peor = filas(sp.filter("anio = 2025").orderBy("ratio_siniestralidad", ascending=False).limit(1))[0]
-check(peor["producto"] == "SALUD" and round(float(peor["ratio_siniestralidad"]), 3) == 0.878,
+check(peor["producto"] == ESPERADO["gold"]["peor_producto_2025"]
+      and round(float(peor["ratio_siniestralidad"]), 3) == ESPERADO["gold"]["ratio_siniestralidad_2025"],
       f"la peor siniestralidad 2025 es SALUD con 87.8% (la cifra del deck): {peor['producto']} "
       f"{float(peor['ratio_siniestralidad']):.3f}")
 vigentes = pol.filter("estado = 'VIGENTE'").count()

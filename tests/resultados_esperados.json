@@ -1,0 +1,27 @@
+{
+  "_descripcion": "Cifras que los asistentes deben ver en cada lab con los CSV de data/sample/. Las guias de los labs y de la demo las citan; tests/test_consistencia.py (Bronze) y tests/test_logica.py (Silver, Gold y Lab 4) verifican que sigan siendo ciertas.",
+  "bronze": {
+    "siniestros_filas": 1207,
+    "estados_distintos": 9,
+    "siniestros_repetidos": 38,
+    "polizas_huerfanas": 5,
+    "clientes_filas": 2040,
+    "clientes_distintos": 2000
+  },
+  "silver": {
+    "siniestros_filas": 1166,
+    "estados": {"PAGADO": 709, "EN_EVALUACION": 236, "RECHAZADO": 221},
+    "duplicados": 0,
+    "incompletos": 29,
+    "clientes_filas": 2000,
+    "polizas_filas": 3000
+  },
+  "gold": {
+    "peor_producto_2025": "SALUD",
+    "ratio_siniestralidad_2025": 0.878
+  },
+  "lab4": {
+    "antes": {"estado": "PAGADO", "monto_pagado": 17250.0},
+    "ahora": {"estado": "RECHAZADO", "monto_pagado": 0.0, "flag_fraude": true}
+  }
+}
