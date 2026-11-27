@@ -26,7 +26,19 @@ Los datos traen errores a propósito, como en la vida real:
 | Clientes duplicados | Filas idénticas |
 
 ## ✅ Verificar en la consola
-Abre **Athena** → workgroup `lkh-lab-wg-analistas` → catálogo `AwsDataCatalog` → base `lkh_lab_bronze`, y ejecuta:
+En **Athena → Query editor** hay tres controles, en lugares distintos:
+
+| Control | Dónde está | Qué eliges |
+|---|---|---|
+| **Workgroup** | Arriba a la **derecha** (dice `primary` por defecto) | `lkh-lab-wg-analistas` |
+| **Data source** | Panel **izquierdo**, primer campo | `AwsDataCatalog` (viene por defecto) |
+| **Database** | Panel izquierdo, debajo | `lkh_lab_bronze`. Si no aparece, refresca con ↻ |
+
+Algunas versiones de la consola muestran también un campo **Catalog** entre los dos últimos. Para Bronze no hace falta tocarlo.
+
+> 💡 **Atajo:** lo único obligatorio es el **workgroup**. Como las consultas usan el nombre completo (`lkh_lab_bronze.siniestros`), funcionan aunque en el panel esté elegida otra base.
+
+Ejecuta:
 
 ```sql
 -- ¿Cuántas formas distintas de escribir "PAGADO" hay?

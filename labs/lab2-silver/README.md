@@ -29,7 +29,9 @@ El job de Glue tarda ~3–5 minutos (incluye el arranque del clúster serverless
 - S3 Tables se encarga del mantenimiento por ti: compactación de archivos pequeños y limpieza de snapshots viejos.
 
 ## ✅ Verificar en la consola
-**Athena** → catálogo `s3tablescatalog/lkh-lab-tables` → base `silver`:
+En **Athena → Query editor**, con el workgroup `lkh-lab-wg-analistas` (arriba a la derecha), en el panel izquierdo elige **Data source** = `AwsDataCatalog`, **Catalog** = `s3tablescatalog/lkh-lab-tables` y **Database** = `silver`.
+
+> 💡 **Atajo:** si no encuentras el campo **Catalog**, escribe el nombre completo en la consulta: `FROM "s3tablescatalog/lkh-lab-tables"."silver"."siniestros"`.
 
 ```sql
 -- Ahora solo hay 3 estados limpios

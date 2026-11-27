@@ -157,7 +157,8 @@ Para ver un archivo: `cat ~/kit-demo/politica-glue.json`.
 🖥️ **Pantallas:**
 1. **S3 → tu bucket → Upload → Add folder** → arrastra `bronze/` desde `subir.zip`.
    **Di:** "Una carpeta por tabla: Athena lee una tabla como *todos los archivos de una carpeta*."
-2. **Athena →** workgroup `lkh-lab-wg-analistas` → pega cada sentencia de `bronze_ddl_listo.sql` y ejecútala (son 5).
+2. **Athena → Query editor:** elige el workgroup `lkh-lab-wg-analistas` **arriba a la derecha**, deja **Database** en `default`, y pega y ejecuta cada sentencia de `bronze_ddl_listo.sql` (son 5). Después refresca el panel izquierdo (↻): aparece `lkh_lab_bronze`.
+   **Muestra** dónde está cada control: el workgroup arriba a la derecha y la base en el panel izquierdo. Es donde más se pierde la gente.
    **Di:** "Todas las columnas son `string`. En Bronze no se confía en los tipos."
 3. **Athena →** la consulta de estados (abajo).
    **Muestra** el **Data scanned** debajo del resultado.
@@ -194,7 +195,7 @@ GROUP BY estado ORDER BY n DESC;
 3. Pestaña **Runs**: *Running* → **Succeeded**.
 4. **S3 → Table buckets → `lkh-lab-tables` → `silver`**: aparecen las 4 tablas.
    **Di:** "No hay archivos sueltos: son tablas, con historia y transacciones."
-5. **Athena →** catálogo `s3tablescatalog/lkh-lab-tables`, base `silver` → las consultas de abajo.
+5. **Athena →** panel izquierdo: **Catalog** = `s3tablescatalog/lkh-lab-tables`, **Database** = `silver` → las consultas de abajo. Si a alguien no le aparece **Catalog**: `FROM "s3tablescatalog/lkh-lab-tables"."silver"."siniestros"`.
 
 ⏳ **Mientras esperas** (en la pestaña *Script*):
 - **`SparkSession ... type = rest`:** "Glue habla con S3 Tables por el endpoint Iceberg REST, sin instalar nada."

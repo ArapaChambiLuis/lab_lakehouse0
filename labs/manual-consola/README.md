@@ -296,7 +296,7 @@ Repite **5.1** con estos cambios. Ninguno de los dos lleva `--RAW_BUCKET`, porqu
 ## 7. Lab 1 · Bronze: tablas en Athena
 
 1. En Athena → **Query editor**, arriba a la derecha elige el workgroup **`lkh-lab-wg-analistas`**.
-2. A la izquierda: **Data source** = `AwsDataCatalog`.
+2. A la izquierda: **Data source** = `AwsDataCatalog`. Algunas versiones de la consola muestran también un campo **Catalog**: para Bronze no hace falta tocarlo.
 3. Abre `sql/bronze_ddl.sql` en un editor de texto y **reemplaza**:
    - `__DB_BRONZE__` → `lkh_lab_bronze`
    - `__RAW_BUCKET__` → `lkh-lab-raw-<CUENTA>-us-east-1`
@@ -304,7 +304,7 @@ Repite **5.1** con estos cambios. Ninguno de los dos lleva `--RAW_BUCKET`, porqu
 
 > Athena ejecuta una sentencia por vez. Si pegas todo junto, corre solo la primera o da error.
 
-5. Refresca el panel izquierdo, elige **Database** = `lkh_lab_bronze`: aparecen las 4 tablas.
+5. Refresca el panel izquierdo (↻) y elige **Database** = `lkh_lab_bronze`: aparecen las 4 tablas. La base recién existe después de la primera sentencia (`CREATE DATABASE`); antes solo verás `default`. Si no la encuentras en el panel, no importa: las consultas usan el nombre completo (`lkh_lab_bronze.siniestros`).
 
 ✅ **Verifica** el desorden que vamos a limpiar:
 
@@ -327,7 +327,7 @@ Sigue con las preguntas de [labs/lab1-bronze](../lab1-bronze/README.md).
 3. Si falla, haz clic en la ejecución → **Error logs** (CloudWatch) y revisa *Problemas comunes* abajo.
 
 ✅ **Verifica en Athena:**
-1. **Data source** = `AwsDataCatalog` → **Catalog** = `s3tablescatalog/lkh-lab-tables` → **Database** = `silver`.
+1. En el panel izquierdo: **Data source** = `AwsDataCatalog`, **Catalog** = `s3tablescatalog/lkh-lab-tables`, **Database** = `silver`. Si tu consola no muestra el campo **Catalog**, usa el nombre completo en la consulta: `FROM "s3tablescatalog/lkh-lab-tables"."silver"."siniestros"`.
 2. Ejecuta:
 
 ```sql
