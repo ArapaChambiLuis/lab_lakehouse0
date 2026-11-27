@@ -218,6 +218,20 @@ for t in tablas_ddl:
     check(f"`bronze/{t}/`" in man, f"el manual crea la carpeta bronze/{t}/")
 
 # ------------------------------------------------------------------
+seccion("Guia de la demo por lab: lo que nombra existe")
+guia = leer("labs", "guia-demo-por-lab.md")
+for var in ("JOB_SILVER", "JOB_GOLD", "JOB_LAB4", "TABLE_BUCKET", "WORKGROUP", "ROLE_GLUE", "BUDGET"):
+    check(nombres_tpl[var] in guia, f"la guia usa el nombre {nombres_tpl[var]}")
+for n in range(5):
+    check(f"./lab.sh {n}" in guia, f"la guia indica el rescate ./lab.sh {n}")
+for t in gold:
+    check(t in guia or t.replace("agg_", "") not in guia, f"la guia nombra bien la tabla gold {t}")
+check("__DB_BRONZE__" in leer("sql", "bronze_ddl.sql") and "__RAW_BUCKET__" in leer("sql", "bronze_ddl.sql"),
+      "el kit de la guia reemplaza placeholders que existen en sql/bronze_ddl.sql")
+for parte in re.findall(r"manual-consola/README\.md#(\d+)-", guia):
+    check(re.search(rf"^## {parte}\. ", man, re.M) is not None, f"la guia enlaza a la parte {parte} del manual, que existe")
+
+# ------------------------------------------------------------------
 seccion("Reglas de S3 Tables en los jobs")
 def ctas_en(fuente):
     """Busca en el CODIGO (no en comentarios ni docstrings) lo que S3 Tables rechaza."""
