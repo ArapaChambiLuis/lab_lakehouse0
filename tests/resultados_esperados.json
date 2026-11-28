@@ -1,5 +1,5 @@
 {
-  "_descripcion": "Cifras que los asistentes deben ver en cada lab con los CSV de data/sample/. Las guias de los labs y de la demo las citan; tests/test_consistencia.py (Bronze) y tests/test_logica.py (Silver, Gold y Lab 4) verifican que sigan siendo ciertas.",
+  "_descripcion": "Cifras que se deben ver en cada lab con los CSV de data/sample/. Las guias de los labs las citan; tests/test_consistencia.py (Bronze) y tests/test_logica.py (Silver, Gold y Lab 4) verifican que sigan siendo ciertas.",
   "bronze": {
     "siniestros_filas": 1207,
     "estados_distintos": 9,

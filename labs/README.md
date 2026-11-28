@@ -9,14 +9,16 @@ Cada lab tiene su guía en esta carpeta y se ejecuta con `./lab.sh <n>` desde la
 | 2 · Silver | [lab2-silver](lab2-silver/README.md) | `./lab.sh 2` | 20 min |
 | 3 · Gold | [lab3-gold](lab3-gold/README.md) | `./lab.sh 3` | 15 min |
 | 4 · Auditoría | [lab4-auditoria](lab4-auditoria/README.md) | `./lab.sh 4` | 15 min |
-| 5 · Gobierno | [lab5-gobierno](lab5-gobierno/README.md) | demo en vivo | 10 min |
+| 5 · Gobierno | [lab5-gobierno](lab5-gobierno/README.md) | opcional, manual | 30 min |
 
-**¿Te atrasaste?** Ponte al día con `./deploy.sh --hasta <etapa>` y sigue con el lab que va el grupo:
+**¿Quieres saltar a un lab?** Ponte al día con `./deploy.sh --hasta <etapa>`:
 
-| Si el grupo va en... | Ejecuta |
+| Para empezar en... | Ejecuta |
 |---|---|
 | Lab 2 | `./deploy.sh --hasta bronze` |
 | Lab 3 | `./deploy.sh --hasta silver` |
 | Lab 4 | `./deploy.sh --hasta gold` |
+
+**¿Vas por la consola?** Sigue el [manual por consola](manual-consola/README.md). Para combinar consola y scripts: [consola y scripts](consola-y-scripts.md).
 
 **Cada guía sigue el mismo formato:** 🎯 objetivo → ▶️ ejecutar → 🔍 qué pasó por detrás → ✅ verificar en la consola → 💬 para pensar.

@@ -52,4 +52,6 @@ SELECT * FROM "siniestros$history";
 - S3 Tables borra los snapshots viejos según su política de retención. ¿Cuánto tiempo pide guardar historia el regulador en tu sector? ¿Cómo lo configurarías?
 - ¿Qué otros casos de tu trabajo se resolverían con time travel? (Reprocesos, cierres contables, reclamos de clientes...)
 
+Respuestas de referencia: [respuestas-para-pensar.md](respuestas-para-pensar.md)
+
 ➡️ Siguiente: [Lab 5 · Gobierno](../lab5-gobierno/README.md)

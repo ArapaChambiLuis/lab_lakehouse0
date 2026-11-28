@@ -6,7 +6,7 @@
 #  Cubre las dos rutas del workshop y su mezcla:
 #    - ruta script:  todo con ./lab.sh / ./deploy.sh
 #    - ruta consola: infraestructura creada a mano (labs/manual-consola)
-#    - rescate:      alguien que va en consola se pierde y alcanza con scripts
+#    - ponerse al dia: alguien que va en consola se queda y continua con scripts
 #
 #  Uso:  tests/test_flujos.sh
 # ------------------------------------------------------------------
@@ -135,7 +135,7 @@ no_llamo "cloudformation deploy" "usa lo de la consola, sin CloudFormation"
 llamo "start-job-run .*--job-name lkh-lab-job-silver-to-gold"
 no_llamo "start-job-run .*--job-name lkh-lab-job-silver-auditoria" "se detiene en gold"
 correr ./lab.sh 4
-codigo 0 "y sigue con el grupo en el Lab 4"
+codigo 0 "y continua con el Lab 4"
 
 # ------------------------------------------------------------------
 escenario "Rescate: perdido a mitad de la infraestructura en consola"
@@ -180,11 +180,11 @@ igual "len(e['buckets']) + len(e['tablebuckets']) + len(e['jobs']) + len(e['role
 igual "list(e['bases'])" "[]" "borra la base de Bronze"
 
 # ------------------------------------------------------------------
-escenario "Kit de valores de la guia de la demo (labs/guia-demo-por-lab.md)"
+escenario "Kit de valores del manual por consola (labs/manual-consola/README.md)"
 KIT_HOME="$TMP/home"
 rm -rf "$KIT_HOME"; mkdir -p "$KIT_HOME"
-# El bloque se toma de la guia tal cual; solo se cambia la carpeta del repo
-python3 - "$RAIZ/labs/guia-demo-por-lab.md" "$RAIZ" > "$TMP/kit.sh" <<'PY'
+# El bloque se toma del manual tal cual; solo se cambia la carpeta del repo
+python3 - "$RAIZ/labs/manual-consola/README.md" "$RAIZ" > "$TMP/kit.sh" <<'PY'
 import re, sys
 guia = open(sys.argv[1], encoding="utf-8").read()
 bloque = guia.split("### Kit de valores", 1)[1]
@@ -194,21 +194,21 @@ PY
 correr env HOME="$KIT_HOME" bash -euo pipefail "$TMP/kit.sh"
 codigo 0 "el bloque del kit corre sin errores"
 dice "Table bucket ARN .. arn:aws:s3tables:us-east-1:111122223333:bucket/lkh-lab-tables"
-if python3 -m json.tool "$KIT_HOME/kit-demo/politica-glue.json" >/dev/null 2>&1 \
-   && grep -q "lkh-lab-raw-111122223333-us-east-1" "$KIT_HOME/kit-demo/politica-glue.json" \
-   && ! grep -q "<CUENTA>" "$KIT_HOME/kit-demo/politica-glue.json"; then
+if python3 -m json.tool "$KIT_HOME/kit-lakehouse/politica-glue.json" >/dev/null 2>&1 \
+   && grep -q "lkh-lab-raw-111122223333-us-east-1" "$KIT_HOME/kit-lakehouse/politica-glue.json" \
+   && ! grep -q "<CUENTA>" "$KIT_HOME/kit-lakehouse/politica-glue.json"; then
   ok "politica-glue.json es JSON valido y trae la cuenta"
 else
   mal "politica-glue.json invalido o sin la cuenta"
 fi
-if ! grep -q "__" "$KIT_HOME/kit-demo/bronze_ddl_listo.sql" \
-   && grep -q "LOCATION 's3://lkh-lab-raw-111122223333-us-east-1/bronze/siniestros/'" "$KIT_HOME/kit-demo/bronze_ddl_listo.sql"; then
+if ! grep -q "__" "$KIT_HOME/kit-lakehouse/bronze_ddl_listo.sql" \
+   && grep -q "LOCATION 's3://lkh-lab-raw-111122223333-us-east-1/bronze/siniestros/'" "$KIT_HOME/kit-lakehouse/bronze_ddl_listo.sql"; then
   ok "bronze_ddl_listo.sql sin placeholders y con el bucket de la cuenta"
 else
   mal "bronze_ddl_listo.sql conserva placeholders"
 fi
-if python3 -m zipfile -l "$KIT_HOME/kit-demo/subir.zip" | grep -q "subir/bronze/siniestros/siniestros.csv" \
-   && python3 -m zipfile -l "$KIT_HOME/kit-demo/subir.zip" | grep -q "subir/scripts/silver_auditoria.py"; then
+if python3 -m zipfile -l "$KIT_HOME/kit-lakehouse/subir.zip" | grep -q "subir/bronze/siniestros/siniestros.csv" \
+   && python3 -m zipfile -l "$KIT_HOME/kit-lakehouse/subir.zip" | grep -q "subir/scripts/silver_auditoria.py"; then
   ok "subir.zip trae bronze/<tabla>/ y scripts/"
 else
   mal "subir.zip incompleto"
