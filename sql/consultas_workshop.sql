@@ -7,14 +7,15 @@
 ---------------------------------------------------------------
 -- LAB 1 (Bronze) - Data source AwsDataCatalog, Catalog None, Database lkh_lab_bronze
 ---------------------------------------------------------------
--- La suciedad que vamos a limpiar:
+-- La suciedad que vamos a limpiar: "PAGADO", "pagado", " Pagado " ...
 SELECT estado, count(*) AS n
 FROM lkh_lab_bronze.siniestros
-GROUP BY estado ORDER BY n DESC;          -- "PAGADO", "pagado", " Pagado " ...
+GROUP BY estado ORDER BY n DESC;
 
+-- Reenvios duplicados
 SELECT id_siniestro, count(*) AS veces
 FROM lkh_lab_bronze.siniestros
-GROUP BY id_siniestro HAVING count(*) > 1; -- reenvios duplicados
+GROUP BY id_siniestro HAVING count(*) > 1;
 
 ---------------------------------------------------------------
 -- LAB 2 (Silver) - base silver

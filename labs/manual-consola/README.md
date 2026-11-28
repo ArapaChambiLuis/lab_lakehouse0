@@ -333,7 +333,8 @@ Sigue con las preguntas de [labs/lab1-bronze](../lab1-bronze/README.md).
 ```sql
 SELECT estado, count(*) AS n FROM siniestros GROUP BY estado;
 SELECT count(*) - count(DISTINCT id_siniestro) AS duplicados FROM siniestros;
-SHOW TBLPROPERTIES clientes;   -- busca clasificacion = confidencial
+-- Busca clasificacion = confidencial
+SHOW TBLPROPERTIES clientes;
 ```
 
 También puedes ver las tablas en **S3 → Table buckets → lkh-lab-tables → silver**.
