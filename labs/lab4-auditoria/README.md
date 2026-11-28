@@ -16,7 +16,8 @@ Primero mira el siniestro **antes** del cambio. En **Athena**, con el catálogo 
 
 ```sql
 SELECT id_siniestro, estado, monto_pagado FROM siniestros WHERE id_siniestro = 'SIN-00042';
-SELECT * FROM "siniestros$history";   -- historial de snapshots actual
+-- Historial de snapshots actual
+SELECT * FROM "siniestros$history";
 ```
 
 Luego abre `glue/silver_auditoria.py`: `ALTER TABLE ... ADD COLUMN`, `UPDATE` y `VERSION AS OF`.

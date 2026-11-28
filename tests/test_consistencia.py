@@ -341,6 +341,23 @@ for base, _, archivos in os.walk(RAIZ):
             hall = [v for v in viejos if re.search(v, texto)]
             check(not hall, f"{os.path.relpath(ruta, RAIZ)}: sin nombres del estandar viejo", f"{hall}")
 
+seccion("SQL que se copia a Athena: una sentencia por linea, sin comentario despues del ;")
+# Athena toma el comentario que sigue al ; como una segunda sentencia y responde
+# "Only one sql statement is allowed" cuando se ejecuta esa linea seleccionada.
+for base, _, archivos in os.walk(RAIZ):
+    if "/.git" in base or "/tests" in base:
+        continue
+    for a in archivos:
+        ruta = os.path.join(base, a)
+        if a.endswith(".sql"):
+            bloques = [open(ruta, encoding="utf-8").read()]
+        elif a.endswith(".md"):
+            bloques = re.findall(r"```sql\n(.*?)```", open(ruta, encoding="utf-8").read(), re.S)
+        else:
+            continue
+        malas = [l.strip() for b in bloques for l in b.splitlines() if re.search(r";\s*--", l)]
+        check(not malas, f"{os.path.relpath(ruta, RAIZ)}: ningun comentario despues de ';'", f"{malas}")
+
 print()
 if fallan:
     print(f"\033[31mConsistencia: {fallan} fallaron, {pasan} OK\033[0m")
