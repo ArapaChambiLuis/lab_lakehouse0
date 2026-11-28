@@ -70,6 +70,56 @@ Todo sigue el estándar del repo (sección *Nomenclatura y tags* del README prin
 
 > ¿No están los CSV en `data/sample/`? Genéralos con `python3 data/generator.py`, o abre **CloudShell** (ícono `>_` arriba a la derecha), clona el repo y córrelo ahí.
 
+### Kit de valores (opcional, en CloudShell)
+
+Si prefieres no escribir cada nombre a mano, este bloque arma un kit con **tus** valores. Ábrelo en **CloudShell**, clona el repo (`git clone <url-del-repo>`) y pega esto:
+
+```bash
+cd ~/lab_lakehouse0
+CUENTA=$(aws sts get-caller-identity --query Account --output text)
+mkdir -p ~/kit-lakehouse
+cat > ~/kit-lakehouse/valores.txt <<EOF
+Cuenta ............ $CUENTA
+Region ............ us-east-1
+Bucket S3 ......... lkh-lab-raw-$CUENTA-us-east-1
+Table bucket ...... lkh-lab-tables
+Table bucket ARN .. arn:aws:s3tables:us-east-1:$CUENTA:bucket/lkh-lab-tables
+Rol IAM ........... lkh-lab-role-glue-us-east-1
+Ruta de scripts ... s3://lkh-lab-raw-$CUENTA-us-east-1/scripts/
+Workgroup ......... lkh-lab-wg-analistas
+Resultados Athena . s3://lkh-lab-raw-$CUENTA-us-east-1/athena-results/
+Jobs .............. lkh-lab-job-bronze-to-silver
+                    lkh-lab-job-silver-to-gold
+                    lkh-lab-job-silver-auditoria
+EOF
+python3 - "$CUENTA" <<'PY'
+import pathlib, re, sys
+manual = pathlib.Path("labs/manual-consola/README.md").read_text(encoding="utf-8")
+politica = re.search(r"`{3}json\n(.*?)`{3}", manual, re.S).group(1).replace("<CUENTA>", sys.argv[1])
+(pathlib.Path.home() / "kit-lakehouse" / "politica-glue.json").write_text(politica)
+PY
+sed -e "s/__DB_BRONZE__/lkh_lab_bronze/g" -e "s/__RAW_BUCKET__/lkh-lab-raw-$CUENTA-us-east-1/g" \
+  sql/bronze_ddl.sql > ~/kit-lakehouse/bronze_ddl_listo.sql
+rm -rf ~/kit-lakehouse/subir && mkdir -p ~/kit-lakehouse/subir/scripts
+for t in clientes polizas pagos_primas siniestros; do
+  mkdir -p ~/kit-lakehouse/subir/bronze/$t && cp data/sample/$t.csv ~/kit-lakehouse/subir/bronze/$t/
+done
+cp glue/*.py ~/kit-lakehouse/subir/scripts/
+(cd ~/kit-lakehouse && python3 -m zipfile -c subir.zip subir/)
+cat ~/kit-lakehouse/valores.txt
+```
+
+Genera en `~/kit-lakehouse/`:
+
+| Archivo | Para qué |
+|---|---|
+| `valores.txt` | Todos los nombres y ARNs con **tu** cuenta, listos para copiar |
+| `politica-glue.json` | La política inline del rol (paso 4.2) con tu cuenta ya puesta. Se genera desde el manual, así que siempre coincide |
+| `bronze_ddl_listo.sql` | El DDL de Bronze sin placeholders, listo para Athena |
+| `subir.zip` | Las carpetas `bronze/` (con una subcarpeta por tabla) y `scripts/`, para arrastrar a S3 |
+
+Para ver un archivo: `cat ~/kit-lakehouse/politica-glue.json`. Para bajar `subir.zip` a tu computadora: CloudShell → **Actions → Download file** → `kit-lakehouse/subir.zip`.
+
 ---
 
 ## 1. Alerta de costos (AWS Budgets)
@@ -389,7 +439,7 @@ SELECT * FROM "siniestros$history";
 
 ✅ El **antes** dice `PAGADO · 17250.00`; el **ahora**, `RECHAZADO · 0.00 · true`.
 
-Sigue con [labs/lab4-auditoria](../lab4-auditoria/README.md). El Lab 5 es una demo: [labs/lab5-gobierno](../lab5-gobierno/README.md).
+Sigue con [labs/lab4-auditoria](../lab4-auditoria/README.md). El Lab 5 es opcional y explica los permisos por columna: [labs/lab5-gobierno](../lab5-gobierno/README.md).
 
 ---
 

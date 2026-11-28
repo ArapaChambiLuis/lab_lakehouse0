@@ -25,7 +25,7 @@ En ~10–12 minutos tienes todo listo, con los resultados impresos en pantalla.
 |---|---|
 | `./deploy.sh` | Todo: infraestructura, Bronze, Silver, Gold y Lab 4 |
 | `./deploy.sh --hasta infra` | Solo la infraestructura (para hacer los labs a mano) |
-| `./deploy.sh --hasta silver` | **Rescate**: te deja listo para empezar el Lab 3 |
+| `./deploy.sh --hasta silver` | **Ponerte al día**: te deja listo para empezar el Lab 3 |
 | `./deploy.sh --email tu@correo.com` | Agrega una alerta de presupuesto de 5 USD |
 | `./deploy.sh --region us-west-2` | Otra región (por defecto `us-east-1`) |
 | `./deploy.sh --entorno dev` | Otro entorno: crea `lkh-dev-*` sin tocar `lkh-lab-*` |
@@ -118,12 +118,12 @@ Cada tabla Iceberg también lleva la propiedad `clasificacion`: `confidencial` e
 | 2 · Silver | Deduplicar, tipar, normalizar e integridad referencial → Iceberg | `glue/bronze_to_silver.py` | [lab2](labs/lab2-silver/README.md) |
 | 3 · Gold | Siniestralidad por producto, evolución mensual y cartera sin PII | `glue/silver_to_gold.py` | [lab3](labs/lab3-gold/README.md) |
 | 4 · Auditoría | Agregar una columna, corregir el siniestro `SIN-00042` y time travel | `glue/silver_auditoria.py` | [lab4](labs/lab4-auditoria/README.md) |
-| 5 · Gobierno | Permisos por columna con Lake Formation (demo) | — | [lab5](labs/lab5-gobierno/README.md) |
+| 5 · Gobierno | Permisos por columna con Lake Formation (opcional, manual) | — | [lab5](labs/lab5-gobierno/README.md) |
 
 Las consultas para la consola de Athena están en `sql/consultas_workshop.sql`. Para Silver y Gold, elige el catálogo **`s3tablescatalog/lkh-lab-tables`**.
 
-### Lab 5 · Gobierno (demo)
-El despliegue usa la integración de S3 Tables con **control de acceso por IAM**, que es la opción por defecto y la más simple para un lab. Los permisos por columna requieren activar Lake Formation sobre `s3tablescatalog`, y eso cambia la configuración de toda la cuenta. Por eso se muestra como demo en vivo y no se automatiza. Mientras tanto, Gold ya aplica el principio: `gold.agg_cartera_region_producto` no contiene DNI, nombre ni email.
+### Lab 5 · Gobierno (opcional)
+El despliegue usa la integración de S3 Tables con **control de acceso por IAM**, que es la opción por defecto y la más simple para un lab. Los permisos por columna requieren activar Lake Formation sobre `s3tablescatalog`, y eso cambia la configuración de toda la cuenta. Por eso no se automatiza: la [guía del Lab 5](labs/lab5-gobierno/README.md) explica cómo activarlo y cómo volver atrás. Mientras tanto, Gold ya aplica el principio: `gold.agg_cartera_region_producto` no contiene DNI, nombre ni email.
 
 ## 💲 Costos
 

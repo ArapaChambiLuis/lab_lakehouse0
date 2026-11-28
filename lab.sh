@@ -105,5 +105,5 @@ verde "Lab $LAB completado."
 if [ "$LAB" -lt 4 ]; then
   echo "Siguiente: labs/lab$(( LAB + 1 ))*/README.md  ->  ./lab.sh $(( LAB + 1 ))"
 else
-  echo "Siguiente: labs/lab5-gobierno/README.md (demo) y, al final, ./cleanup.sh"
+  echo "Siguiente: labs/lab5-gobierno/README.md (opcional) y, al final, ./cleanup.sh"
 fi

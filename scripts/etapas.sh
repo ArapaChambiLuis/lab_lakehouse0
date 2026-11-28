@@ -279,11 +279,11 @@ mostrar_estado() {
       elif ! existe_tabla silver siniestros; then siguiente="./lab.sh 2"
       elif ! existe_tabla gold agg_siniestralidad_producto_anual; then siguiente="./lab.sh 3"
       elif ! lab4_hecho; then siguiente="./lab.sh 4"
-      else siguiente="labs/lab5-gobierno (demo) y, al final, ./cleanup.sh"
+      else siguiente="labs/lab5-gobierno (opcional) y, al final, ./cleanup.sh"
       fi
     fi
   fi
   echo
   verde "   Siguiente paso: $siguiente"
-  echo "   Para alcanzar al grupo de una vez:  ./deploy.sh --hasta <bronze|silver|gold|lab4>"
+  echo "   Para ponerte al dia de una vez:  ./deploy.sh --hasta <bronze|silver|gold|lab4>"
 }

@@ -1,6 +1,6 @@
 # Lab 4 · Respuestas a "Para pensar"
 
-Respuestas de referencia para las dos preguntas de discusión del [Lab 4](README.md). Sirven para guiar la conversación en la sesión; no son asesoría legal.
+Respuestas de referencia para las dos preguntas de discusión del [Lab 4](README.md). Son un punto de partida para tu propio análisis; no son asesoría legal.
 
 ---
 
@@ -11,7 +11,7 @@ Respuestas de referencia para las dos preguntas de discusión del [Lab 4](README
 - **Sistema financiero y de seguros (Perú):** la norma pide conservar libros y documentos por un plazo **no menor de diez años**. Viene de la Ley 26612 (1996), que modificó la ley general de instituciones bancarias, financieras y de seguros de entonces.
 - **Tributario:** la acción para aplicar sanciones prescribe a los 4 años, o a los 6 si no se presentó la declaración.
 
-El plazo exacto de cada dato lo define el área de cumplimiento. En la sesión basta con quedarse con "10 años".
+El plazo exacto de cada dato lo define el área de cumplimiento. Como referencia general: 10 años.
 
 ### Lo que hace S3 Tables por defecto
 
