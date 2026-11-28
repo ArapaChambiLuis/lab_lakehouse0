@@ -47,6 +47,10 @@ FROM agg_cartera_region_producto
 GROUP BY departamento ORDER BY prima DESC;
 ```
 
+### 🎯 Resultado esperado
+
+En 2025, **SALUD** encabeza la lista con `ratio_siniestralidad` = **0.878**: de cada 100 soles cobrados en primas, se pagaron casi 88 en siniestros.
+
 ## 💬 Para pensar
 - Mira el producto SALUD: ¿qué le recomendarías a la gerencia?
 - ¿Qué otra tabla Gold pedirían en tu empresa? Intenta agregarla en `glue/silver_to_gold.py` y vuelve a ejecutar `./lab.sh 3`.

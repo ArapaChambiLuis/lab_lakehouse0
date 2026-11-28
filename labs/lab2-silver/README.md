@@ -44,7 +44,17 @@ SELECT count(*) - count(DISTINCT id_siniestro) AS duplicados FROM siniestros;
 SELECT count(*) AS incompletos FROM siniestros WHERE dato_incompleto;
 ```
 
-Compara los conteos con los de Bronze. ¿Cuántas filas se fueron y por qué?
+### 🎯 Resultados esperados
+
+| Consulta | Resultado |
+|---|---|
+| Estados de siniestro | **3 estados**: `PAGADO` 709 · `EN_EVALUACION` 236 · `RECHAZADO` 221 (1,166 siniestros) |
+| Duplicados | **0** |
+| Incompletos | **29** |
+
+> 💡 En la consola, si pegas las tres consultas juntas, Athena ejecuta solo la que tengas seleccionada. Selecciona cada una y dale **Run**, o usa una pestaña (**+**) por consulta.
+
+Compara los conteos con los de Bronze. ¿Cuántas filas se fueron y por qué? (De 1,207 a 1,166: se fueron 38 reenvíos repetidos y 3 siniestros de pólizas huérfanas.)
 
 > Para consultar Bronze, vuelve a poner **Catalog** = `None` y **Database** = `lkh_lab_bronze` en el panel izquierdo. O abre otra pestaña del editor (**+**) con esa selección y compara lado a lado.
 

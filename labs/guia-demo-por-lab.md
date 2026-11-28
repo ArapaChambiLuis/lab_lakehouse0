@@ -172,7 +172,7 @@ FROM lkh_lab_bronze.siniestros
 GROUP BY estado ORDER BY n DESC;
 ```
 
-✅ **Verificación para todos:** la misma consulta muestra varias versiones de cada estado.
+✅ **Verificación para todos:** la consulta de estados devuelve **9 filas**: `PAGADO` 667, `EN_EVALUACION` 221, `RECHAZADO` 212, `pagado` 44, `  Pagado ` 19… Di los números en voz alta para que cada uno compare con su pantalla.
 
 🛟 **Si alguien se perdió:** `./lab.sh 1` (~1 min).
 
@@ -213,7 +213,7 @@ SELECT count(*) - count(DISTINCT id_siniestro) AS duplicados FROM siniestros;
 SHOW TBLPROPERTIES clientes;
 ```
 
-✅ **Verificación para todos:** 3 estados y `duplicados = 0`.
+✅ **Verificación para todos:** **3 estados**: `PAGADO` 709 · `EN_EVALUACION` 236 · `RECHAZADO` 221 · `duplicados = 0` · `incompletos = 29`. Recuerda: si se pegan las tres consultas juntas, Athena corre solo la seleccionada.
 
 🛟 **Si alguien se perdió:** `./lab.sh 2`. Corre el mismo job y antes revisa la configuración: si el error fue de un parámetro, dice cuál.
 

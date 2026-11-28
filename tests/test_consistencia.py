@@ -232,6 +232,47 @@ for parte in re.findall(r"manual-consola/README\.md#(\d+)-", guia):
     check(re.search(rf"^## {parte}\. ", man, re.M) is not None, f"la guia enlaza a la parte {parte} del manual, que existe")
 
 # ------------------------------------------------------------------
+seccion("Resultados esperados: los CSV de Bronze y las guias dicen lo mismo")
+import collections  # noqa: E402
+import csv  # noqa: E402
+esp = json.loads(leer("tests", "resultados_esperados.json"))
+
+
+def csv_filas(t):
+    with open(os.path.join(RAIZ, "data", "sample", f"{t}.csv"), encoding="utf-8") as f:
+        return list(csv.DictReader(f))
+
+
+sin_b, pol_b, cli_b = csv_filas("siniestros"), csv_filas("polizas"), csv_filas("clientes")
+eb = esp["bronze"]
+check(len(sin_b) == eb["siniestros_filas"], f"Bronze: {eb['siniestros_filas']} siniestros")
+check(len({r["estado"] for r in sin_b}) == eb["estados_distintos"], f"Bronze: {eb['estados_distintos']} formas de escribir el estado")
+check(sum(1 for v in collections.Counter(r["id_siniestro"] for r in sin_b).values() if v > 1) == eb["siniestros_repetidos"],
+      f"Bronze: {eb['siniestros_repetidos']} siniestros repetidos")
+check(sum(1 for r in pol_b if r["id_cliente"] == "CLI-99999") == eb["polizas_huerfanas"], f"Bronze: {eb['polizas_huerfanas']} polizas huerfanas")
+check(len(cli_b) == eb["clientes_filas"] and len({r["id_cliente"] for r in cli_b}) == eb["clientes_distintos"],
+      f"Bronze: {eb['clientes_filas']} filas de clientes, {eb['clientes_distintos']} distintos")
+
+
+def miles(n):
+    return f"{n:,}"
+
+
+citas = {
+    ("labs", "lab1-bronze", "README.md"): [miles(eb["siniestros_filas"]), str(eb["estados_distintos"]),
+                                          str(eb["siniestros_repetidos"]), miles(eb["clientes_filas"])],
+    ("labs", "lab2-silver", "README.md"): [miles(esp["silver"]["siniestros_filas"]), *map(str, esp["silver"]["estados"].values()),
+                                          str(esp["silver"]["incompletos"])],
+    ("labs", "lab3-gold", "README.md"): [str(esp["gold"]["ratio_siniestralidad_2025"])],
+    ("labs", "guia-demo-por-lab.md"): [str(eb["estados_distintos"]), *map(str, esp["silver"]["estados"].values()),
+                                      str(esp["silver"]["incompletos"]), str(esp["gold"]["ratio_siniestralidad_2025"])],
+}
+for ruta, numeros in citas.items():
+    texto = leer(*ruta)
+    for n in numeros:
+        check(n in texto, f"{ruta[-2] if ruta[-1] == 'README.md' else ruta[-1]} cita el resultado esperado {n}")
+
+# ------------------------------------------------------------------
 seccion("Reglas de S3 Tables en los jobs")
 def ctas_en(fuente):
     """Busca en el CODIGO (no en comentarios ni docstrings) lo que S3 Tables rechaza."""
